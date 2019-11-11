@@ -51,8 +51,9 @@
     }
 
     a.excerpt-more {
+      display: block;
       &::after {
-        content: ">";
+        content: "»";
         padding-left: 5px;
       }
     }

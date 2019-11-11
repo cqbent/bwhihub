@@ -6,6 +6,15 @@ use Roots\Sage\Container;
 use Roots\Sage\Assets\JsonManifest;
 use Roots\Sage\Template\Blade;
 use Roots\Sage\Template\BladeProvider;
+
+/*
+ * Adjust excerpt length
+ */
+function bwhihub_custom_excerpt_length( $length ) {
+    return 30;
+}
+add_filter( 'excerpt_length', __NAMESPACE__ . '\\bwhihub_custom_excerpt_length');
+
 /*
  * Portfolio list
  */

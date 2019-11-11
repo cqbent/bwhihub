@@ -146,6 +146,7 @@ function bwhihub_featured_news()
         <article class="content-item col-sm-4">
           <a href="' . get_the_permalink() . '"><img src="' . get_the_post_thumbnail_url() . '" /></a>
           <div class="title"><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></div>
+          <time class="updated" datetime="' . get_post_time('c', true) . '">' . get_the_date() . '</time>
           <div class="excerpt">' . $excerpt . '</div>
         </article>
       ';
@@ -209,6 +210,7 @@ function event_get_venue($id) {
 	$result = $post->post_title;
 	return $result;
 }
+
 
 /*
  * Search form alter

@@ -16534,8 +16534,8 @@ a.more::after {
 /* line 1, resources/assets/styles/components/_buttons.scss */
 
 .btn-primary {
-  display: block;
-  margin-top: 10px;
+  text-align: center;
+  margin: 10px auto;
   font-size: 2rem;
   font-weight: 700;
   padding: .5rem 30px;
@@ -17169,7 +17169,7 @@ footer.content-info .contact-info {
   font-style: italic;
 }
 
-/* line 79, resources/assets/styles/layouts/_page-top.scss */
+/* line 78, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .hero .text .quote-attribute {
   font-size: 1.75rem;
@@ -17192,31 +17192,31 @@ footer.content-info .contact-info {
   }
 }
 
-/* line 93, resources/assets/styles/layouts/_page-top.scss */
+/* line 92, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top {
   height: 400px;
 }
 
-/* line 95, resources/assets/styles/layouts/_page-top.scss */
+/* line 94, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .section-header {
   display: none;
 }
 
-/* line 98, resources/assets/styles/layouts/_page-top.scss */
+/* line 97, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel {
   margin: 0 auto;
 }
 
-/* line 101, resources/assets/styles/layouts/_page-top.scss */
+/* line 100, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-stage-outer {
   width: 100%;
 }
 
-/* line 106, resources/assets/styles/layouts/_page-top.scss */
+/* line 105, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item img {
   height: 400px;
@@ -17224,7 +17224,7 @@ footer.content-info .contact-info {
      object-fit: cover;
 }
 
-/* line 110, resources/assets/styles/layouts/_page-top.scss */
+/* line 109, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content {
   position: absolute;
@@ -17235,7 +17235,7 @@ footer.content-info .contact-info {
   padding: 0 calc((100% - 992px) / 2);
 }
 
-/* line 118, resources/assets/styles/layouts/_page-top.scss */
+/* line 117, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content .title {
   font-size: 3rem;
@@ -17244,7 +17244,7 @@ footer.content-info .contact-info {
   margin-bottom: 10px;
 }
 
-/* line 125, resources/assets/styles/layouts/_page-top.scss */
+/* line 124, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content .subtitle {
   font-size: 2rem;
@@ -17252,13 +17252,13 @@ footer.content-info .contact-info {
   font-weight: 300;
 }
 
-/* line 131, resources/assets/styles/layouts/_page-top.scss */
+/* line 130, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content .text {
   font-style: italic;
 }
 
-/* line 135, resources/assets/styles/layouts/_page-top.scss */
+/* line 134, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content .btn,
 .home .page-top .home-carousel .owl-item .item .hero-content .comment-form input[type="submit"],
@@ -17270,6 +17270,7 @@ footer.content-info .contact-info {
   text-transform: uppercase;
   padding-left: 40px;
   padding-right: 40px;
+  min-width: 300px;
 }
 
 /* line 146, resources/assets/styles/layouts/_page-top.scss */

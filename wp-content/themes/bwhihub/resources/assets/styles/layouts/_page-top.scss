@@ -67,11 +67,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     .text {
-      font-size: 2rem;
-      font-style: italic;
+      font-size: 3.375rem;
+      line-height: 1.25;
       color: $white;
       max-width: 900px;
       padding: 20px;
+      .quote {
+        font-style: italic;
+      }
+      .quote-attribute {
+        font-size: 1.75rem;
+        margin-top: 20px;
+      }
     }
     @include media-breakpoint-up(md) {
       height: 500px;

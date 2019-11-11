@@ -17337,7 +17337,7 @@ footer.content-info .contact-info {
 /* line 1, resources/assets/styles/layouts/_content.scss */
 
 .content {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   line-height: 1.5;
   margin-top: 40px;
 }
@@ -17372,7 +17372,7 @@ footer.content-info .contact-info {
 /* line 17, resources/assets/styles/layouts/_content.scss */
 
 .content h4 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 /* line 21, resources/assets/styles/layouts/_content.scss */
@@ -17382,6 +17382,18 @@ footer.content-info .contact-info {
 }
 
 /* line 24, resources/assets/styles/layouts/_content.scss */
+
+.content .large-text {
+  font-size: 1.75rem;
+}
+
+/* line 27, resources/assets/styles/layouts/_content.scss */
+
+.content .small-text {
+  font-size: .875rem;
+}
+
+/* line 30, resources/assets/styles/layouts/_content.scss */
 
 .content main {
   padding: 20px 0;
@@ -17403,7 +17415,7 @@ footer.content-info .contact-info {
   content: "";
 }
 
-/* line 36, resources/assets/styles/layouts/_content.scss */
+/* line 42, resources/assets/styles/layouts/_content.scss */
 
 .content main .page-header h1 {
   font-weight: 700;
@@ -17411,65 +17423,65 @@ footer.content-info .contact-info {
   margin-bottom: 40px;
 }
 
-/* line 43, resources/assets/styles/layouts/_content.scss */
+/* line 49, resources/assets/styles/layouts/_content.scss */
 
 .content main h2 {
   font-weight: 300;
 }
 
-/* line 48, resources/assets/styles/layouts/_content.scss */
+/* line 54, resources/assets/styles/layouts/_content.scss */
 
 .content main a.excerpt-more::after {
   content: ">";
   padding-left: 5px;
 }
 
-/* line 54, resources/assets/styles/layouts/_content.scss */
+/* line 60, resources/assets/styles/layouts/_content.scss */
 
 .content main .align-right {
   margin-left: 20px;
 }
 
-/* line 57, resources/assets/styles/layouts/_content.scss */
+/* line 63, resources/assets/styles/layouts/_content.scss */
 
 .content main figure {
   max-width: 100%;
 }
 
-/* line 60, resources/assets/styles/layouts/_content.scss */
+/* line 66, resources/assets/styles/layouts/_content.scss */
 
 .content main figcaption {
   line-height: normal;
 }
 
-/* line 66, resources/assets/styles/layouts/_content.scss */
+/* line 72, resources/assets/styles/layouts/_content.scss */
 
 .content main .news-list article {
   margin-bottom: 20px;
 }
 
-/* line 73, resources/assets/styles/layouts/_content.scss */
+/* line 79, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .row,
 .content main .people-list .row {
   margin-bottom: 30px;
 }
 
-/* line 76, resources/assets/styles/layouts/_content.scss */
+/* line 82, resources/assets/styles/layouts/_content.scss */
 
 .content main .people img,
 .content main .people-list img {
   width: 100%;
 }
 
-/* line 79, resources/assets/styles/layouts/_content.scss */
+/* line 85, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .position,
 .content main .people-list .position {
   font-weight: 700;
 }
 
-/* line 82, resources/assets/styles/layouts/_content.scss */
+/* line 88, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .bio,
 .content main .people-list .bio {
@@ -17605,10 +17617,11 @@ Landing page content styling
 /* line 78, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.image-column {
+  font-size: 1.75rem;
   padding: 0;
 }
 
-/* line 85, resources/assets/styles/layouts/_landing.scss */
+/* line 86, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.image-column .container,
 .template-landing .content .content-block.image-column .page-top .section-submenu .submenu-navigation,
@@ -17617,33 +17630,42 @@ Landing page content styling
 }
 
 @media (max-width: 767.98px) {
-  /* line 89, resources/assets/styles/layouts/_landing.scss */
+  /* line 90, resources/assets/styles/layouts/_landing.scss */
 
   .template-landing .content .content-block.image-column .image {
     display: none;
   }
 }
 
-/* line 100, resources/assets/styles/layouts/_landing.scss */
+@media (max-width: 767.98px) {
+  /* line 98, resources/assets/styles/layouts/_landing.scss */
+
+  .template-landing .content .content-block .row .col {
+    -ms-flex-preferred-size: initial;
+        flex-basis: initial;
+  }
+}
+
+/* line 109, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block a.more {
   font-weight: 400;
   font-style: italic;
 }
 
-/* line 104, resources/assets/styles/layouts/_landing.scss */
+/* line 113, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro {
   padding: 40px 0;
 }
 
-/* line 106, resources/assets/styles/layouts/_landing.scss */
+/* line 115, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro img {
   margin-bottom: 10px;
 }
 
-/* line 109, resources/assets/styles/layouts/_landing.scss */
+/* line 118, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro .btn-primary {
   background-color: #89AD5D;
@@ -17652,19 +17674,19 @@ Landing page content styling
   text-transform: uppercase;
 }
 
-/* line 116, resources/assets/styles/layouts/_landing.scss */
+/* line 125, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-stories {
   font-size: 1.25rem;
 }
 
-/* line 119, resources/assets/styles/layouts/_landing.scss */
+/* line 128, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-events {
   font-size: 1.25rem;
 }
 
-/* line 122, resources/assets/styles/layouts/_landing.scss */
+/* line 131, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-events .featured-events .excerpt {
   margin-top: 10px;

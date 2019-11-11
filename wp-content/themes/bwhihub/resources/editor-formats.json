@@ -101,5 +101,17 @@
         "type": "item",
         "selector": "a",
         "classes": "more"
+    },
+    {
+        "title": "Large Text",
+        "type": "item",
+        "selector": "p,div,span",
+        "classes": "large-text"
+    },
+    {
+        "title": "Small Text",
+        "type": "item",
+        "selector": "p,div,span",
+        "classes": "small-text"
     }
 ]

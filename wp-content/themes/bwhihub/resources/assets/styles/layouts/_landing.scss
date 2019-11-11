@@ -76,6 +76,7 @@ Landing page content styling
       }
 
       &.image-column {
+        font-size: 1.75rem;
         padding: 0;
         @extend .d-flex;
         .container, .image {
@@ -88,6 +89,14 @@ Landing page content styling
         @include media-breakpoint-down(sm) {
           .image {
             display: none;
+          }
+        }
+      }
+
+      @include media-breakpoint-down(sm) {
+        .row {
+          .col {
+            flex-basis: initial;
           }
         }
       }

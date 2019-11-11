@@ -17340,19 +17340,19 @@ footer.content-info .contact-info {
 /* line 8, resources/assets/styles/layouts/_content.scss */
 
 .content h1 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 /* line 11, resources/assets/styles/layouts/_content.scss */
 
 .content h2 {
-  font-size: 1.75rem;
+  font-size: 2.5rem;
 }
 
 /* line 14, resources/assets/styles/layouts/_content.scss */
 
 .content h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 /* line 17, resources/assets/styles/layouts/_content.scss */
@@ -17489,62 +17489,79 @@ Landing page content styling
 /* line 22, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block {
-  padding: 20px;
+  padding: 20px 0;
 }
 
 /* line 24, resources/assets/styles/layouts/_landing.scss */
+
+.template-landing .content .content-block .container,
+.template-landing .content .content-block .page-top .section-submenu .submenu-navigation,
+.page-top .section-submenu .template-landing .content .content-block .submenu-navigation {
+  padding: 0;
+}
+
+/* line 27, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block .image {
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/* line 28, resources/assets/styles/layouts/_landing.scss */
+/* line 31, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block[class*=" background-"] {
   width: 100vw;
   margin-left: calc((100% - 100vw) / 2);
 }
 
-/* line 32, resources/assets/styles/layouts/_landing.scss */
+/* line 34, resources/assets/styles/layouts/_landing.scss */
+
+.template-landing .content .content-block[class*=" background-"] .container,
+.template-landing .content .content-block[class*=" background-"] .page-top .section-submenu .submenu-navigation,
+.page-top .section-submenu .template-landing .content .content-block[class*=" background-"] .submenu-navigation {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 39, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-orange {
   background-color: #E06700;
   color: #fff;
 }
 
-/* line 35, resources/assets/styles/layouts/_landing.scss */
+/* line 42, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-orange a {
   color: #fff;
 }
 
-/* line 39, resources/assets/styles/layouts/_landing.scss */
+/* line 46, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-blue {
   background-color: #002867;
   color: #fff;
 }
 
-/* line 42, resources/assets/styles/layouts/_landing.scss */
+/* line 49, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-blue a {
   color: #fff;
 }
 
-/* line 46, resources/assets/styles/layouts/_landing.scss */
+/* line 53, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-lightblue {
   background-color: #F2F7FA;
 }
 
-/* line 49, resources/assets/styles/layouts/_landing.scss */
+/* line 56, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-gray {
   background-color: #F2F2F2;
 }
 
-/* line 53, resources/assets/styles/layouts/_landing.scss */
+/* line 60, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-image {
   background-size: cover;
@@ -17553,19 +17570,19 @@ Landing page content styling
   padding: 30px 0;
 }
 
-/* line 58, resources/assets/styles/layouts/_landing.scss */
+/* line 65, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-image a {
   color: #fff;
 }
 
-/* line 68, resources/assets/styles/layouts/_landing.scss */
+/* line 75, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.image-column {
   padding: 0;
 }
 
-/* line 75, resources/assets/styles/layouts/_landing.scss */
+/* line 82, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.image-column .container,
 .template-landing .content .content-block.image-column .page-top .section-submenu .submenu-navigation,
@@ -17574,33 +17591,33 @@ Landing page content styling
 }
 
 @media (max-width: 767.98px) {
-  /* line 79, resources/assets/styles/layouts/_landing.scss */
+  /* line 86, resources/assets/styles/layouts/_landing.scss */
 
   .template-landing .content .content-block.image-column .image {
     display: none;
   }
 }
 
-/* line 90, resources/assets/styles/layouts/_landing.scss */
+/* line 97, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block a.more {
   font-weight: 400;
   font-style: italic;
 }
 
-/* line 94, resources/assets/styles/layouts/_landing.scss */
+/* line 101, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro {
   padding: 40px 0;
 }
 
-/* line 96, resources/assets/styles/layouts/_landing.scss */
+/* line 103, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro img {
   margin-bottom: 10px;
 }
 
-/* line 99, resources/assets/styles/layouts/_landing.scss */
+/* line 106, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro .btn-primary {
   background-color: #89AD5D;
@@ -17609,19 +17626,19 @@ Landing page content styling
   text-transform: uppercase;
 }
 
-/* line 106, resources/assets/styles/layouts/_landing.scss */
+/* line 113, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-stories {
   font-size: 1.25rem;
 }
 
-/* line 109, resources/assets/styles/layouts/_landing.scss */
+/* line 116, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-events {
   font-size: 1.25rem;
 }
 
-/* line 112, resources/assets/styles/layouts/_landing.scss */
+/* line 119, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-events .featured-events .excerpt {
   margin-top: 10px;

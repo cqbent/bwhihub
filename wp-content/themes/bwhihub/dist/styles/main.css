@@ -17371,11 +17371,17 @@ footer.content-info .contact-info {
 
 /* line 17, resources/assets/styles/layouts/_content.scss */
 
+.content h4 {
+  font-size: 1.75rem;
+}
+
+/* line 21, resources/assets/styles/layouts/_content.scss */
+
 .content img {
   width: 100%;
 }
 
-/* line 20, resources/assets/styles/layouts/_content.scss */
+/* line 24, resources/assets/styles/layouts/_content.scss */
 
 .content main {
   padding: 20px 0;
@@ -17397,7 +17403,7 @@ footer.content-info .contact-info {
   content: "";
 }
 
-/* line 32, resources/assets/styles/layouts/_content.scss */
+/* line 36, resources/assets/styles/layouts/_content.scss */
 
 .content main .page-header h1 {
   font-weight: 700;
@@ -17405,65 +17411,65 @@ footer.content-info .contact-info {
   margin-bottom: 40px;
 }
 
-/* line 39, resources/assets/styles/layouts/_content.scss */
+/* line 43, resources/assets/styles/layouts/_content.scss */
 
 .content main h2 {
   font-weight: 300;
 }
 
-/* line 44, resources/assets/styles/layouts/_content.scss */
+/* line 48, resources/assets/styles/layouts/_content.scss */
 
 .content main a.excerpt-more::after {
   content: ">";
   padding-left: 5px;
 }
 
-/* line 50, resources/assets/styles/layouts/_content.scss */
+/* line 54, resources/assets/styles/layouts/_content.scss */
 
 .content main .align-right {
   margin-left: 20px;
 }
 
-/* line 53, resources/assets/styles/layouts/_content.scss */
+/* line 57, resources/assets/styles/layouts/_content.scss */
 
 .content main figure {
   max-width: 100%;
 }
 
-/* line 56, resources/assets/styles/layouts/_content.scss */
+/* line 60, resources/assets/styles/layouts/_content.scss */
 
 .content main figcaption {
   line-height: normal;
 }
 
-/* line 62, resources/assets/styles/layouts/_content.scss */
+/* line 66, resources/assets/styles/layouts/_content.scss */
 
 .content main .news-list article {
   margin-bottom: 20px;
 }
 
-/* line 69, resources/assets/styles/layouts/_content.scss */
+/* line 73, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .row,
 .content main .people-list .row {
   margin-bottom: 30px;
 }
 
-/* line 72, resources/assets/styles/layouts/_content.scss */
+/* line 76, resources/assets/styles/layouts/_content.scss */
 
 .content main .people img,
 .content main .people-list img {
   width: 100%;
 }
 
-/* line 75, resources/assets/styles/layouts/_content.scss */
+/* line 79, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .position,
 .content main .people-list .position {
   font-weight: 700;
 }
 
-/* line 78, resources/assets/styles/layouts/_content.scss */
+/* line 82, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .bio,
 .content main .people-list .bio {
@@ -17743,33 +17749,51 @@ Landing page content styling
 /* line 3, resources/assets/styles/layouts/_people.scss */
 
 .content .people-grid .item {
-  margin-bottom: 30px;
+  font-size: 1.25rem;
+  background-color: #3D3D3D;
+  padding: 0;
+  margin: 0 10px 30px 10px;
 }
 
-/* line 6, resources/assets/styles/layouts/_people.scss */
+/* line 9, resources/assets/styles/layouts/_people.scss */
 
 .content .people-grid .item a:hover {
   text-decoration: none;
 }
 
-/* line 10, resources/assets/styles/layouts/_people.scss */
+/* line 13, resources/assets/styles/layouts/_people.scss */
 
 .content .people-grid .item .info {
   padding: 10px;
-  background-color: #3D3D3D;
   color: #fff;
 }
 
-/* line 14, resources/assets/styles/layouts/_people.scss */
+/* line 16, resources/assets/styles/layouts/_people.scss */
 
 .content .people-grid .item .info .title {
   font-weight: 700;
 }
 
-/* line 17, resources/assets/styles/layouts/_people.scss */
+/* line 19, resources/assets/styles/layouts/_people.scss */
 
 .content .people-grid .item .info .position {
   font-weight: 400;
+}
+
+@media (min-width: 576px) {
+  /* line 26, resources/assets/styles/layouts/_people.scss */
+
+  .content .people-grid .item {
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 31, resources/assets/styles/layouts/_people.scss */
+
+  .content .people-grid .item {
+    max-width: calc(33.3333% - 20px);
+  }
 }
 
 /* line 1, resources/assets/styles/layouts/_tinymce.scss */

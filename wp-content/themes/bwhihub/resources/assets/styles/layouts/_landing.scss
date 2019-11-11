@@ -1,0 +1,124 @@
+/*
+Landing page content styling
+ */
+
+.template-landing {
+  // hero image with text
+  .page-top {
+    .section-bar {
+      padding: 10px 0;
+      .page-title {
+        font-size: 3rem;
+        font-weight: 300;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .content {
+    margin-top: 0;
+    .main {
+      padding: 0;
+    }
+    .content-block {
+      padding: 20px;
+      .image {
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &[class*=" background-"] {
+        width: 100vw;
+        margin-left: calc((100% - 100vw) / 2);
+      }
+      &.background-orange {
+        background-color: $orange;
+        color: $white;
+        a {
+          color: $white;
+        }
+      }
+      &.background-blue {
+        background-color: $dark-blue;
+        color: $white;
+        a {
+          color: $white;
+        }
+      }
+      &.background-lightblue {
+        background-color: $light-blue;
+      }
+      &.background-gray {
+        background-color: $light-gray;
+      }
+
+      &.background-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: $white;
+        padding: 30px 0;
+        a {
+          color: $white;
+        }
+        img {
+          //position: absolute;
+          //width: 100vw;
+          //object-fit: cover;
+        }
+      }
+
+      &.image-column {
+        padding: 0;
+        @extend .d-flex;
+        .container, .image {
+          @extend .col-12;
+          @extend .col-md-6;
+        }
+        .container {
+          padding: 30px;
+        }
+        @include media-breakpoint-down(sm) {
+          .image {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  &.home {
+    .content {
+      .content-block {
+        a.more {
+          font-weight: 400;
+          font-style: italic;
+        }
+        &.home-intro {
+          padding: 40px 0;
+          img {
+            margin-bottom: 10px;
+          }
+          .btn-primary {
+            background-color: $green;
+            border-color: $green;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+          }
+        }
+        &.home-stories {
+          font-size: 1.25rem;
+        }
+        &.home-events {
+          font-size: 1.25rem;
+          .featured-events {
+            .excerpt {
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+
+  }
+}

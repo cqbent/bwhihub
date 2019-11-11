@@ -1,0 +1,144 @@
+body {
+  color: $dark-gray;
+  font-size: 1.75rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+label {
+  margin: 0;
+  font-weight: 600;
+}
+
+.container {
+  max-width: $screen-lg-min !important;
+}
+
+a {
+  color: $blue;
+  font-weight: 700;
+  &:hover {
+    color: darken($blue, 10%);
+  }
+  &.more {
+    padding-left: 10px;
+    &::after {
+      content: "»";
+      padding-left: 5px;
+    }
+  }
+}
+
+.search-form {
+  margin-right: 10px;
+  padding: 5px;
+  position: relative;
+
+  .search-toggle {
+    font-size: 1rem;
+    display: block;
+    padding: 5px;
+    color: $white;
+    border-radius: 5px;
+    background-color: $green;
+    cursor: pointer;
+  }
+
+  #search-fields {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 200px;
+  }
+
+  .search-field {
+    padding: 2px 5px;
+    height: 25px;
+    width: 80%;
+    float: left;
+  }
+
+  .btn {
+    background-color: $blue;
+    font-size: 12px;
+    padding: 3px 5px;
+    float: right;
+    color: $white;
+    border: none;
+    width: calc(20% - 5px);
+    min-width: 20px;
+  }
+
+  @media (min-width: $screen-md-min) {
+    padding: 5px 10px;
+  }
+}
+
+.social {
+  a {
+    font-size: 1rem;
+    color: $white;
+    background: $blue;
+    line-height: 28px;
+    width: 28px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+
+    &.facebook-link {
+      background: #43619c;
+    }
+    &.linkedin-link {
+      background: #0074d0;
+    }
+    &.instagram-link {
+      background: #ff8017;
+    }
+    &.youtube-link {
+      background: $red;
+    }
+  }
+}
+
+.links {
+  a {
+    color: $blue;
+    padding: 0 10px;
+
+    span {
+      font-weight: 600;
+    }
+  }
+}
+
+.owl-carousel {
+  .owl-nav {
+    //position: absolute;
+    //bottom: calc(50% - 30px);
+    //width: 100%;
+    margin: 0;
+    height: 1px;
+
+    button.owl-prev,
+    button.owl-next {
+      position: absolute;
+      top: calc(50% - 60px);
+      font-size: 40px;
+      color: $white;
+
+      &.owl-prev {
+        //float: left;
+        left: 0;
+      }
+
+      &.owl-next {
+        //float: right;
+        right: 0;
+      }
+    }
+  }
+}

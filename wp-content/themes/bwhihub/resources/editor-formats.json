@@ -1,0 +1,105 @@
+[
+    {
+        "title": "Buttons",
+        "type": "group"
+    },
+    {
+        "title": "Primary",
+        "type": "item",
+        "selector": "a,button",
+        "classes": "btn btn-primary"
+    },
+    {
+        "title": "Large size",
+        "type": "item",
+        "selector": "a,button",
+        "classes": "btn btn-lg"
+    },
+    {
+        "title": "Small size",
+        "type": "item",
+        "selector": "a,button",
+        "classes": "btn btn-sm"
+    },
+    {
+        "title": "Images",
+        "type": "group"
+    },
+    {
+        "title": "Responsive",
+        "type": "item",
+        "selector": "img",
+        "classes": "img-responsive"
+    },
+    {
+        "title": "Thumbnail",
+        "type": "item",
+        "selector": "img",
+        "classes": "img-thumbnail"
+    },
+    {
+        "title": "Quote Formatting",
+        "type": "group"
+    },
+    {
+        "title": "Quote",
+        "type": "item",
+        "selector": "p,div",
+        "classes": "quote"
+    },
+    {
+        "title": "Quote attribute",
+        "type": "item",
+        "selector": "p,div",
+        "classes": "quote-attribute"
+    },
+    {
+        "title": "Rows and Columns",
+        "type": "group"
+    },
+    {
+        "title": "Row",
+        "type": "wrapper",
+        "block": "div",
+        "classes": "row",
+        "wrapper": 1
+    },
+    {
+        "title": "Column (even)",
+        "type": "item",
+        "selector": "p,div",
+        "block": "div",
+        "classes": "col"
+    },
+    {
+        "title": "Column 2\/3",
+        "type": "item",
+        "selector": "p,div",
+        "block": "div",
+        "classes": "col-sm-8"
+    },
+    {
+        "title": "Column 1\/3",
+        "type": "item",
+        "selector": "p,div",
+        "block": "div",
+        "classes": "col-sm-4"
+    },
+    {
+        "title": "Misc",
+        "type": "group"
+    },
+    {
+        "title": "Span",
+        "type": "item",
+        "selector": "p,div",
+        "inline": "span",
+        "classes": "span"
+    },
+    {
+        "title": "More",
+        "type": "item",
+        "selector": "a",
+        "classes": "more"
+    }
+]

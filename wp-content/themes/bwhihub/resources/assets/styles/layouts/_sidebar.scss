@@ -1,0 +1,13 @@
+.sidebar-primary {
+  .content {
+    @extend .d-flex;
+    margin: 0 auto;
+    padding: 0;
+    .main {
+      @extend .col-sm-8;
+    }
+    .sidebar {
+      @extend .col-sm-4;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.content {
+  .people-grid {
+    .item {
+      margin-bottom: 30px;
+      a {
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      .info {
+        padding: 10px;
+        background-color: $dark-gray;
+        color: $white;
+        .title {
+          font-weight: 700;
+        }
+        .position {
+          font-weight: 400;
+        }
+      }
+    }
+
+    @include media-breakpoint-up(sm) {
+
+    }
+    @include media-breakpoint-up(md) {
+
+    }
+  }
+}

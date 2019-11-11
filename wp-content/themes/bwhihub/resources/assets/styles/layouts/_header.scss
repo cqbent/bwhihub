@@ -1,0 +1,337 @@
+header.banner {
+  width: 100%;
+  background: rgba($white, 0.9);
+  z-index: 100;
+  position: relative;
+
+  .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .brand {
+    //margin-left: 20px;
+
+    img {
+      height: 80px;
+      width: auto;
+      transition: all 0.3s ease;
+    }
+  }
+
+  nav.nav-primary {
+    #navbar {
+      padding: 15px;
+      font-weight: 600;
+    }
+
+    ul.nav {
+      .menu-item {
+        width: 100%;
+        font-size: 1rem;
+        text-transform: uppercase;
+        a {
+          color: $dark-gray;
+          padding: 0;
+          font-weight: 600;
+        }
+
+        .sub-menu {
+          display: none;
+          list-style: none;
+          margin: 0 0 10px 0;
+          padding: 0;
+          max-width: 400px;
+
+          .menu-item {
+            padding: 0;
+            font-size: 0.875em;
+            letter-spacing: normal;
+            text-transform: none;
+
+            &.hover {
+              .sub-menu {
+                display: block;
+              }
+            }
+
+            .sub-menu {
+              display: none;
+            }
+          }
+        }
+      }
+
+      > .menu-item:hover {
+        > .sub-menu {
+          display: block;
+        }
+      }
+    }
+
+    .navbar-toggler {
+      display: block;
+      padding: 0;
+      margin: 0;
+      cursor: pointer;
+      position: absolute;
+      top: 34px;
+      right: 15px;
+
+      .icon-bar {
+        width: 40px;
+        height: 2px;
+        border-radius: 10px;
+        border: 2px $blue solid;
+        display: block;
+        margin-bottom: 8px;
+      }
+    }
+
+    @media (max-width: $screen-md-min) {
+      #navbar {
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        background: rgba($white, 0.8);
+        max-width: $screen-xs-min;
+        left: 0;
+        padding: 20px 40px;
+
+        .menu-item {
+          margin-bottom: 5px;
+          a {
+            border-bottom: 1px $blue solid;
+            &::after {
+              content: "\f13a";
+              font-family: $fontawesome;
+              color: $blue;
+              float: right;
+            }
+          }
+          .menu-item {
+            margin: 0;
+            a {
+              border: none;
+              &::after {
+                content: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @media (min-width: $screen-xs-min) and (max-width: $screen-md-min) {
+      #navbar {
+        left: calc((100% - #{$screen-xs-min}) / 2);
+      }
+    }
+
+    @media (min-width: $screen-md-min) {
+      height: 42px;
+      margin-top: 20px;
+      position: absolute;
+      bottom: 5px;
+      right: 80px;
+
+      .navbar-toggler {
+        display: none;
+      }
+
+      #navbar {
+        padding: 0 15px;
+
+        &.collapse,
+        &.fade {
+          display: block;
+          opacity: 1;
+        }
+
+        ul.nav {
+          margin: 0;
+          float: right;
+
+          .menu-item {
+            width: auto;
+            border: none;
+            padding: 0 10px;
+            font-weight: 600;
+
+            a {
+              position: relative;
+              padding: 9px 0;
+
+              &:hover {
+                color: $blue;
+              }
+            }
+
+            &.alignright {
+              margin-left: auto;
+            }
+
+            /*
+            &:hover,
+            &.current-menu-item,
+            &.current-menu-ancestor,
+            &.current-page-ancestor {
+              a {
+                &::after {
+                  content: "";
+                  position: absolute;
+                  bottom: 0;
+                  left: 0;
+                  height: 4px;
+                  width: 100%;
+                  background-color: $red;
+                }
+              }
+            }
+
+             */
+
+            .sub-menu {
+              position: absolute;
+              min-width: 250px;
+              width: auto;
+              margin: 0;
+              padding: 20px 0;
+              //background: rgba($background-darkblue, .8);
+              background: rgba($white, .8);
+
+              .menu-item {
+                font-size: 1.125rem;
+                float: none;
+                padding: 0 0 5px 0;
+
+                a {
+                  padding: 5px 10px;
+                  //color: $white;
+                  font-weight: 400;
+
+                  &::after {
+                    display: none;
+                  }
+                }
+
+                .sub-menu {
+                  //display: none;
+                  position: relative;
+                  background: none;
+                  margin-left: 10px;
+
+                  .menu-item {
+                    text-transform: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .toplinks {
+    margin-top: 0;
+    float: right;
+    line-height: 1;
+    .social,
+    .contact {
+      vertical-align: middle;
+      margin-left: 10px;
+      margin-right: 10px;
+      display: inline-block;
+    }
+
+    .contact .btn {
+      font-size: .625rem;
+      text-transform: uppercase;
+      font-weight: 300;
+      padding: 2px 20px;
+      background-color: $dark-blue;
+      border-color: $dark-blue;
+    }
+  }
+
+  .search-form {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+  }
+
+  @media (max-width: $screen-sm-min) {
+    .brand {
+      img {
+        height: 70px;
+      }
+    }
+  }
+
+  @media (min-width: $screen-xs-min) {
+    nav.nav-primary {
+      .navbar-toggler {
+        .icon-bar {
+          width: 50px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: $screen-sm-min) {
+
+    .search-form {
+      #search-fields {
+        top: 140px;
+      }
+    }
+
+    nav.nav-primary {
+      .navbar-toggler {
+        top: 50px;
+      }
+    }
+  }
+
+  @media (min-width: $screen-md-min) {
+    .toplinks {
+      margin-right: 20px;
+
+      .links {
+        display: inline-block;
+      }
+
+      .donate,
+      .j1 {
+        padding: 10px 15px;
+        font-size: .875rem;
+      }
+      .row-2 {
+        margin-top: 0;
+      }
+    }
+
+    .brand {
+      img {
+        height: 80px;
+      }
+    }
+  }
+
+  @media (min-width: $screen-lg-min) {
+    .header-container {
+      max-width: $screen-lg-min;
+    }
+  }
+}
+
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+}

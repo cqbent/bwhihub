@@ -1,0 +1,49 @@
+.content {
+  .portfolio-grid {
+    .item {
+      padding: 20px 0;
+      border-bottom: 1px $dark-gray solid;
+      margin: 10px;
+    }
+    img {
+      max-height: 160px;
+      width: 100%;
+    }
+    .teaser {
+      cursor: pointer;
+      text-align: center;
+      .image {
+        margin-bottom: 10px;
+      }
+      .title {
+        color: $blue;
+      }
+    }
+    .portfolio-detail {
+      .image {
+        margin-bottom: 20px;
+      }
+      .row {
+        margin-bottom: 20px;
+      }
+      .title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+      .label {
+        font-weight: 700;
+      }
+    }
+    @include media-breakpoint-up(sm) {
+      .item {
+        max-width: calc(50% - 20px);
+      }
+    }
+    @include media-breakpoint-up(md) {
+      .item {
+        max-width: calc(33.33333% - 20px);
+      }
+    }
+  }
+}

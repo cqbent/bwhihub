@@ -30,7 +30,7 @@ header.banner {
     ul.nav {
       .menu-item {
         width: 100%;
-        font-size: 1rem;
+        font-size: 1.125rem;
         text-transform: uppercase;
         a {
           color: $dark-gray;
@@ -39,7 +39,7 @@ header.banner {
         }
 
         .sub-menu {
-          display: none;
+          //display: none;
           list-style: none;
           margin: 0 0 10px 0;
           padding: 0;
@@ -47,10 +47,11 @@ header.banner {
 
           .menu-item {
             padding: 0;
-            font-size: 0.875em;
             letter-spacing: normal;
             text-transform: none;
-
+            a {
+              font-weight: 400;
+            }
             &.hover {
               .sub-menu {
                 display: block;
@@ -63,12 +64,6 @@ header.banner {
           }
         }
       }
-
-      > .menu-item:hover {
-        > .sub-menu {
-          display: block;
-        }
-      }
     }
 
     .navbar-toggler {
@@ -77,14 +72,14 @@ header.banner {
       margin: 0;
       cursor: pointer;
       position: absolute;
-      top: 34px;
-      right: 15px;
+      bottom: 10px;
+      right: 40px;
 
       .icon-bar {
         width: 40px;
         height: 2px;
         border-radius: 10px;
-        border: 2px $blue solid;
+        border: 2px $mid-blue solid;
         display: block;
         margin-bottom: 8px;
       }
@@ -93,23 +88,18 @@ header.banner {
     @media (max-width: $screen-md-min) {
       #navbar {
         position: absolute;
-        width: 100%;
+        width: calc(100% - 80px);
         top: 100%;
-        background: rgba($white, 0.8);
-        max-width: $screen-xs-min;
+        background: $mid-blue;
+        //max-width: $screen-xs-min;
         left: 0;
         padding: 20px 40px;
+        margin: 0 40px;
 
         .menu-item {
           margin-bottom: 5px;
           a {
-            border-bottom: 1px $blue solid;
-            &::after {
-              content: "\f13a";
-              font-family: $fontawesome;
-              color: $blue;
-              float: right;
-            }
+            color: $white;
           }
           .menu-item {
             margin: 0;
@@ -126,7 +116,7 @@ header.banner {
 
     @media (min-width: $screen-xs-min) and (max-width: $screen-md-min) {
       #navbar {
-        left: calc((100% - #{$screen-xs-min}) / 2);
+        //left: calc((100% - #{$screen-xs-min}) / 2);
       }
     }
 
@@ -173,27 +163,8 @@ header.banner {
               margin-left: auto;
             }
 
-            /*
-            &:hover,
-            &.current-menu-item,
-            &.current-menu-ancestor,
-            &.current-page-ancestor {
-              a {
-                &::after {
-                  content: "";
-                  position: absolute;
-                  bottom: 0;
-                  left: 0;
-                  height: 4px;
-                  width: 100%;
-                  background-color: $red;
-                }
-              }
-            }
-
-             */
-
             .sub-menu {
+              display: none;
               position: absolute;
               min-width: 250px;
               width: auto;
@@ -230,6 +201,12 @@ header.banner {
               }
             }
           }
+
+          > .menu-item:hover {
+            > .sub-menu {
+              display: block;
+            }
+          }
         }
       }
     }
@@ -239,11 +216,11 @@ header.banner {
     margin-top: 0;
     float: right;
     line-height: 1;
+    display: none;
     .social,
     .contact {
       vertical-align: middle;
-      margin-left: 10px;
-      margin-right: 10px;
+      margin-left: 20px;
       display: inline-block;
     }
 
@@ -258,9 +235,10 @@ header.banner {
   }
 
   .search-form {
+    display: none;
     position: absolute;
     bottom: 10px;
-    right: 15px;
+    right: 10px;
   }
 
   @media (max-width: $screen-sm-min) {
@@ -283,6 +261,10 @@ header.banner {
 
   @media (min-width: $screen-sm-min) {
 
+    .toplinks, .search-form {
+      display: block;
+    }
+
     .search-form {
       #search-fields {
         top: 60px;
@@ -291,14 +273,14 @@ header.banner {
 
     nav.nav-primary {
       .navbar-toggler {
-        top: 50px;
+        right: 60px;
       }
     }
   }
 
   @media (min-width: $screen-md-min) {
     .toplinks {
-      margin-right: 20px;
+      //margin-right: 20px;
 
       .links {
         display: inline-block;

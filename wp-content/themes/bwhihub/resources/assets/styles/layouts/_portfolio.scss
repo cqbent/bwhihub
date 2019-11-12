@@ -3,10 +3,11 @@
     .item {
       padding: 20px 0;
       border-bottom: 1px $dark-gray solid;
-      margin: 10px;
+      margin: 0 10px 40px 10px;
     }
     img {
       max-height: 160px;
+      max-width: 320px;
       width: 100%;
     }
     .teaser {
@@ -17,6 +18,8 @@
       }
       .title {
         color: $blue;
+        font-weight: 400;
+        font-size: 2rem;
       }
     }
     .portfolio-detail {

@@ -17719,26 +17719,32 @@ Landing page content styling
 /* line 27, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block .title {
+  font-weight: 700;
+}
+
+/* line 30, resources/assets/styles/layouts/_landing.scss */
+
+.template-landing .content .content-block h3.title {
   text-transform: uppercase;
   margin-bottom: 20px;
   letter-spacing: 2px;
 }
 
-/* line 32, resources/assets/styles/layouts/_landing.scss */
+/* line 35, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block .text {
   max-width: 992px;
   margin: 0 auto;
 }
 
-/* line 36, resources/assets/styles/layouts/_landing.scss */
+/* line 39, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block .image {
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/* line 40, resources/assets/styles/layouts/_landing.scss */
+/* line 43, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block[class*=" background-"] {
   width: 100vw;
@@ -17746,7 +17752,7 @@ Landing page content styling
   padding: 60px 0;
 }
 
-/* line 44, resources/assets/styles/layouts/_landing.scss */
+/* line 47, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block[class*=" background-"] .container,
 .template-landing .content .content-block[class*=" background-"] .page-top .section-submenu .submenu-navigation,
@@ -17755,45 +17761,45 @@ Landing page content styling
   padding-right: 15px;
 }
 
-/* line 49, resources/assets/styles/layouts/_landing.scss */
+/* line 52, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-orange {
   background-color: #E06700;
   color: #fff;
 }
 
-/* line 52, resources/assets/styles/layouts/_landing.scss */
+/* line 55, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-orange a {
   color: #fff;
 }
 
-/* line 56, resources/assets/styles/layouts/_landing.scss */
+/* line 59, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-blue {
   background-color: #002867;
   color: #fff;
 }
 
-/* line 59, resources/assets/styles/layouts/_landing.scss */
+/* line 62, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-blue a {
   color: #fff;
 }
 
-/* line 63, resources/assets/styles/layouts/_landing.scss */
+/* line 66, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-lightblue {
   background-color: #F2F7FA;
 }
 
-/* line 66, resources/assets/styles/layouts/_landing.scss */
+/* line 69, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-gray {
   background-color: #F2F2F2;
 }
 
-/* line 70, resources/assets/styles/layouts/_landing.scss */
+/* line 73, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-image {
   background-size: cover;
@@ -17802,20 +17808,20 @@ Landing page content styling
   padding: 30px 0;
 }
 
-/* line 75, resources/assets/styles/layouts/_landing.scss */
+/* line 78, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-image a {
   color: #fff;
 }
 
-/* line 85, resources/assets/styles/layouts/_landing.scss */
+/* line 88, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.image-column {
   font-size: 1.5rem;
   padding: 0;
 }
 
-/* line 93, resources/assets/styles/layouts/_landing.scss */
+/* line 96, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.image-column .container,
 .template-landing .content .content-block.image-column .page-top .section-submenu .submenu-navigation,
@@ -17824,7 +17830,7 @@ Landing page content styling
 }
 
 @media (max-width: 767.98px) {
-  /* line 97, resources/assets/styles/layouts/_landing.scss */
+  /* line 100, resources/assets/styles/layouts/_landing.scss */
 
   .template-landing .content .content-block.image-column .image {
     display: none;
@@ -17832,7 +17838,7 @@ Landing page content styling
 }
 
 @media (min-width: 1140px) {
-  /* line 102, resources/assets/styles/layouts/_landing.scss */
+  /* line 105, resources/assets/styles/layouts/_landing.scss */
 
   .template-landing .content .content-block.image-column .container,
   .template-landing .content .content-block.image-column .page-top .section-submenu .submenu-navigation,
@@ -17841,14 +17847,14 @@ Landing page content styling
   }
 }
 
-/* line 109, resources/assets/styles/layouts/_landing.scss */
+/* line 112, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.wide-text .text {
   max-width: 1140px;
 }
 
 @media (max-width: 767.98px) {
-  /* line 116, resources/assets/styles/layouts/_landing.scss */
+  /* line 119, resources/assets/styles/layouts/_landing.scss */
 
   .template-landing .content .content-block .row .col {
     -ms-flex-preferred-size: initial;
@@ -17856,19 +17862,19 @@ Landing page content styling
   }
 }
 
-/* line 127, resources/assets/styles/layouts/_landing.scss */
+/* line 130, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro {
   padding: 40px 0;
 }
 
-/* line 129, resources/assets/styles/layouts/_landing.scss */
+/* line 132, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro img {
   margin-bottom: 10px;
 }
 
-/* line 132, resources/assets/styles/layouts/_landing.scss */
+/* line 135, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro .btn-primary {
   background-color: #89AD5D;
@@ -17877,44 +17883,44 @@ Landing page content styling
   text-transform: uppercase;
 }
 
-/* line 140, resources/assets/styles/layouts/_landing.scss */
+/* line 143, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-stories .title {
   margin-bottom: 0;
   margin-top: 10px;
 }
 
-/* line 143, resources/assets/styles/layouts/_landing.scss */
+/* line 146, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-stories .title a {
   color: #3D3D3D;
 }
 
-/* line 147, resources/assets/styles/layouts/_landing.scss */
+/* line 150, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-stories .excerpt {
   margin-top: 20px;
 }
 
-/* line 152, resources/assets/styles/layouts/_landing.scss */
+/* line 155, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-events .title {
   margin-bottom: 0;
 }
 
-/* line 156, resources/assets/styles/layouts/_landing.scss */
+/* line 159, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-events .featured-events .excerpt {
   margin-top: 10px;
 }
 
-/* line 158, resources/assets/styles/layouts/_landing.scss */
+/* line 161, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-events .featured-events .excerpt .excerpt-more {
   display: none;
 }
 
-/* line 162, resources/assets/styles/layouts/_landing.scss */
+/* line 165, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-events .featured-events .btn.more,
 .template-landing.home .content .content-block.home-events .featured-events .comment-form input.more[type="submit"],
@@ -17935,48 +17941,51 @@ Landing page content styling
 .content .portfolio-grid .item {
   padding: 20px 0;
   border-bottom: 1px #3D3D3D solid;
-  margin: 10px;
+  margin: 0 10px 40px 10px;
 }
 
 /* line 8, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid img {
   max-height: 160px;
+  max-width: 320px;
   width: 100%;
 }
 
-/* line 12, resources/assets/styles/layouts/_portfolio.scss */
+/* line 13, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .teaser {
   cursor: pointer;
   text-align: center;
 }
 
-/* line 15, resources/assets/styles/layouts/_portfolio.scss */
+/* line 16, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .teaser .image {
   margin-bottom: 10px;
 }
 
-/* line 18, resources/assets/styles/layouts/_portfolio.scss */
+/* line 19, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .teaser .title {
   color: #058CE8;
+  font-weight: 400;
+  font-size: 2rem;
 }
 
-/* line 23, resources/assets/styles/layouts/_portfolio.scss */
+/* line 26, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .portfolio-detail .image {
   margin-bottom: 20px;
 }
 
-/* line 26, resources/assets/styles/layouts/_portfolio.scss */
+/* line 29, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .portfolio-detail .row {
   margin-bottom: 20px;
 }
 
-/* line 29, resources/assets/styles/layouts/_portfolio.scss */
+/* line 32, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .portfolio-detail .title {
   font-size: 2rem;
@@ -17984,14 +17993,14 @@ Landing page content styling
   margin-bottom: 20px;
 }
 
-/* line 34, resources/assets/styles/layouts/_portfolio.scss */
+/* line 37, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .portfolio-detail .label {
   font-weight: 700;
 }
 
 @media (min-width: 576px) {
-  /* line 39, resources/assets/styles/layouts/_portfolio.scss */
+  /* line 42, resources/assets/styles/layouts/_portfolio.scss */
 
   .content .portfolio-grid .item {
     max-width: calc(50% - 20px);
@@ -17999,7 +18008,7 @@ Landing page content styling
 }
 
 @media (min-width: 768px) {
-  /* line 44, resources/assets/styles/layouts/_portfolio.scss */
+  /* line 47, resources/assets/styles/layouts/_portfolio.scss */
 
   .content .portfolio-grid .item {
     max-width: calc(33.33333% - 20px);

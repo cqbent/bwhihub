@@ -10,16 +10,16 @@
         "classes": "btn btn-primary"
     },
     {
-        "title": "Large size",
+        "title": "Green",
         "type": "item",
         "selector": "a,button",
-        "classes": "btn btn-lg"
+        "classes": "btn btn-primary green"
     },
     {
-        "title": "Small size",
+        "title": "More",
         "type": "item",
         "selector": "a,button",
-        "classes": "btn btn-sm"
+        "classes": "btn btn-primary more"
     },
     {
         "title": "Images",

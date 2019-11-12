@@ -72,3 +72,12 @@ function bwhihub_people_grid() {
     }
 }
 add_shortcode('people_grid', __NAMESPACE__ . '\\bwhihub_people_grid');
+
+/*
+ * modify get_the_archive_title filter
+ */
+function filter_category_title($title) {
+    $pattern = '/.+?\:/';
+    return preg_replace($pattern, '', $title);
+}
+add_filter('get_the_archive_title', __NAMESPACE__ . '\\filter_category_title');

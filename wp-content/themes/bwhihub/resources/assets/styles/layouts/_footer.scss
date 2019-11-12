@@ -10,4 +10,17 @@ footer.content-info {
   .contact-info {
     margin-top: 10px;
   }
+  form {
+    input[type=text] {
+      border-radius: 20px;
+      border: 0;
+      margin: 10px 0;
+      width: 80%;
+      padding: 5px 20px;
+    }
+    .btn {
+      font-size: .875rem;
+      font-weight: 600;
+    }
+  }
 }

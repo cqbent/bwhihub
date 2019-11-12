@@ -1,7 +1,66 @@
+.blog, .archive {
+  .post {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    .entry-title {
+      font-size: 1.25rem;
+      margin: 0;
+    }
+    .entry-summary {
+      //margin-top: 10px;
+    }
+    p {
+      margin: 0;
+    }
+    .thumb {
+      display: none;
+    }
+  }
+
+  @include media-breakpoint-up(sm) {
+    .post {
+      .thumb {
+        display: block;
+      }
+    }
+  }
+}
+
 .single-post {
   .content {
     .post-link {
       text-align: center;
+    }
+  }
+  .entry-title {
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 2rem;
+  }
+
+  .entry-content {
+    margin-top: 20px;
+  }
+
+  time {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  .related-issues, .related-news {
+    margin-top: 40px;
+    line-height: normal;
+  }
+  .related-news {
+    .news-item {
+      margin-bottom: 20px;
+    }
+    h4 {
+      margin: 0;
+      //font-size: 1.25rem;
+    }
+    .date {
+      font-style: italic;
     }
   }
 }

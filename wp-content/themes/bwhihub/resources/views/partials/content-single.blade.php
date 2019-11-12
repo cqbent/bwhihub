@@ -7,7 +7,7 @@
     @php the_content() @endphp
     @if ($link = get_field('link'))
       <div class="post-link">
-        <a class="btn btn-primary" href="{{ $link['url'] }} target="_blank">{{ $link['title'] }}</a>
+        <a class="btn btn-primary more" href="{{ $link['url'] }} target="_blank">{{ $link['title'] }}</a>
       </div>
     @endif
   </div>

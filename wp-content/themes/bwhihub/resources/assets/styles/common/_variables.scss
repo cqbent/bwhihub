@@ -28,6 +28,15 @@ $screen-sm-min: 768px;
 $screen-md-min: 992px;
 $screen-lg-min: 1140px;
 
+// grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1140px
+) !default;
+
 //
 // Fonts
 //

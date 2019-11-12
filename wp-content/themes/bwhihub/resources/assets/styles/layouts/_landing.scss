@@ -25,7 +25,13 @@ Landing page content styling
         padding: 0;
       }
       .title {
+        text-transform: uppercase;
         margin-bottom: 20px;
+        letter-spacing: 2px;
+      }
+      .text {
+        max-width: $screen-md-min;
+        margin: 0 auto;
       }
       .image {
         background-size: cover;
@@ -34,6 +40,7 @@ Landing page content styling
       &[class*=" background-"] {
         width: 100vw;
         margin-left: calc((100% - 100vw) / 2);
+        padding: 60px 0;
         .container {
           padding-left: 15px;
           padding-right: 15px;
@@ -76,7 +83,7 @@ Landing page content styling
       }
 
       &.image-column {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         padding: 0;
         @extend .d-flex;
         .container, .image {
@@ -90,6 +97,17 @@ Landing page content styling
           .image {
             display: none;
           }
+        }
+        @include media-breakpoint-up(xl) {
+          .container {
+            padding-left: 120px;
+          }
+        }
+      }
+
+      &.wide-text {
+        .text {
+          max-width: $screen-lg-min;
         }
       }
 
@@ -106,10 +124,6 @@ Landing page content styling
   &.home {
     .content {
       .content-block {
-        a.more {
-          font-weight: 400;
-          font-style: italic;
-        }
         &.home-intro {
           padding: 40px 0;
           img {
@@ -141,6 +155,18 @@ Landing page content styling
           .featured-events {
             .excerpt {
               margin-top: 10px;
+              .excerpt-more {
+                display: none;
+              }
+            }
+            .btn.more {
+              margin-top: 20px;
+              background-color: $green;
+              border-color: $green;
+              font-weight: 400;
+              text-transform: uppercase;
+              font-size: 1.5rem;
+              padding-left: 30px;
             }
           }
         }

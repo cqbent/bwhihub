@@ -4,7 +4,7 @@
     <div class="title">{{ the_title() }}</div>
   </div>
   <div class="portfolio-detail modal fade" id="portfolio_{{ the_ID() }}" tabindex="-1" role="dialog" aria-labelledby="portfolioLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <div class="modal-body">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">

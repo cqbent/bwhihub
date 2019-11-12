@@ -41,7 +41,7 @@
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
+  --breakpoint-xl: 1140px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -816,7 +816,7 @@ pre code {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1140px) {
   /* line 6, node_modules/bootstrap/scss/_grid.scss */
 
   .container,
@@ -2240,7 +2240,7 @@ pre code {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1140px) {
   /* line 31, node_modules/bootstrap/scss/mixins/_grid-framework.scss */
 
   .col-xl {
@@ -3004,7 +3004,7 @@ pre code {
   }
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 1139.98px) {
   /* line 171, node_modules/bootstrap/scss/_tables.scss */
 
   .table-responsive-xl {
@@ -5179,7 +5179,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1140px) {
   /* line 42, node_modules/bootstrap/scss/_dropdown.scss */
 
   .dropdown-menu-xl-left {
@@ -7236,7 +7236,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 1139.98px) {
   /* line 142, node_modules/bootstrap/scss/_navbar.scss */
 
   .navbar-expand-xl > .container,
@@ -7247,7 +7247,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1140px) {
   /* line 140, node_modules/bootstrap/scss/_navbar.scss */
 
   .navbar-expand-xl {
@@ -8910,7 +8910,7 @@ a.badge-dark.focus {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1140px) {
   /* line 88, node_modules/bootstrap/scss/_list-group.scss */
 
   .list-group-horizontal-xl {
@@ -9579,7 +9579,7 @@ a.close.disabled {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1140px) {
   /* line 228, node_modules/bootstrap/scss/_modal.scss */
 
   .modal-xl {
@@ -10946,7 +10946,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1140px) {
   /* line 12, node_modules/bootstrap/scss/utilities/_display.scss */
 
   .d-xl-none {
@@ -12161,7 +12161,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1140px) {
   /* line 11, node_modules/bootstrap/scss/utilities/_flex.scss */
 
   .flex-xl-row {
@@ -12499,7 +12499,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1140px) {
   /* line 7, node_modules/bootstrap/scss/utilities/_float.scss */
 
   .float-xl-left {
@@ -15213,7 +15213,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1140px) {
   /* line 11, node_modules/bootstrap/scss/utilities/_spacing.scss */
 
   .m-xl-0 {
@@ -15937,7 +15937,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1140px) {
   /* line 22, node_modules/bootstrap/scss/utilities/_text.scss */
 
   .text-xl-left {
@@ -16337,7 +16337,7 @@ a.text-dark:focus {
 
 body {
   color: #3D3D3D;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 
 /* line 6, resources/assets/styles/common/_global.scss */
@@ -16365,29 +16365,28 @@ label {
 
 a {
   color: #058CE8;
-  font-weight: 700;
 }
 
-/* line 23, resources/assets/styles/common/_global.scss */
+/* line 22, resources/assets/styles/common/_global.scss */
 
 a:hover {
   color: #046eb6;
 }
 
-/* line 26, resources/assets/styles/common/_global.scss */
+/* line 25, resources/assets/styles/common/_global.scss */
 
 a.more {
   padding-left: 10px;
 }
 
-/* line 28, resources/assets/styles/common/_global.scss */
+/* line 27, resources/assets/styles/common/_global.scss */
 
 a.more::after {
   content: "\BB";
   padding-left: 5px;
 }
 
-/* line 35, resources/assets/styles/common/_global.scss */
+/* line 34, resources/assets/styles/common/_global.scss */
 
 .search-form {
   margin-right: 10px;
@@ -16395,7 +16394,7 @@ a.more::after {
   position: relative;
 }
 
-/* line 40, resources/assets/styles/common/_global.scss */
+/* line 39, resources/assets/styles/common/_global.scss */
 
 .search-form .search-toggle {
   font-size: 1rem;
@@ -16407,7 +16406,7 @@ a.more::after {
   cursor: pointer;
 }
 
-/* line 50, resources/assets/styles/common/_global.scss */
+/* line 49, resources/assets/styles/common/_global.scss */
 
 .search-form #search-fields {
   position: absolute;
@@ -16416,7 +16415,7 @@ a.more::after {
   width: 200px;
 }
 
-/* line 57, resources/assets/styles/common/_global.scss */
+/* line 56, resources/assets/styles/common/_global.scss */
 
 .search-form .search-field {
   padding: 2px 5px;
@@ -16425,7 +16424,7 @@ a.more::after {
   float: left;
 }
 
-/* line 64, resources/assets/styles/common/_global.scss */
+/* line 63, resources/assets/styles/common/_global.scss */
 
 .search-form .btn,
 .search-form .comment-form input[type="submit"],
@@ -16442,14 +16441,14 @@ a.more::after {
 }
 
 @media (min-width: 992px) {
-  /* line 35, resources/assets/styles/common/_global.scss */
+  /* line 34, resources/assets/styles/common/_global.scss */
 
   .search-form {
     padding: 5px 10px;
   }
 }
 
-/* line 81, resources/assets/styles/common/_global.scss */
+/* line 80, resources/assets/styles/common/_global.scss */
 
 .social a {
   font-size: 1rem;
@@ -16463,51 +16462,59 @@ a.more::after {
   margin: 0 5px;
 }
 
-/* line 92, resources/assets/styles/common/_global.scss */
+/* line 91, resources/assets/styles/common/_global.scss */
 
 .social a.facebook-link {
   background: #43619c;
 }
 
-/* line 95, resources/assets/styles/common/_global.scss */
+/* line 94, resources/assets/styles/common/_global.scss */
 
 .social a.linkedin-link {
   background: #0074d0;
 }
 
-/* line 98, resources/assets/styles/common/_global.scss */
+/* line 97, resources/assets/styles/common/_global.scss */
 
 .social a.instagram-link {
   background: #ff8017;
 }
 
-/* line 101, resources/assets/styles/common/_global.scss */
+/* line 100, resources/assets/styles/common/_global.scss */
 
 .social a.youtube-link {
   background: #dc3545;
 }
 
-/* line 108, resources/assets/styles/common/_global.scss */
+/* line 107, resources/assets/styles/common/_global.scss */
 
 .links a {
   color: #058CE8;
   padding: 0 10px;
 }
 
-/* line 112, resources/assets/styles/common/_global.scss */
+/* line 111, resources/assets/styles/common/_global.scss */
 
 .links a span {
   font-weight: 600;
 }
 
-/* line 119, resources/assets/styles/common/_global.scss */
+/* line 118, resources/assets/styles/common/_global.scss */
+
+.modal .modal-body {
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+/* line 126, resources/assets/styles/common/_global.scss */
 
 .owl-carousel .owl-nav {
   margin: 0;
   height: 1px;
 }
 
-/* line 126, resources/assets/styles/common/_global.scss */
+/* line 133, resources/assets/styles/common/_global.scss */
 
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next {
@@ -16517,14 +16524,14 @@ a.more::after {
   color: #fff;
 }
 
-/* line 133, resources/assets/styles/common/_global.scss */
+/* line 140, resources/assets/styles/common/_global.scss */
 
 .owl-carousel .owl-nav button.owl-prev.owl-prev,
 .owl-carousel .owl-nav button.owl-next.owl-prev {
   left: 0;
 }
 
-/* line 138, resources/assets/styles/common/_global.scss */
+/* line 145, resources/assets/styles/common/_global.scss */
 
 .owl-carousel .owl-nav button.owl-prev.owl-next,
 .owl-carousel .owl-nav button.owl-next.owl-next {
@@ -16536,10 +16543,28 @@ a.more::after {
 .btn-primary {
   text-align: center;
   margin: 10px auto;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   padding: .5rem 30px;
   border-radius: 35px;
+  letter-spacing: 1px;
+}
+
+/* line 11, resources/assets/styles/components/_buttons.scss */
+
+.btn-primary.green {
+  background-color: #89AD5D;
+  border-color: #89AD5D;
+}
+
+/* line 15, resources/assets/styles/components/_buttons.scss */
+
+.btn-primary.more {
+  background-color: #89AD5D;
+  border-color: #89AD5D;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-left: 30px;
 }
 
 /* line 5, resources/assets/styles/components/_comments.scss */
@@ -16975,7 +17000,7 @@ header.banner .search-form {
   /* line 287, resources/assets/styles/layouts/_header.scss */
 
   header.banner .search-form #search-fields {
-    top: 140px;
+    top: 60px;
   }
 
   /* line 293, resources/assets/styles/layouts/_header.scss */
@@ -17034,6 +17059,41 @@ header.banner .search-form {
   padding: 0;
 }
 
+/* line 9, resources/assets/styles/layouts/_sidebar.scss */
+
+.sidebar-primary .content .sidebar {
+  padding: 30px 0 0 40px;
+  font-size: 1rem;
+}
+
+/* line 14, resources/assets/styles/layouts/_sidebar.scss */
+
+.sidebar-primary .content .sidebar .widget h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* line 21, resources/assets/styles/layouts/_sidebar.scss */
+
+.sidebar-primary .content .sidebar .widget_categories ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 25, resources/assets/styles/layouts/_sidebar.scss */
+
+.sidebar-primary .content .sidebar .widget_categories ul li {
+  margin-bottom: 5px;
+}
+
+/* line 28, resources/assets/styles/layouts/_sidebar.scss */
+
+.sidebar-primary .content .sidebar .widget_categories ul li a {
+  font-weight: 600;
+}
+
 /* line 1, resources/assets/styles/layouts/_footer.scss */
 
 footer.content-info {
@@ -17054,6 +17114,27 @@ footer.content-info a {
 
 footer.content-info .contact-info {
   margin-top: 10px;
+}
+
+/* line 14, resources/assets/styles/layouts/_footer.scss */
+
+footer.content-info form input[type=text] {
+  border-radius: 20px;
+  border: 0;
+  margin: 10px 0;
+  width: 80%;
+  padding: 5px 20px;
+}
+
+/* line 21, resources/assets/styles/layouts/_footer.scss */
+
+footer.content-info form .btn,
+footer.content-info form .comment-form input[type="submit"],
+.comment-form footer.content-info form input[type="submit"],
+footer.content-info form .search-form .search-submit,
+.search-form footer.content-info form .search-submit {
+  font-size: .875rem;
+  font-weight: 600;
 }
 
 /* line 3, resources/assets/styles/layouts/_page-top.scss */
@@ -17137,15 +17218,16 @@ footer.content-info .contact-info {
 
 .page-top .section-submenu .submenu-navigation ul li a {
   color: #fff;
+  font-weight: 600;
 }
 
-/* line 43, resources/assets/styles/layouts/_page-top.scss */
+/* line 44, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .section-submenu .submenu-navigation ul li .sub-menu {
   display: none;
 }
 
-/* line 65, resources/assets/styles/layouts/_page-top.scss */
+/* line 66, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .hero {
   height: 300px;
@@ -17153,7 +17235,7 @@ footer.content-info .contact-info {
   background-repeat: no-repeat;
 }
 
-/* line 69, resources/assets/styles/layouts/_page-top.scss */
+/* line 70, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .hero .text {
   font-size: 3.375rem;
@@ -17163,13 +17245,13 @@ footer.content-info .contact-info {
   padding: 20px;
 }
 
-/* line 75, resources/assets/styles/layouts/_page-top.scss */
+/* line 76, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .hero .text .quote {
   font-style: italic;
 }
 
-/* line 78, resources/assets/styles/layouts/_page-top.scss */
+/* line 79, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .hero .text .quote-attribute {
   font-size: 1.75rem;
@@ -17177,7 +17259,7 @@ footer.content-info .contact-info {
 }
 
 @media (min-width: 768px) {
-  /* line 65, resources/assets/styles/layouts/_page-top.scss */
+  /* line 66, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .hero {
     height: 500px;
@@ -17185,38 +17267,38 @@ footer.content-info .contact-info {
 }
 
 @media (min-width: 992px) {
-  /* line 65, resources/assets/styles/layouts/_page-top.scss */
+  /* line 66, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .hero {
     height: 800px;
   }
 }
 
-/* line 92, resources/assets/styles/layouts/_page-top.scss */
+/* line 93, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top {
   height: 400px;
 }
 
-/* line 94, resources/assets/styles/layouts/_page-top.scss */
+/* line 95, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .section-header {
   display: none;
 }
 
-/* line 97, resources/assets/styles/layouts/_page-top.scss */
+/* line 98, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel {
   margin: 0 auto;
 }
 
-/* line 100, resources/assets/styles/layouts/_page-top.scss */
+/* line 101, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-stage-outer {
   width: 100%;
 }
 
-/* line 105, resources/assets/styles/layouts/_page-top.scss */
+/* line 106, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item img {
   height: 400px;
@@ -17224,7 +17306,7 @@ footer.content-info .contact-info {
      object-fit: cover;
 }
 
-/* line 109, resources/assets/styles/layouts/_page-top.scss */
+/* line 110, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content {
   position: absolute;
@@ -17235,7 +17317,7 @@ footer.content-info .contact-info {
   padding: 0 calc((100% - 992px) / 2);
 }
 
-/* line 117, resources/assets/styles/layouts/_page-top.scss */
+/* line 118, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content .title {
   font-size: 3rem;
@@ -17244,7 +17326,7 @@ footer.content-info .contact-info {
   margin-bottom: 10px;
 }
 
-/* line 124, resources/assets/styles/layouts/_page-top.scss */
+/* line 125, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content .subtitle {
   font-size: 2rem;
@@ -17252,13 +17334,13 @@ footer.content-info .contact-info {
   font-weight: 300;
 }
 
-/* line 130, resources/assets/styles/layouts/_page-top.scss */
+/* line 131, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content .text {
   font-style: italic;
 }
 
-/* line 134, resources/assets/styles/layouts/_page-top.scss */
+/* line 135, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content .btn,
 .home .page-top .home-carousel .owl-item .item .hero-content .comment-form input[type="submit"],
@@ -17273,7 +17355,7 @@ footer.content-info .contact-info {
   min-width: 300px;
 }
 
-/* line 146, resources/assets/styles/layouts/_page-top.scss */
+/* line 147, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-nav button.owl-prev,
 .home .page-top .home-carousel .owl-nav button.owl-next {
@@ -17284,38 +17366,38 @@ footer.content-info .contact-info {
 }
 
 @media (min-width: 992px) {
-  /* line 158, resources/assets/styles/layouts/_page-top.scss */
+  /* line 159, resources/assets/styles/layouts/_page-top.scss */
 
   .home .page-top {
     height: 650px;
   }
 
-  /* line 163, resources/assets/styles/layouts/_page-top.scss */
+  /* line 164, resources/assets/styles/layouts/_page-top.scss */
 
   .home .page-top .home-carousel .owl-item .item img {
     height: 650px;
   }
 
-  /* line 167, resources/assets/styles/layouts/_page-top.scss */
+  /* line 168, resources/assets/styles/layouts/_page-top.scss */
 
   .home .page-top .home-carousel .owl-item .item .hero-content .title {
     font-size: 3rem;
     line-height: 3.5rem;
   }
 
-  /* line 178, resources/assets/styles/layouts/_page-top.scss */
+  /* line 179, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .banner-image img {
     height: 550px;
   }
 
-  /* line 185, resources/assets/styles/layouts/_page-top.scss */
+  /* line 186, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .section-header.has-image .section-image {
     height: 400px;
   }
 
-  /* line 187, resources/assets/styles/layouts/_page-top.scss */
+  /* line 188, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .section-header.has-image .section-image img {
     height: 400px;
@@ -17328,10 +17410,97 @@ footer.content-info .contact-info {
   text-transform: uppercase;
 }
 
-/* line 3, resources/assets/styles/layouts/_posts.scss */
+/* line 2, resources/assets/styles/layouts/_posts.scss */
+
+.blog .post,
+.archive .post {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* line 6, resources/assets/styles/layouts/_posts.scss */
+
+.blog .post .entry-title,
+.archive .post .entry-title {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+/* line 13, resources/assets/styles/layouts/_posts.scss */
+
+.blog .post p,
+.archive .post p {
+  margin: 0;
+}
+
+/* line 16, resources/assets/styles/layouts/_posts.scss */
+
+.blog .post .thumb,
+.archive .post .thumb {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  /* line 23, resources/assets/styles/layouts/_posts.scss */
+
+  .blog .post .thumb,
+  .archive .post .thumb {
+    display: block;
+  }
+}
+
+/* line 32, resources/assets/styles/layouts/_posts.scss */
 
 .single-post .content .post-link {
   text-align: center;
+}
+
+/* line 36, resources/assets/styles/layouts/_posts.scss */
+
+.single-post .entry-title {
+  font-weight: 600;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+/* line 42, resources/assets/styles/layouts/_posts.scss */
+
+.single-post .entry-content {
+  margin-top: 20px;
+}
+
+/* line 46, resources/assets/styles/layouts/_posts.scss */
+
+.single-post time {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* line 50, resources/assets/styles/layouts/_posts.scss */
+
+.single-post .related-issues,
+.single-post .related-news {
+  margin-top: 40px;
+  line-height: normal;
+}
+
+/* line 55, resources/assets/styles/layouts/_posts.scss */
+
+.single-post .related-news .news-item {
+  margin-bottom: 20px;
+}
+
+/* line 58, resources/assets/styles/layouts/_posts.scss */
+
+.single-post .related-news h4 {
+  margin: 0;
+}
+
+/* line 62, resources/assets/styles/layouts/_posts.scss */
+
+.single-post .related-news .date {
+  font-style: italic;
 }
 
 /* line 1, resources/assets/styles/layouts/_content.scss */
@@ -17384,7 +17553,7 @@ footer.content-info .contact-info {
 /* line 24, resources/assets/styles/layouts/_content.scss */
 
 .content .large-text {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 /* line 27, resources/assets/styles/layouts/_content.scss */
@@ -17418,76 +17587,85 @@ footer.content-info .contact-info {
 /* line 42, resources/assets/styles/layouts/_content.scss */
 
 .content main .page-header h1 {
-  font-weight: 700;
-  font-size: 2.25rem;
+  font-size: 2rem;
   margin-bottom: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
-/* line 49, resources/assets/styles/layouts/_content.scss */
+/* line 50, resources/assets/styles/layouts/_content.scss */
+
+.content main .content-container {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+/* line 55, resources/assets/styles/layouts/_content.scss */
 
 .content main h2 {
   font-weight: 300;
 }
 
-/* line 53, resources/assets/styles/layouts/_content.scss */
+/* line 59, resources/assets/styles/layouts/_content.scss */
 
 .content main a.excerpt-more {
   display: block;
+  font-weight: 600;
 }
 
-/* line 55, resources/assets/styles/layouts/_content.scss */
+/* line 62, resources/assets/styles/layouts/_content.scss */
 
 .content main a.excerpt-more::after {
   content: "\BB";
   padding-left: 5px;
 }
 
-/* line 61, resources/assets/styles/layouts/_content.scss */
+/* line 68, resources/assets/styles/layouts/_content.scss */
 
 .content main .align-right {
   margin-left: 20px;
 }
 
-/* line 64, resources/assets/styles/layouts/_content.scss */
+/* line 71, resources/assets/styles/layouts/_content.scss */
 
 .content main figure {
   max-width: 100%;
 }
 
-/* line 67, resources/assets/styles/layouts/_content.scss */
+/* line 74, resources/assets/styles/layouts/_content.scss */
 
 .content main figcaption {
   line-height: normal;
 }
 
-/* line 73, resources/assets/styles/layouts/_content.scss */
+/* line 80, resources/assets/styles/layouts/_content.scss */
 
 .content main .news-list article {
   margin-bottom: 20px;
 }
 
-/* line 80, resources/assets/styles/layouts/_content.scss */
+/* line 87, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .row,
 .content main .people-list .row {
   margin-bottom: 30px;
 }
 
-/* line 83, resources/assets/styles/layouts/_content.scss */
+/* line 90, resources/assets/styles/layouts/_content.scss */
 
 .content main .people img,
 .content main .people-list img {
   width: 100%;
 }
 
-/* line 86, resources/assets/styles/layouts/_content.scss */
+/* line 93, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .position,
 .content main .people-list .position {
   font-weight: 700;
 }
 
-/* line 89, resources/assets/styles/layouts/_content.scss */
+/* line 96, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .bio,
 .content main .people-list .bio {
@@ -17541,24 +17719,34 @@ Landing page content styling
 /* line 27, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block .title {
+  text-transform: uppercase;
   margin-bottom: 20px;
+  letter-spacing: 2px;
 }
 
-/* line 30, resources/assets/styles/layouts/_landing.scss */
+/* line 32, resources/assets/styles/layouts/_landing.scss */
+
+.template-landing .content .content-block .text {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+/* line 36, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block .image {
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/* line 34, resources/assets/styles/layouts/_landing.scss */
+/* line 40, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block[class*=" background-"] {
   width: 100vw;
   margin-left: calc((100% - 100vw) / 2);
+  padding: 60px 0;
 }
 
-/* line 37, resources/assets/styles/layouts/_landing.scss */
+/* line 44, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block[class*=" background-"] .container,
 .template-landing .content .content-block[class*=" background-"] .page-top .section-submenu .submenu-navigation,
@@ -17567,45 +17755,45 @@ Landing page content styling
   padding-right: 15px;
 }
 
-/* line 42, resources/assets/styles/layouts/_landing.scss */
+/* line 49, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-orange {
   background-color: #E06700;
   color: #fff;
 }
 
-/* line 45, resources/assets/styles/layouts/_landing.scss */
+/* line 52, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-orange a {
   color: #fff;
 }
 
-/* line 49, resources/assets/styles/layouts/_landing.scss */
+/* line 56, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-blue {
   background-color: #002867;
   color: #fff;
 }
 
-/* line 52, resources/assets/styles/layouts/_landing.scss */
+/* line 59, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-blue a {
   color: #fff;
 }
 
-/* line 56, resources/assets/styles/layouts/_landing.scss */
+/* line 63, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-lightblue {
   background-color: #F2F7FA;
 }
 
-/* line 59, resources/assets/styles/layouts/_landing.scss */
+/* line 66, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-gray {
   background-color: #F2F2F2;
 }
 
-/* line 63, resources/assets/styles/layouts/_landing.scss */
+/* line 70, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-image {
   background-size: cover;
@@ -17614,20 +17802,20 @@ Landing page content styling
   padding: 30px 0;
 }
 
-/* line 68, resources/assets/styles/layouts/_landing.scss */
+/* line 75, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-image a {
   color: #fff;
 }
 
-/* line 78, resources/assets/styles/layouts/_landing.scss */
+/* line 85, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.image-column {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   padding: 0;
 }
 
-/* line 86, resources/assets/styles/layouts/_landing.scss */
+/* line 93, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.image-column .container,
 .template-landing .content .content-block.image-column .page-top .section-submenu .submenu-navigation,
@@ -17636,15 +17824,31 @@ Landing page content styling
 }
 
 @media (max-width: 767.98px) {
-  /* line 90, resources/assets/styles/layouts/_landing.scss */
+  /* line 97, resources/assets/styles/layouts/_landing.scss */
 
   .template-landing .content .content-block.image-column .image {
     display: none;
   }
 }
 
+@media (min-width: 1140px) {
+  /* line 102, resources/assets/styles/layouts/_landing.scss */
+
+  .template-landing .content .content-block.image-column .container,
+  .template-landing .content .content-block.image-column .page-top .section-submenu .submenu-navigation,
+  .page-top .section-submenu .template-landing .content .content-block.image-column .submenu-navigation {
+    padding-left: 120px;
+  }
+}
+
+/* line 109, resources/assets/styles/layouts/_landing.scss */
+
+.template-landing .content .content-block.wide-text .text {
+  max-width: 1140px;
+}
+
 @media (max-width: 767.98px) {
-  /* line 98, resources/assets/styles/layouts/_landing.scss */
+  /* line 116, resources/assets/styles/layouts/_landing.scss */
 
   .template-landing .content .content-block .row .col {
     -ms-flex-preferred-size: initial;
@@ -17652,26 +17856,19 @@ Landing page content styling
   }
 }
 
-/* line 109, resources/assets/styles/layouts/_landing.scss */
-
-.template-landing.home .content .content-block a.more {
-  font-weight: 400;
-  font-style: italic;
-}
-
-/* line 113, resources/assets/styles/layouts/_landing.scss */
+/* line 127, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro {
   padding: 40px 0;
 }
 
-/* line 115, resources/assets/styles/layouts/_landing.scss */
+/* line 129, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro img {
   margin-bottom: 10px;
 }
 
-/* line 118, resources/assets/styles/layouts/_landing.scss */
+/* line 132, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro .btn-primary {
   background-color: #89AD5D;
@@ -17680,35 +17877,57 @@ Landing page content styling
   text-transform: uppercase;
 }
 
-/* line 126, resources/assets/styles/layouts/_landing.scss */
+/* line 140, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-stories .title {
   margin-bottom: 0;
   margin-top: 10px;
 }
 
-/* line 129, resources/assets/styles/layouts/_landing.scss */
+/* line 143, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-stories .title a {
   color: #3D3D3D;
 }
 
-/* line 133, resources/assets/styles/layouts/_landing.scss */
+/* line 147, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-stories .excerpt {
   margin-top: 20px;
 }
 
-/* line 138, resources/assets/styles/layouts/_landing.scss */
+/* line 152, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-events .title {
   margin-bottom: 0;
 }
 
-/* line 142, resources/assets/styles/layouts/_landing.scss */
+/* line 156, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-events .featured-events .excerpt {
   margin-top: 10px;
+}
+
+/* line 158, resources/assets/styles/layouts/_landing.scss */
+
+.template-landing.home .content .content-block.home-events .featured-events .excerpt .excerpt-more {
+  display: none;
+}
+
+/* line 162, resources/assets/styles/layouts/_landing.scss */
+
+.template-landing.home .content .content-block.home-events .featured-events .btn.more,
+.template-landing.home .content .content-block.home-events .featured-events .comment-form input.more[type="submit"],
+.comment-form .template-landing.home .content .content-block.home-events .featured-events input.more[type="submit"],
+.template-landing.home .content .content-block.home-events .featured-events .search-form .more.search-submit,
+.search-form .template-landing.home .content .content-block.home-events .featured-events .more.search-submit {
+  margin-top: 20px;
+  background-color: #89AD5D;
+  border-color: #89AD5D;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding-left: 30px;
 }
 
 /* line 3, resources/assets/styles/layouts/_portfolio.scss */
@@ -17789,40 +18008,47 @@ Landing page content styling
 
 /* line 3, resources/assets/styles/layouts/_people.scss */
 
+.page.team .content .content-container {
+  max-width: 1140px;
+}
+
+/* line 8, resources/assets/styles/layouts/_people.scss */
+
 .content .people-grid .item {
+  cursor: pointer;
   font-size: 1.25rem;
   background-color: #3D3D3D;
   padding: 0;
   margin: 0 10px 30px 10px;
 }
 
-/* line 9, resources/assets/styles/layouts/_people.scss */
+/* line 15, resources/assets/styles/layouts/_people.scss */
 
 .content .people-grid .item a:hover {
   text-decoration: none;
 }
 
-/* line 13, resources/assets/styles/layouts/_people.scss */
+/* line 19, resources/assets/styles/layouts/_people.scss */
 
 .content .people-grid .item .info {
-  padding: 10px;
+  padding: 10px 20px;
   color: #fff;
 }
 
-/* line 16, resources/assets/styles/layouts/_people.scss */
+/* line 22, resources/assets/styles/layouts/_people.scss */
 
-.content .people-grid .item .info .title {
+.content .people-grid .item .info .name {
   font-weight: 700;
 }
 
-/* line 19, resources/assets/styles/layouts/_people.scss */
+/* line 25, resources/assets/styles/layouts/_people.scss */
 
 .content .people-grid .item .info .position {
   font-weight: 400;
 }
 
 @media (min-width: 576px) {
-  /* line 26, resources/assets/styles/layouts/_people.scss */
+  /* line 32, resources/assets/styles/layouts/_people.scss */
 
   .content .people-grid .item {
     max-width: calc(50% - 20px);
@@ -17830,11 +18056,30 @@ Landing page content styling
 }
 
 @media (min-width: 768px) {
-  /* line 31, resources/assets/styles/layouts/_people.scss */
+  /* line 37, resources/assets/styles/layouts/_people.scss */
 
   .content .people-grid .item {
     max-width: calc(33.3333% - 20px);
   }
+}
+
+/* line 43, resources/assets/styles/layouts/_people.scss */
+
+.content .people-detail .page-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* line 47, resources/assets/styles/layouts/_people.scss */
+
+.content .people-detail .position {
+  font-weight: 600;
+}
+
+/* line 50, resources/assets/styles/layouts/_people.scss */
+
+.content .people-detail .bio {
+  margin-top: 20px;
 }
 
 /* line 1, resources/assets/styles/layouts/_tinymce.scss */

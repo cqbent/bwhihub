@@ -1,6 +1,6 @@
 body {
   color: $dark-gray;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 
 img {
@@ -19,7 +19,6 @@ label {
 
 a {
   color: $blue;
-  font-weight: 700;
   &:hover {
     color: darken($blue, 10%);
   }
@@ -112,6 +111,14 @@ a {
     span {
       font-weight: 600;
     }
+  }
+}
+
+.modal {
+  .modal-body {
+    max-width: $screen-md-min;
+    margin: 0 auto;
+    padding: 30px 20px;
   }
 }
 

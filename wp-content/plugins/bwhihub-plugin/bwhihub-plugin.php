@@ -167,7 +167,7 @@ function bwhihub_featured_events()
 	$args = array(
 		'post_type' => array('tribe_events'),
 		'post_status' => 'publish',
-		'posts_per_page' => 3,
+		'posts_per_page' => 2,
 		'paged' => 0,
 	);
 	$query = new \WP_Query($args);
@@ -183,12 +183,13 @@ function bwhihub_featured_events()
 				$venue = 'Location: ' . event_get_venue($venue_id);
 			}
 			$output .= '
-        <article class="content-item col-sm-4">
+        <article class="content-item col-sm-6">
           <div class="title"><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></div>
           <div class="date">'. date('l, F d, Y', strtotime($date_start)) . '</div>
           <div class="time">'. date('g:i A', strtotime($date_start)) . '</div>
           <div class="venue">' . $venue . '</div>
           <div class="excerpt">' . $excerpt . '</div>
+          <a href="' . get_the_permalink() . '" class="btn btn-primary more">Learn more</a>
         </article>
       ';
 		}

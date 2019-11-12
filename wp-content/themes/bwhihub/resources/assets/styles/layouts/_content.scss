@@ -22,7 +22,7 @@
     width: 100%;
   }
   .large-text {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   .small-text {
     font-size: .875rem;
@@ -40,10 +40,16 @@
     */
     .page-header {
       h1 {
-        font-weight: 700;
-        font-size: 2.25rem;
+        font-size: 2rem;
         margin-bottom: 40px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
       }
+    }
+
+    .content-container {
+      max-width: $screen-md-min;
+      margin: 0 auto;
     }
 
     h2 {
@@ -52,6 +58,7 @@
 
     a.excerpt-more {
       display: block;
+      font-weight: 600;
       &::after {
         content: "»";
         padding-left: 5px;

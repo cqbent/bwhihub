@@ -9,7 +9,7 @@
         <a href="http://instagram.com/bwhihub" class="instagram-link" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
       </div>
       <div class="contact">
-        <a class="btn btn-primary" href="/#">Contact Us</a>
+        <a class="btn btn-primary" href="/who-we-are/contact-us">Contact Us</a>
       </div>
     </div>
     <nav class="nav-primary">

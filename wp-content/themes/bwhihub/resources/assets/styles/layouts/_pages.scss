@@ -6,4 +6,9 @@
       }
     }
   }
+  &.template-sub {
+    .left-sidebar-content {
+      color: $green;
+    }
+  }
 }

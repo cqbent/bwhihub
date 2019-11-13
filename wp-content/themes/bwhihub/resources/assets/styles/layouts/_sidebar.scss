@@ -1,6 +1,6 @@
 .sidebar-primary {
   .content {
-    @extend .d-flex;
+    @extend .row;
     margin: 0 auto;
     padding: 0;
     .main {
@@ -8,7 +8,6 @@
     }
     .sidebar {
       @extend .col-sm-4;
-      padding: 30px 0 0 40px;
       font-size: 1rem;
       .widget {
         h3 {
@@ -30,6 +29,13 @@
             }
           }
         }
+      }
+    }
+  }
+  @include media-breakpoint-up(sm) {
+    .content {
+      .sidebar {
+        padding: 30px 0 0 40px;
       }
     }
   }

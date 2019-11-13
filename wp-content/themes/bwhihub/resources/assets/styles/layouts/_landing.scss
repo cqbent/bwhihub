@@ -120,6 +120,7 @@ Landing page content styling
         .row {
           .col {
             flex-basis: initial;
+            margin-bottom: 30px;
           }
         }
       }
@@ -142,6 +143,9 @@ Landing page content styling
           }
         }
         &.home-stories {
+          .content-item {
+            margin-bottom: 30px;
+          }
           .title {
             margin-bottom: 0;
             margin-top: 10px;
@@ -158,6 +162,9 @@ Landing page content styling
             margin-bottom: 0;
           }
           .featured-events {
+            .content-item {
+              margin-bottom: 30px;
+            }
             .excerpt {
               margin-top: 10px;
               .excerpt-more {

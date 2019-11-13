@@ -21,9 +21,7 @@
   img {
     width: 100%;
   }
-  .large-text {
-    font-size: 1.5rem;
-  }
+
   .small-text {
     font-size: .875rem;
   }
@@ -74,6 +72,13 @@
     figcaption {
       line-height: normal;
     }
+    .quote {
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .quote-attribute {
+      margin-top: 10px;
+    }
 
     // news content styling
     .news-list {
@@ -96,6 +101,12 @@
       .bio {
         margin-top: 20px;
       }
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    .large-text {
+      font-size: 1.5rem;
     }
   }
 }

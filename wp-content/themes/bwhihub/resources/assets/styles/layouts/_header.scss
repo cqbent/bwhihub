@@ -74,6 +74,8 @@ header.banner {
       position: absolute;
       bottom: 10px;
       right: 40px;
+      font-size: 2.5rem;
+      color: $mid-blue;
 
       .icon-bar {
         width: 40px;
@@ -82,6 +84,18 @@ header.banner {
         border: 2px $mid-blue solid;
         display: block;
         margin-bottom: 8px;
+      }
+    }
+    .navbar-toggler[aria-expanded=true] {
+      .icon-bar {
+        display: none;
+      }
+      &::after {
+        content: "\f00d";
+        font-family: $fontawesome;
+        font-weight: 300;
+        color: $orange;
+        padding: 0 10px;
       }
     }
 
@@ -169,18 +183,17 @@ header.banner {
               min-width: 250px;
               width: auto;
               margin: 0;
-              padding: 20px 0;
+              padding: 10px 0;
               //background: rgba($background-darkblue, .8);
-              background: rgba($white, .8);
+              background: $mid-blue;
 
               .menu-item {
                 font-size: 1.125rem;
                 float: none;
                 padding: 0 0 5px 0;
-
                 a {
-                  padding: 5px 10px;
-                  //color: $white;
+                  padding: 0 15px;
+                  color: $white;
                   font-weight: 400;
 
                   &::after {

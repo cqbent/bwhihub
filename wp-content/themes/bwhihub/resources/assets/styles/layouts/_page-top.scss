@@ -49,20 +49,17 @@
             display: none;
           }
         }
-        /*
-        &.menu-submenu {
-          > li.current_page_ancestor {
+      }
+    }
+    @include media-breakpoint-down(sm) {
+      .submenu-navigation {
+        ul {
+          text-align: center;
+          li {
+            float: none;
             display: inline-block;
-            > .sub-menu > li {
-              display: inline-block;
-            }
-            > a {
-              display: none;
-            }
           }
         }
-
-         */
       }
     }
   }
@@ -72,7 +69,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     .text {
-      font-size: 3.375rem;
+      font-size: 1.5rem;
       line-height: 1.25;
       color: $white;
       max-width: 900px;
@@ -81,11 +78,17 @@
         font-style: italic;
       }
       .quote-attribute {
-        font-size: 1.75rem;
+        font-size: 1.25rem;
         margin-top: 20px;
       }
     }
     @include media-breakpoint-up(md) {
+      .text {
+        font-size: 3.375rem;
+      }
+      .quote-attribute {
+        font-size: 1.75rem;
+      }
       height: 500px;
     }
     @include media-breakpoint-up(lg) {
@@ -120,28 +123,30 @@
           padding: 0 calc((100% - #{$screen-md-min}) / 2);
 
           .title {
-            font-size: 3rem;
+            font-size: 1.875rem;
             line-height: 1.25;
             font-weight: 700;
             margin-bottom: 10px;
           }
 
           .subtitle {
-            font-size: 2rem;
+            font-size: 1rem;
             text-transform: uppercase;
             font-weight: 300;
           }
 
           .text {
             font-style: italic;
+            font-size: 1rem;
+            font-weight: 300;
           }
 
           .btn {
+            font-size: .75rem;
             margin-top: 20px;
             font-weight: 300;
             text-transform: uppercase;
-            padding-left: 40px;
-            padding-right: 40px;
+            padding: 5px 20px;
             min-width: 300px;
           }
         }
@@ -172,6 +177,16 @@
             .title {
               font-size: 3rem;
               line-height: 3.5rem;
+            }
+            .subtitle {
+              font-size: 2rem;
+            }
+            .text {
+              font-size: 1.25rem;
+            }
+            .btn {
+              font-size: 1.5rem;
+              padding: 8px 40px;
             }
           }
         }

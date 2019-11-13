@@ -22,7 +22,7 @@ function bwhihub_portfolio_grid() {
     // title, image, content,
     $output = '';
     $args = array(
-        'post_type' => array('portfolio'),
+        'post_type' => 'portfolio',
         'post_status' => 'publish',
         'posts_per_page' => -1,
         'paged' => 0,
@@ -51,7 +51,7 @@ function bwhihub_people_grid() {
     // title, image, content,
     $output = '';
     $args = array(
-        'post_type' => array('people'),
+        'post_type' => 'people',
         'post_status' => 'publish',
         'posts_per_page' => -1,
         'paged' => 0,

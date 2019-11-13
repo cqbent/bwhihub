@@ -74,7 +74,7 @@ module.exports = jQuery;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(2);
-module.exports = __webpack_require__(12);
+module.exports = __webpack_require__(13);
 
 
 /***/ }),
@@ -90,6 +90,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__routes_common__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__routes_home__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__routes_about__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__routes_our_portfolio__ = __webpack_require__(12);
 // import external dependencies
 
 
@@ -97,6 +98,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 // import local dependencies
+
 
 
 
@@ -110,6 +112,8 @@ var routes = new __WEBPACK_IMPORTED_MODULE_2__util_Router__["a" /* default */]({
   home: __WEBPACK_IMPORTED_MODULE_4__routes_home__["a" /* default */],
   // About Us page, note the change from about-us to aboutUs.
   aboutUs: __WEBPACK_IMPORTED_MODULE_5__routes_about__["a" /* default */],
+  // portfolio
+  ourPortfolio: __WEBPACK_IMPORTED_MODULE_6__routes_our_portfolio__["a" /* default */],
 });
 
 // Load Events
@@ -7333,6 +7337,26 @@ Router.prototype.loadEvents = function loadEvents () {
 
 /***/ }),
 /* 12 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function($) {/* harmony default export */ __webpack_exports__["a"] = ({
+  init: function init() {
+    // JavaScript to be fired on the about us page
+  },
+  finalize: function finalize() {
+    var anchor = location.hash;
+    if (anchor) {
+      //console.log('this: ' + anchor);
+      $(anchor).modal();
+    }
+  },
+});
+
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
+
+/***/ }),
+/* 13 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

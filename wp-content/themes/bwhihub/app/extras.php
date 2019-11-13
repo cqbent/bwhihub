@@ -25,7 +25,7 @@ function bwhihub_portfolio_grid() {
         'post_type' => array('portfolio'),
         'post_status' => 'publish',
         'posts_per_page' => 0,
-        'paged' => 0,
+        'paged' => -1,
     );
     $query = new \WP_Query($args);
     if ($query->have_posts()) {
@@ -53,7 +53,7 @@ function bwhihub_people_grid() {
     $args = array(
         'post_type' => array('people'),
         'post_status' => 'publish',
-        'posts_per_page' => 0,
+        'posts_per_page' => -1,
         'paged' => 0,
     );
     $query = new \WP_Query($args);

@@ -8,7 +8,9 @@
   }
   &.template-sub {
     .left-sidebar-content {
-      color: $green;
+      .quote, .quote-attribute {
+        color: $green;
+      }
     }
   }
 }

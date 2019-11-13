@@ -17470,9 +17470,10 @@ footer.content-info form .search-form .search-submit,
   text-transform: uppercase;
 }
 
-/* line 10, resources/assets/styles/layouts/_pages.scss */
+/* line 11, resources/assets/styles/layouts/_pages.scss */
 
-.page.template-sub .left-sidebar-content {
+.page.template-sub .left-sidebar-content .quote,
+.page.template-sub .left-sidebar-content .quote-attribute {
   color: #89AD5D;
 }
 
@@ -17618,6 +17619,12 @@ footer.content-info form .search-form .search-submit,
 
 /* line 28, resources/assets/styles/layouts/_content.scss */
 
+.content .green-text {
+  color: #89AD5D;
+}
+
+/* line 32, resources/assets/styles/layouts/_content.scss */
+
 .content main {
   padding: 20px 0;
   margin: 0 auto;
@@ -17638,7 +17645,7 @@ footer.content-info form .search-form .search-submit,
   content: "";
 }
 
-/* line 40, resources/assets/styles/layouts/_content.scss */
+/* line 44, resources/assets/styles/layouts/_content.scss */
 
 .content main .page-header h1 {
   font-size: 2rem;
@@ -17647,71 +17654,71 @@ footer.content-info form .search-form .search-submit,
   text-transform: uppercase;
 }
 
-/* line 48, resources/assets/styles/layouts/_content.scss */
+/* line 52, resources/assets/styles/layouts/_content.scss */
 
 .content main .content-container {
   max-width: 992px;
   margin: 0 auto;
 }
 
-/* line 53, resources/assets/styles/layouts/_content.scss */
+/* line 57, resources/assets/styles/layouts/_content.scss */
 
 .content main h2 {
   font-weight: 300;
 }
 
-/* line 57, resources/assets/styles/layouts/_content.scss */
+/* line 61, resources/assets/styles/layouts/_content.scss */
 
 .content main a.excerpt-more {
   display: block;
   font-weight: 600;
 }
 
-/* line 60, resources/assets/styles/layouts/_content.scss */
+/* line 64, resources/assets/styles/layouts/_content.scss */
 
 .content main a.excerpt-more::after {
   content: "\BB";
   padding-left: 5px;
 }
 
-/* line 66, resources/assets/styles/layouts/_content.scss */
+/* line 70, resources/assets/styles/layouts/_content.scss */
 
 .content main .align-right {
   margin-left: 20px;
 }
 
-/* line 69, resources/assets/styles/layouts/_content.scss */
+/* line 73, resources/assets/styles/layouts/_content.scss */
 
 .content main figure {
   max-width: 100%;
 }
 
-/* line 72, resources/assets/styles/layouts/_content.scss */
+/* line 76, resources/assets/styles/layouts/_content.scss */
 
 .content main figcaption {
   line-height: normal;
 }
 
-/* line 75, resources/assets/styles/layouts/_content.scss */
+/* line 79, resources/assets/styles/layouts/_content.scss */
 
 .content main .quote {
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-/* line 79, resources/assets/styles/layouts/_content.scss */
+/* line 83, resources/assets/styles/layouts/_content.scss */
 
 .content main .quote-attribute {
   margin-top: 10px;
 }
 
-/* line 85, resources/assets/styles/layouts/_content.scss */
+/* line 89, resources/assets/styles/layouts/_content.scss */
 
 .content main .news-list article {
   margin-bottom: 20px;
 }
 
-/* line 92, resources/assets/styles/layouts/_content.scss */
+/* line 96, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .row,
 .content main .people .sidebar-primary .content,
@@ -17722,21 +17729,21 @@ footer.content-info form .search-form .search-submit,
   margin-bottom: 30px;
 }
 
-/* line 95, resources/assets/styles/layouts/_content.scss */
+/* line 99, resources/assets/styles/layouts/_content.scss */
 
 .content main .people img,
 .content main .people-list img {
   width: 100%;
 }
 
-/* line 98, resources/assets/styles/layouts/_content.scss */
+/* line 102, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .position,
 .content main .people-list .position {
   font-weight: 700;
 }
 
-/* line 101, resources/assets/styles/layouts/_content.scss */
+/* line 105, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .bio,
 .content main .people-list .bio {
@@ -17744,7 +17751,7 @@ footer.content-info form .search-form .search-submit,
 }
 
 @media (min-width: 768px) {
-  /* line 108, resources/assets/styles/layouts/_content.scss */
+  /* line 112, resources/assets/styles/layouts/_content.scss */
 
   .content .large-text {
     font-size: 1.5rem;

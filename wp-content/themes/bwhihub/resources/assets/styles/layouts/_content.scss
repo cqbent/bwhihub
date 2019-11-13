@@ -25,6 +25,10 @@
   .small-text {
     font-size: .875rem;
   }
+  .green-text {
+    color: $green;
+  }
+
   main {
     @include clearfix;
     padding: 20px 0;

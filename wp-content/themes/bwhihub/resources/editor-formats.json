@@ -116,5 +116,11 @@
         "type": "item",
         "selector": "p,div,span",
         "classes": "small-text"
+    },
+    {
+        "title": "Green Text",
+        "type": "item",
+        "selector": "p,div,span",
+        "classes": "green-text"
     }
 ]

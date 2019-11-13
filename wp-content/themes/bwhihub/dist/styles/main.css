@@ -18042,26 +18042,31 @@ Landing page content styling
 
 /* line 8, resources/assets/styles/layouts/_portfolio.scss */
 
+.content .portfolio-grid .image {
+  height: 160px;
+}
+
+/* line 11, resources/assets/styles/layouts/_portfolio.scss */
+
 .content .portfolio-grid img {
   max-height: 160px;
   max-width: 320px;
-  width: 100%;
 }
 
-/* line 13, resources/assets/styles/layouts/_portfolio.scss */
+/* line 16, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .teaser {
   cursor: pointer;
   text-align: center;
 }
 
-/* line 16, resources/assets/styles/layouts/_portfolio.scss */
+/* line 19, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .teaser .image {
   margin-bottom: 10px;
 }
 
-/* line 19, resources/assets/styles/layouts/_portfolio.scss */
+/* line 22, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .teaser .title {
   color: #058CE8;
@@ -18069,14 +18074,14 @@ Landing page content styling
   font-size: 1.5rem;
 }
 
-/* line 26, resources/assets/styles/layouts/_portfolio.scss */
+/* line 29, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .portfolio-detail .image {
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* line 30, resources/assets/styles/layouts/_portfolio.scss */
+/* line 33, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .portfolio-detail .row,
 .content .portfolio-grid .portfolio-detail .sidebar-primary .content,
@@ -18084,7 +18089,7 @@ Landing page content styling
   margin-bottom: 20px;
 }
 
-/* line 33, resources/assets/styles/layouts/_portfolio.scss */
+/* line 36, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .portfolio-detail .title {
   font-size: 2rem;
@@ -18092,14 +18097,14 @@ Landing page content styling
   margin-bottom: 20px;
 }
 
-/* line 38, resources/assets/styles/layouts/_portfolio.scss */
+/* line 41, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .portfolio-detail .label {
   font-weight: 700;
 }
 
 @media (min-width: 576px) {
-  /* line 45, resources/assets/styles/layouts/_portfolio.scss */
+  /* line 48, resources/assets/styles/layouts/_portfolio.scss */
 
   .content .portfolio-grid .item {
     margin: 0 10px 40px 10px;
@@ -18108,7 +18113,7 @@ Landing page content styling
 }
 
 @media (min-width: 768px) {
-  /* line 53, resources/assets/styles/layouts/_portfolio.scss */
+  /* line 56, resources/assets/styles/layouts/_portfolio.scss */
 
   .content .portfolio-grid .item {
     max-width: calc(33.33333% - 20px);

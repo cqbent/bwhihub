@@ -255,6 +255,7 @@ header.banner {
   }
 
   @media (max-width: $screen-sm-min) {
+    position: fixed;
     .brand {
       img {
         height: 70px;

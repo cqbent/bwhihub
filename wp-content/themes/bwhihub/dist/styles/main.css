@@ -16977,7 +16977,13 @@ header.banner .search-form {
 }
 
 @media (max-width: 768px) {
-  /* line 259, resources/assets/styles/layouts/_header.scss */
+  /* line 1, resources/assets/styles/layouts/_header.scss */
+
+  header.banner {
+    position: fixed;
+  }
+
+  /* line 260, resources/assets/styles/layouts/_header.scss */
 
   header.banner .brand img {
     height: 70px;
@@ -16985,7 +16991,7 @@ header.banner .search-form {
 }
 
 @media (min-width: 576px) {
-  /* line 268, resources/assets/styles/layouts/_header.scss */
+  /* line 269, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary .navbar-toggler .icon-bar {
     width: 50px;
@@ -16993,20 +16999,20 @@ header.banner .search-form {
 }
 
 @media (min-width: 768px) {
-  /* line 277, resources/assets/styles/layouts/_header.scss */
+  /* line 278, resources/assets/styles/layouts/_header.scss */
 
   header.banner .toplinks,
   header.banner .search-form {
     display: block;
   }
 
-  /* line 282, resources/assets/styles/layouts/_header.scss */
+  /* line 283, resources/assets/styles/layouts/_header.scss */
 
   header.banner .search-form #search-fields {
     top: 60px;
   }
 
-  /* line 288, resources/assets/styles/layouts/_header.scss */
+  /* line 289, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary .navbar-toggler {
     right: 60px;
@@ -17014,13 +17020,13 @@ header.banner .search-form {
 }
 
 @media (min-width: 992px) {
-  /* line 298, resources/assets/styles/layouts/_header.scss */
+  /* line 299, resources/assets/styles/layouts/_header.scss */
 
   header.banner .toplinks .links {
     display: inline-block;
   }
 
-  /* line 302, resources/assets/styles/layouts/_header.scss */
+  /* line 303, resources/assets/styles/layouts/_header.scss */
 
   header.banner .toplinks .donate,
   header.banner .toplinks .j1 {
@@ -17028,13 +17034,13 @@ header.banner .search-form {
     font-size: .875rem;
   }
 
-  /* line 307, resources/assets/styles/layouts/_header.scss */
+  /* line 308, resources/assets/styles/layouts/_header.scss */
 
   header.banner .toplinks .row-2 {
     margin-top: 0;
   }
 
-  /* line 313, resources/assets/styles/layouts/_header.scss */
+  /* line 314, resources/assets/styles/layouts/_header.scss */
 
   header.banner .brand img {
     height: 80px;
@@ -17042,7 +17048,7 @@ header.banner .search-form {
 }
 
 @media (min-width: 1140px) {
-  /* line 320, resources/assets/styles/layouts/_header.scss */
+  /* line 321, resources/assets/styles/layouts/_header.scss */
 
   header.banner .header-container {
     max-width: 1140px;

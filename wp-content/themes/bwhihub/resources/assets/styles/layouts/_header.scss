@@ -3,6 +3,7 @@ header.banner {
   background: rgba($white, 0.9);
   z-index: 100;
   position: relative;
+  border-bottom: 1px $gray solid;
 
   .container {
     padding-top: 20px;
@@ -158,23 +159,32 @@ header.banner {
           margin: 0;
           float: right;
 
-          .menu-item {
+          > .menu-item {
             width: auto;
             border: none;
-            padding: 0 10px;
+            padding: 0;
             font-weight: 600;
 
-            a {
+            > a {
               position: relative;
-              padding: 9px 0;
-
-              &:hover {
-                color: $blue;
-              }
+              z-index: 1;
+              padding: 9px 10px;
+              margin-left: 1px;
             }
 
             &.alignright {
               margin-left: auto;
+            }
+
+            &:hover {
+              > a {
+                color: $yellow;
+                background-color: $blue;
+                border-radius: 10px 10px 0 0;
+              }
+              > .sub-menu {
+                display: block;
+              }
             }
 
             .sub-menu {
@@ -185,19 +195,24 @@ header.banner {
               margin: 0;
               padding: 10px 0;
               //background: rgba($background-darkblue, .8);
-              background: $mid-blue;
+              background: $blue;
+              border: 1px $white solid;
+              border-radius: 0 10px 10px 10px;
+              margin-top: -1px;
 
               .menu-item {
                 font-size: 1.125rem;
                 float: none;
                 padding: 0 0 5px 0;
                 a {
-                  padding: 0 15px;
+                  padding: 5px 15px;
                   color: $white;
-                  font-weight: 400;
-
+                  font-weight: 600;
                   &::after {
                     display: none;
+                  }
+                  &:hover {
+                    background-color: $dark-blue;
                   }
                 }
 
@@ -209,15 +224,12 @@ header.banner {
 
                   .menu-item {
                     text-transform: none;
+                    a {
+                      font-weight: 400;
+                    }
                   }
                 }
               }
-            }
-          }
-
-          > .menu-item:hover {
-            > .sub-menu {
-              display: block;
             }
           }
         }
@@ -230,11 +242,12 @@ header.banner {
     float: right;
     line-height: 1;
     display: none;
+    position: relative;
     .social,
     .contact {
       vertical-align: middle;
-      margin-left: 20px;
-      display: inline-block;
+      margin-right: 50px;
+      //display: inline-block;
     }
 
     .contact .btn {
@@ -242,20 +255,20 @@ header.banner {
       text-transform: uppercase;
       font-weight: 300;
       padding: 2px 20px;
-      background-color: $dark-blue;
-      border-color: $dark-blue;
+      background-color: $blue;
+      border-color: $blue;
     }
   }
 
   .search-form {
     display: none;
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    top: 0;
+    right: 0;
   }
 
   @media (max-width: $screen-sm-min) {
-    position: fixed;
+    //position: fixed;
     .brand {
       img {
         height: 70px;

@@ -1,126 +1,138 @@
 [
-    {
-        "title": "Buttons",
-        "type": "group"
-    },
-    {
-        "title": "Primary",
-        "type": "item",
-        "selector": "a,button",
-        "classes": "btn btn-primary"
-    },
-    {
-        "title": "Green",
-        "type": "item",
-        "selector": "a,button",
-        "classes": "btn btn-primary green"
-    },
-    {
-        "title": "More",
-        "type": "item",
-        "selector": "a,button",
-        "classes": "btn btn-primary more"
-    },
-    {
-        "title": "Images",
-        "type": "group"
-    },
-    {
-        "title": "Responsive",
-        "type": "item",
-        "selector": "img",
-        "classes": "img-responsive"
-    },
-    {
-        "title": "Thumbnail",
-        "type": "item",
-        "selector": "img",
-        "classes": "img-thumbnail"
-    },
-    {
-        "title": "Quote Formatting",
-        "type": "group"
-    },
-    {
-        "title": "Quote",
-        "type": "item",
-        "selector": "p,div",
-        "classes": "quote"
-    },
-    {
-        "title": "Quote attribute",
-        "type": "item",
-        "selector": "p,div",
-        "classes": "quote-attribute"
-    },
-    {
-        "title": "Rows and Columns",
-        "type": "group"
-    },
-    {
-        "title": "Row",
-        "type": "wrapper",
-        "block": "div",
-        "classes": "row",
-        "wrapper": 1
-    },
-    {
-        "title": "Column (even)",
-        "type": "item",
-        "selector": "p,div",
-        "classes": "col"
-    },
-    {
-        "title": "Column 2\/3",
-        "type": "item",
-        "selector": "p,div",
-        "classes": "col-sm-8"
-    },
-    {
-        "title": "Column 1\/3",
-        "type": "item",
-        "selector": "p,div",
-        "classes": "col-sm-4"
-    },
-    {
-        "title": "Column 1\/4",
-        "type": "item",
-        "selector": "p,div",
-        "classes": "col-sm-3"
-    },
-    {
-        "title": "Misc",
-        "type": "group"
-    },
-    {
-        "title": "Span",
-        "type": "item",
-        "selector": "p,div",
-        "inline": "span",
-        "classes": "span"
-    },
-    {
-        "title": "More",
-        "type": "item",
-        "selector": "a",
-        "classes": "more"
-    },
-    {
-        "title": "Large Text",
-        "type": "item",
-        "selector": "p,div,span",
-        "classes": "large-text"
-    },
-    {
-        "title": "Small Text",
-        "type": "item",
-        "selector": "p,div,span",
-        "classes": "small-text"
-    },
-    {
-        "title": "Green Text",
-        "type": "item",
-        "selector": "p,div,span",
-        "classes": "green-text"
-    }
+  {
+    "title": "Buttons",
+    "type": "group"
+  },
+  {
+    "title": "Primary",
+    "type": "item",
+    "selector": "a,button",
+    "classes": "btn btn-primary"
+  },
+  {
+    "title": "Green",
+    "type": "item",
+    "selector": "a,button",
+    "classes": "btn btn-primary green"
+  },
+  {
+    "title": "More",
+    "type": "item",
+    "selector": "a,button",
+    "classes": "btn btn-primary more"
+  },
+  {
+    "title": "Images",
+    "type": "group"
+  },
+  {
+    "title": "Responsive",
+    "type": "item",
+    "selector": "img",
+    "classes": "img-responsive"
+  },
+  {
+    "title": "Thumbnail",
+    "type": "item",
+    "selector": "img",
+    "classes": "img-thumbnail"
+  },
+  {
+    "title": "Quote Formatting",
+    "type": "group"
+  },
+  {
+    "title": "Quote",
+    "type": "item",
+    "selector": "p,div",
+    "classes": "quote"
+  },
+  {
+    "title": "Quote attribute",
+    "type": "item",
+    "selector": "p,div",
+    "classes": "quote-attribute"
+  },
+  {
+    "title": "Rows and Columns",
+    "type": "group"
+  },
+  {
+    "title": "Row",
+    "type": "wrapper",
+    "block": "div",
+    "classes": "row",
+    "wrapper": 1
+  },
+  {
+    "title": "Column (even)",
+    "type": "item",
+    "selector": "p,div",
+    "classes": "col"
+  },
+  {
+    "title": "Column 2\/3",
+    "type": "item",
+    "selector": "p,div",
+    "classes": "col-sm-8"
+  },
+  {
+    "title": "Column 1\/3",
+    "type": "item",
+    "selector": "p,div",
+    "classes": "col-sm-4"
+  },
+  {
+    "title": "Column 1\/4",
+    "type": "item",
+    "selector": "p,div",
+    "classes": "col-sm-3"
+  },
+  {
+    "title": "Misc",
+    "type": "group"
+  },
+  {
+    "title": "Span",
+    "type": "item",
+    "selector": "p,div",
+    "inline": "span",
+    "classes": "span"
+  },
+  {
+    "title": "More",
+    "type": "item",
+    "selector": "a",
+    "classes": "more"
+  },
+  {
+    "title": "Large Text",
+    "type": "item",
+    "selector": "p,div,span",
+    "classes": "large-text"
+  },
+  {
+    "title": "Small Text",
+    "type": "item",
+    "selector": "p,div,span",
+    "classes": "small-text"
+  },
+  {
+    "title": "Green Text",
+    "type": "item",
+    "selector": "p,h2,h3,h4,div,span",
+    "classes": "green-text"
+  },
+  {
+    "title": "Blue Text",
+    "type": "item",
+    "selector": "p,h2,h3,h4,div,span",
+    "classes": "blue-text"
+  },
+  {
+    "title": "Callout",
+    "type": "item",
+    "selector": "p,div",
+    "classes": "callout"
+  }
 ]

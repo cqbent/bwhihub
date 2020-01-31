@@ -1,7 +1,7 @@
 .content {
   font-size: 1.25rem;
   line-height: 1.5;
-  margin-top: 40px;
+  //margin-top: 40px;
   h1, h2, h3, h4 {
     font-weight: 700;
   }
@@ -9,13 +9,15 @@
     font-size: 3rem;
   }
   h2 {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
+    font-weight: 400;
   }
   h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
   }
   h4 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   img {
@@ -28,10 +30,21 @@
   .green-text {
     color: $green;
   }
+  .blue-text {
+    color: $mid-blue;
+  }
+
+  .callout {
+    font-size: 1.7rem;
+    line-height: 1.2;
+    font-weight: 300;
+    color: $orange;
+    margin: .5em 0;
+  }
 
   main {
     @include clearfix;
-    padding: 20px 0;
+    padding: 0;
     margin: 0 auto;
     position: relative;
     /*
@@ -41,21 +54,34 @@
     }
     */
     .page-header {
+      position: relative;
+      color: $white;
+      .page-image {
+        height: 145px;
+        width: 100vw;
+        margin-left: calc((100% - 100vw) / 2);
+        position: relative;
+        img {
+          object-fit: cover;
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .intro {
+        position: relative;
+        font-size: 1.3rem;
+      }
       h1 {
-        font-size: 2rem;
-        margin-bottom: 40px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
+        font-size: 1.5rem;
+        color: $white;
+        font-weight: 300;
+        margin-bottom: .5em;
       }
     }
 
     .content-container {
       max-width: $screen-md-min;
-      margin: 0 auto;
-    }
-
-    h2 {
-      font-weight: 300;
+      margin: 40px auto;
     }
 
     a.excerpt-more {
@@ -77,12 +103,61 @@
       line-height: normal;
     }
     .quote {
-      font-weight: 700;
+      font-style: italic;
       margin-bottom: 20px;
+      line-height: 1.25;
     }
     .quote-attribute {
       margin-top: 10px;
     }
+
+    .btn-primary {
+      min-width: 200px;
+    }
+
+    // submenu navigation
+    .submenu-navigation {
+      ul {
+        padding: 0;
+        margin: 0;
+        li {
+          list-style: none;
+        }
+        &.menu-submenu > li > .sub-menu {
+          background-color: $blue;
+          border-radius: 10px;
+          padding: 20px 0;
+          li {
+            //padding: 5px 20px;
+            a {
+              color: $white;
+              font-weight: 600;
+              padding: 5px 20px;
+              display: block;
+            }
+            &.current-menu-item > a {
+              background-color: $dark-blue;
+              &:hover {
+                text-decoration: none;
+              }
+            }
+            li {
+              a {
+                font-weight: 400;
+                padding-left: 35px;
+              }
+              li {
+                a {
+                  font-weight: 300;
+                  padding-left: 50px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
 
     // news content styling
     .news-list {
@@ -108,9 +183,93 @@
     }
   }
 
+  .home & {
+    main {
+      .page-header {
+        display: none;
+      }
+      .content-container {
+        margin: 0;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    main {
+      .page-header {
+        h1 {
+          position: absolute;
+          top: 20px;
+          margin-top: 0;
+        }
+        .intro {
+          color: $dark-gray;
+          background-color: $light-gray;
+          padding: 20px;
+          width: 100vw;
+          margin-left: calc((100% - 100vw) / 2);
+        }
+      }
+    }
+  }
+
   @include media-breakpoint-up(md) {
     .large-text {
       font-size: 1.5rem;
+    }
+    main {
+      font-size: 1.25rem;
+      .page-header {
+        height: 300px;
+        .page-image {
+          position: absolute;
+          height: 300px;
+        }
+        h1 {
+          position: relative;
+          font-size: 2.6rem;
+          padding-top: .5em;
+        }
+        .intro {
+          font-size: 1.125rem;
+        }
+      }
+
+      h2 {
+
+      }
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    main {
+      .page-header {
+        height: 520px;
+        .page-image {
+          height: 520px;
+        }
+        h1 {
+          font-size: 3.75rem;
+        }
+        .intro {
+          font-size: 2.6rem;
+          .quote-attribute {
+            font-size: 1.75rem;
+          }
+        }
+      }
+
+      h2 {
+        font-size: 2.2rem;
+      }
+
+      h3 {
+        font-size: 2rem;
+      }
+
+      .callout {
+        font-size: 3rem;
+      }
     }
   }
 }

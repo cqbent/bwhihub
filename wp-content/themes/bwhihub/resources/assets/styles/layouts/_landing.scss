@@ -85,6 +85,12 @@ Landing page content styling
           //width: 100vw;
           //object-fit: cover;
         }
+        &.dark-text {
+          color: $dark-gray;
+          a {
+            color: $blue;
+          }
+        }
       }
 
       &.image-column {

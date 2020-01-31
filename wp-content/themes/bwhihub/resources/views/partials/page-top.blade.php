@@ -2,6 +2,13 @@
 $posttype = get_post_type(get_the_ID());
 @endphp
 <div class="section-header">
+  <div class="breadcrumbs container" typeof="BreadcrumbList" vocab="https://schema.org/">
+    @php
+      if (function_exists('bcn_display')) {
+        bcn_display();
+      }
+    @endphp
+  </div>
   <div class="section-bar">
     <div class="container">
       <h1 class="page-title">
@@ -17,8 +24,4 @@ $posttype = get_post_type(get_the_ID());
     </div>
   </div>
 </div>
-@if (bwhihub_sub_menu())
-  <div class="section-submenu">
-    {!! bwhihub_sub_menu() !!}
-  </div>
-@endif
+

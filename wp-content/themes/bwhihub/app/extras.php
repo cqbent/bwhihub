@@ -29,17 +29,15 @@ function bwhihub_portfolio_grid() {
     );
     $query = new \WP_Query($args);
     if ($query->have_posts()) {
-        ?>
-        <div class="portfolio-grid row">
-        <?php
+        $output = '<div class="portfolio-grid row">';
         while ( $query->have_posts() ) {
             $query->the_post();
-            print \App\template('partials.content-portfolio');
+            $output .=  \App\template('partials.content-portfolio');
         }
         wp_reset_postdata();
-        ?>
-        </div>
-        <?php
+        $output .= '</div>';
+        return $output;
+
     }
 }
 add_shortcode('portfolio_grid', __NAMESPACE__ . '\\bwhihub_portfolio_grid');

@@ -6,12 +6,17 @@ footer.content-info {
   a {
     color: $white;
     font-weight: 400;
+    text-decoration: underline;
   }
   .column {
     margin-bottom: 40px;
   }
   .contact-info {
     margin-top: 10px;
+    a {
+      color: $yellow;
+      text-decoration: none;
+    }
   }
   form {
     input[type=text] {

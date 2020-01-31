@@ -98,8 +98,13 @@ function bwhihub_carousel()
 	$output = '';
 	$hero_slider = get_field('hero_slider');
 	if (have_rows('hero_slider_fields')) {
-		$output = '
-	    <div class="home-carousel owl-carousel owl-theme">';
+		$count = count(get_field('hero_slider_fields'));
+		if ($count > 1) {
+			$output = '<div class="home-carousel owl-carousel owl-theme">';
+		}
+		else {
+			$output = '<div class="home-carousel owl-carousel owl-theme">';
+		}
 		while (have_rows('hero_slider_fields')) : the_row();
 			$img = get_sub_field('hero_image');
 			$title = get_sub_field('hero_title');
@@ -267,6 +272,7 @@ function bwhihub_sub_menu()
 		'container_class' => 'submenu-navigation',
 		'menu_class' => 'menu-submenu',
 		'sub_menu' => true,
+		'show_parent' => true,
 		'echo' => FALSE,
 	);
 	$output = wp_nav_menu($args);

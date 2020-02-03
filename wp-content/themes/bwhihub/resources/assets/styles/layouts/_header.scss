@@ -61,7 +61,7 @@ header.banner {
             }
 
             .sub-menu {
-              display: none;
+              //display: none;
             }
           }
         }
@@ -77,13 +77,13 @@ header.banner {
       bottom: 10px;
       right: 40px;
       font-size: 2.5rem;
-      color: $mid-blue;
+      color: $blue;
 
       .icon-bar {
         width: 40px;
         height: 2px;
         border-radius: 10px;
-        border: 2px $mid-blue solid;
+        border: 2px $blue solid;
         display: block;
         margin-bottom: 8px;
       }
@@ -106,23 +106,28 @@ header.banner {
         position: absolute;
         width: calc(100% - 80px);
         top: 100%;
-        background: $mid-blue;
+        background: $blue;
+        border-radius: 10px;
         //max-width: $screen-xs-min;
         left: 0;
         padding: 20px 40px;
         margin: 0 40px;
-
-        .menu-item {
-          margin-bottom: 5px;
-          a {
-            color: $white;
-          }
+        ul.nav {
           .menu-item {
-            margin: 0;
+            text-transform: none;
             a {
-              border: none;
-              &::after {
-                content: none;
+              color: $white;
+            }
+          }
+          > .menu-item {
+            margin-top: 10px;
+            > a {
+              font-size: 1.5rem;
+              font-weight: 300;
+            }
+            .sub-menu {
+              .menu-item {
+                margin-left: 15px;
               }
             }
           }
@@ -245,6 +250,7 @@ header.banner {
 
   .toplinks {
     margin-top: 0;
+    margin-right: 200px;
     float: right;
     line-height: 1;
     display: none;
@@ -301,7 +307,7 @@ header.banner {
 
     .search-form {
       #search-fields {
-        top: 60px;
+        top: 30px;
       }
     }
 
@@ -314,7 +320,7 @@ header.banner {
 
   @media (min-width: $screen-md-min) {
     .toplinks {
-      //margin-right: 20px;
+      margin-right: 20px;
 
       .links {
         display: inline-block;

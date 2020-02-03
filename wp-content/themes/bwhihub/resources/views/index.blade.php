@@ -5,8 +5,7 @@
 @endsection
 
 @section('content')
-    @include('partials.page-header')
-
+    <h1>{!! App::title() !!}</h1>
     @if (!have_posts())
       <div class="alert alert-warning">
         {{ __('Sorry, no results were found.', 'sage') }}

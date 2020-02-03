@@ -17529,8 +17529,8 @@ footer.content-info form .search-form .search-submit,
 
 /* line 2, resources/assets/styles/layouts/_posts.scss */
 
-.blog .post,
-.archive .post {
+.blog main .post,
+.archive main .post {
   font-size: 1.125rem;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -17538,23 +17538,23 @@ footer.content-info form .search-form .search-submit,
 
 /* line 6, resources/assets/styles/layouts/_posts.scss */
 
-.blog .post .entry-title,
-.archive .post .entry-title {
+.blog main .post .entry-title,
+.archive main .post .entry-title {
   font-size: 1.25rem;
   margin: 0;
 }
 
 /* line 13, resources/assets/styles/layouts/_posts.scss */
 
-.blog .post p,
-.archive .post p {
+.blog main .post p,
+.archive main .post p {
   margin: 0;
 }
 
 /* line 16, resources/assets/styles/layouts/_posts.scss */
 
-.blog .post .thumb,
-.archive .post .thumb {
+.blog main .post .thumb,
+.archive main .post .thumb {
   display: none;
 }
 

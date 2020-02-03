@@ -18,9 +18,9 @@ label {
 }
 
 a {
-  color: $blue;
+  color: $mid-blue;
   &:hover {
-    color: darken($blue, 10%);
+    color: darken($mid-blue, 10%);
   }
   &.more {
     padding-left: 10px;

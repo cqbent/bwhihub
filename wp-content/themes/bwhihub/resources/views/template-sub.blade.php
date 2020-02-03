@@ -10,14 +10,7 @@
 
 @section('content')
   @while(have_posts()) @php the_post() @endphp
-    @include('partials.page-header')
-    <div class="content-container row">
-      <div class="col-sm-4 left-sidebar-content">
-        {!! get_field('left_sidebar_content') !!}
-      </div>
-      <div class="col-sm-8 main-content">
-        @php the_content() @endphp
-      </div>
-    </div>
+  <h1>{!! App::title() !!}</h1>
+  @include('partials.content-page')
   @endwhile
 @endsection

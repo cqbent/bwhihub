@@ -17812,69 +17812,13 @@ footer.content-info form .search-form .search-submit,
   min-width: 200px;
 }
 
-/* line 120, resources/assets/styles/layouts/_content.scss */
-
-.content main .submenu-navigation ul {
-  padding: 0;
-  margin: 0;
-}
-
 /* line 123, resources/assets/styles/layouts/_content.scss */
-
-.content main .submenu-navigation ul li {
-  list-style: none;
-}
-
-/* line 126, resources/assets/styles/layouts/_content.scss */
-
-.content main .submenu-navigation ul.menu-submenu > li > .sub-menu {
-  background-color: #058CE8;
-  border-radius: 10px;
-  padding: 20px 0;
-}
-
-/* line 132, resources/assets/styles/layouts/_content.scss */
-
-.content main .submenu-navigation ul.menu-submenu > li > .sub-menu li a {
-  color: #fff;
-  font-weight: 600;
-  padding: 5px 20px;
-  display: block;
-}
-
-/* line 138, resources/assets/styles/layouts/_content.scss */
-
-.content main .submenu-navigation ul.menu-submenu > li > .sub-menu li.current-menu-item > a {
-  background-color: #002867;
-}
-
-/* line 140, resources/assets/styles/layouts/_content.scss */
-
-.content main .submenu-navigation ul.menu-submenu > li > .sub-menu li.current-menu-item > a:hover {
-  text-decoration: none;
-}
-
-/* line 145, resources/assets/styles/layouts/_content.scss */
-
-.content main .submenu-navigation ul.menu-submenu > li > .sub-menu li li a {
-  font-weight: 400;
-  padding-left: 35px;
-}
-
-/* line 150, resources/assets/styles/layouts/_content.scss */
-
-.content main .submenu-navigation ul.menu-submenu > li > .sub-menu li li li a {
-  font-weight: 300;
-  padding-left: 50px;
-}
-
-/* line 164, resources/assets/styles/layouts/_content.scss */
 
 .content main .news-list article {
   margin-bottom: 20px;
 }
 
-/* line 171, resources/assets/styles/layouts/_content.scss */
+/* line 130, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .row,
 .content main .people .sidebar-primary .content,
@@ -17885,41 +17829,112 @@ footer.content-info form .search-form .search-submit,
   margin-bottom: 30px;
 }
 
-/* line 174, resources/assets/styles/layouts/_content.scss */
+/* line 133, resources/assets/styles/layouts/_content.scss */
 
 .content main .people img,
 .content main .people-list img {
   width: 100%;
 }
 
-/* line 177, resources/assets/styles/layouts/_content.scss */
+/* line 136, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .position,
 .content main .people-list .position {
   font-weight: 700;
 }
 
-/* line 180, resources/assets/styles/layouts/_content.scss */
+/* line 139, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .bio,
 .content main .people-list .bio {
   margin-top: 20px;
 }
 
-/* line 188, resources/assets/styles/layouts/_content.scss */
+/* line 146, resources/assets/styles/layouts/_content.scss */
+
+.content .submenu-navigation {
+  margin-bottom: 40px;
+}
+
+/* line 148, resources/assets/styles/layouts/_content.scss */
+
+.content .submenu-navigation .menu-submenu > li > a {
+  color: #707070;
+  font-size: 1.5rem;
+  padding-left: 20px;
+}
+
+/* line 153, resources/assets/styles/layouts/_content.scss */
+
+.content .submenu-navigation ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 156, resources/assets/styles/layouts/_content.scss */
+
+.content .submenu-navigation ul li {
+  list-style: none;
+  font-size: 1.25rem;
+}
+
+/* line 161, resources/assets/styles/layouts/_content.scss */
+
+.content .submenu-navigation ul.menu-submenu > li > .sub-menu {
+  background-color: #058CE8;
+  border-radius: 10px;
+  padding: 20px 0;
+}
+
+/* line 167, resources/assets/styles/layouts/_content.scss */
+
+.content .submenu-navigation ul.menu-submenu > li > .sub-menu li a {
+  color: #fff;
+  font-weight: 600;
+  padding: 5px 20px;
+  display: block;
+}
+
+/* line 173, resources/assets/styles/layouts/_content.scss */
+
+.content .submenu-navigation ul.menu-submenu > li > .sub-menu li.current-menu-item > a {
+  background-color: #002867;
+}
+
+/* line 175, resources/assets/styles/layouts/_content.scss */
+
+.content .submenu-navigation ul.menu-submenu > li > .sub-menu li.current-menu-item > a:hover {
+  text-decoration: none;
+}
+
+/* line 180, resources/assets/styles/layouts/_content.scss */
+
+.content .submenu-navigation ul.menu-submenu > li > .sub-menu li li a {
+  font-weight: 400;
+  padding-left: 35px;
+}
+
+/* line 185, resources/assets/styles/layouts/_content.scss */
+
+.content .submenu-navigation ul.menu-submenu > li > .sub-menu li li li a {
+  font-weight: 300;
+  padding-left: 50px;
+}
+
+/* line 198, resources/assets/styles/layouts/_content.scss */
 
 .home .content main .page-header {
   display: none;
 }
 
-/* line 191, resources/assets/styles/layouts/_content.scss */
+/* line 201, resources/assets/styles/layouts/_content.scss */
 
 .home .content main .content-container {
   margin: 0;
 }
 
 @media (max-width: 767.98px) {
-  /* line 200, resources/assets/styles/layouts/_content.scss */
+  /* line 210, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header h1 {
     position: absolute;
@@ -17927,7 +17942,7 @@ footer.content-info form .search-form .search-submit,
     margin-top: 0;
   }
 
-  /* line 205, resources/assets/styles/layouts/_content.scss */
+  /* line 215, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .intro {
     color: #3D3D3D;
@@ -17939,32 +17954,32 @@ footer.content-info form .search-form .search-submit,
 }
 
 @media (min-width: 768px) {
-  /* line 217, resources/assets/styles/layouts/_content.scss */
+  /* line 227, resources/assets/styles/layouts/_content.scss */
 
   .content .large-text {
     font-size: 1.5rem;
   }
 
-  /* line 220, resources/assets/styles/layouts/_content.scss */
+  /* line 230, resources/assets/styles/layouts/_content.scss */
 
   .content main {
     font-size: 1.25rem;
   }
 
-  /* line 222, resources/assets/styles/layouts/_content.scss */
+  /* line 232, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header {
     height: 300px;
   }
 
-  /* line 224, resources/assets/styles/layouts/_content.scss */
+  /* line 234, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .page-image {
     position: absolute;
     height: 300px;
   }
 
-  /* line 228, resources/assets/styles/layouts/_content.scss */
+  /* line 238, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header h1 {
     position: relative;
@@ -17972,7 +17987,7 @@ footer.content-info form .search-form .search-submit,
     padding-top: .5em;
   }
 
-  /* line 233, resources/assets/styles/layouts/_content.scss */
+  /* line 243, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .intro {
     font-size: 1.125rem;
@@ -17980,49 +17995,49 @@ footer.content-info form .search-form .search-submit,
 }
 
 @media (min-width: 992px) {
-  /* line 246, resources/assets/styles/layouts/_content.scss */
+  /* line 256, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header {
     height: 520px;
   }
 
-  /* line 248, resources/assets/styles/layouts/_content.scss */
+  /* line 258, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .page-image {
     height: 520px;
   }
 
-  /* line 251, resources/assets/styles/layouts/_content.scss */
+  /* line 261, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header h1 {
     font-size: 3.75rem;
   }
 
-  /* line 254, resources/assets/styles/layouts/_content.scss */
+  /* line 264, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .intro {
     font-size: 2.6rem;
   }
 
-  /* line 256, resources/assets/styles/layouts/_content.scss */
+  /* line 266, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .intro .quote-attribute {
     font-size: 1.75rem;
   }
 
-  /* line 262, resources/assets/styles/layouts/_content.scss */
+  /* line 272, resources/assets/styles/layouts/_content.scss */
 
   .content main h2 {
     font-size: 2.2rem;
   }
 
-  /* line 266, resources/assets/styles/layouts/_content.scss */
+  /* line 276, resources/assets/styles/layouts/_content.scss */
 
   .content main h3 {
     font-size: 2rem;
   }
 
-  /* line 270, resources/assets/styles/layouts/_content.scss */
+  /* line 280, resources/assets/styles/layouts/_content.scss */
 
   .content main .callout {
     font-size: 3rem;

@@ -115,48 +115,7 @@
       min-width: 200px;
     }
 
-    // submenu navigation
-    .submenu-navigation {
-      ul {
-        padding: 0;
-        margin: 0;
-        li {
-          list-style: none;
-        }
-        &.menu-submenu > li > .sub-menu {
-          background-color: $blue;
-          border-radius: 10px;
-          padding: 20px 0;
-          li {
-            //padding: 5px 20px;
-            a {
-              color: $white;
-              font-weight: 600;
-              padding: 5px 20px;
-              display: block;
-            }
-            &.current-menu-item > a {
-              background-color: $dark-blue;
-              &:hover {
-                text-decoration: none;
-              }
-            }
-            li {
-              a {
-                font-weight: 400;
-                padding-left: 35px;
-              }
-              li {
-                a {
-                  font-weight: 300;
-                  padding-left: 50px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
+
 
 
     // news content styling
@@ -179,6 +138,57 @@
       }
       .bio {
         margin-top: 20px;
+      }
+    }
+  }
+
+  // submenu navigation
+  .submenu-navigation {
+    margin-bottom: 40px;
+    .menu-submenu > li > a {
+      color: $gray;
+      font-size: 1.5rem;
+      padding-left: 20px;
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      li {
+        list-style: none;
+        font-size: 1.25rem;
+      }
+
+      &.menu-submenu > li > .sub-menu {
+        background-color: $blue;
+        border-radius: 10px;
+        padding: 20px 0;
+        li {
+          //padding: 5px 20px;
+          a {
+            color: $white;
+            font-weight: 600;
+            padding: 5px 20px;
+            display: block;
+          }
+          &.current-menu-item > a {
+            background-color: $dark-blue;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+          li {
+            a {
+              font-weight: 400;
+              padding-left: 35px;
+            }
+            li {
+              a {
+                font-weight: 300;
+                padding-left: 50px;
+              }
+            }
+          }
+        }
       }
     }
   }

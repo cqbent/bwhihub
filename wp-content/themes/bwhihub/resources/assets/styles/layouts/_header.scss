@@ -187,7 +187,7 @@ header.banner {
               }
             }
 
-            .sub-menu {
+            > .sub-menu {
               display: none;
               position: absolute;
               min-width: 250px;
@@ -217,15 +217,20 @@ header.banner {
                 }
 
                 .sub-menu {
-                  //display: none;
+                  display: block;
                   position: relative;
                   background: none;
-                  margin-left: 10px;
 
                   .menu-item {
                     text-transform: none;
                     a {
                       font-weight: 400;
+                      padding-left: 30px;
+                    }
+                    .menu-item {
+                      a {
+                        padding-left: 45px;
+                      }
                     }
                   }
                 }

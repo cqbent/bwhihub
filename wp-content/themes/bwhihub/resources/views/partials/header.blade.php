@@ -1,7 +1,7 @@
 <header class="banner">
   <div class="container">
     <a class="brand" href="{{ home_url('/') }}">
-      <img src="{{ get_stylesheet_directory_uri() }}/assets/images/ihub_logo.svg" alt="{{ get_bloginfo('name', 'display') }}" />
+      <img src="{{ get_stylesheet_directory_uri() }}/assets/images/ihub_logo_top_banner.svg" alt="{{ get_bloginfo('name', 'display') }}" />
     </a>
     <div class="toplinks">
       <div class="contact">

@@ -4,7 +4,7 @@
       <div class="row footer-row">
         <div class="column logo col-md-4">
           <a href="{{ home_url('/') }}">
-            <img src="{{ get_stylesheet_directory_uri() }}/assets/images/ihub_logo_white.png" alt="{{ get_bloginfo('name', 'display') }}" />
+            <img src="{{ get_stylesheet_directory_uri() }}/assets/images/ihub_logo_bottom_banner.svg" alt="{{ get_bloginfo('name', 'display') }}" />
           </a>
           <div class="contact-info">
             <p>Hale Building for Transformative Medicine (BTM), 60 Fenwood Rd, 3rd Floor, Boston, MA 02115</p>

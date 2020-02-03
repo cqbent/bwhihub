@@ -17191,6 +17191,12 @@ footer.content-info .contact-info a {
 
 /* line 22, resources/assets/styles/layouts/_footer.scss */
 
+footer.content-info .logo img {
+  max-width: 260px;
+}
+
+/* line 27, resources/assets/styles/layouts/_footer.scss */
+
 footer.content-info form input[type=text] {
   border-radius: 20px;
   border: 0;
@@ -17199,7 +17205,7 @@ footer.content-info form input[type=text] {
   padding: 5px 20px;
 }
 
-/* line 29, resources/assets/styles/layouts/_footer.scss */
+/* line 34, resources/assets/styles/layouts/_footer.scss */
 
 footer.content-info form .btn,
 footer.content-info form .comment-form input[type="submit"],
@@ -17253,20 +17259,26 @@ footer.content-info form .search-form .search-submit,
   font-size: .875rem;
 }
 
-/* line 29, resources/assets/styles/layouts/_page-top.scss */
+/* line 27, resources/assets/styles/layouts/_page-top.scss */
+
+.page-top .breadcrumbs a {
+  color: #058CE8;
+}
+
+/* line 32, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .section-submenu {
   background-color: #3D3D3D;
   padding: 10px 0;
 }
 
-/* line 32, resources/assets/styles/layouts/_page-top.scss */
+/* line 35, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .section-submenu .submenu-navigation {
   font-size: 1rem;
 }
 
-/* line 35, resources/assets/styles/layouts/_page-top.scss */
+/* line 38, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .section-submenu .submenu-navigation ul {
   list-style: none;
@@ -17282,7 +17294,7 @@ footer.content-info form .search-form .search-submit,
   content: "";
 }
 
-/* line 40, resources/assets/styles/layouts/_page-top.scss */
+/* line 43, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .section-submenu .submenu-navigation ul li {
   float: left;
@@ -17292,33 +17304,33 @@ footer.content-info form .search-form .search-submit,
   font-weight: 400;
 }
 
-/* line 47, resources/assets/styles/layouts/_page-top.scss */
+/* line 50, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .section-submenu .submenu-navigation ul li a {
   color: #fff;
   font-weight: 400;
 }
 
-/* line 50, resources/assets/styles/layouts/_page-top.scss */
+/* line 53, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .section-submenu .submenu-navigation ul li a:hover {
   text-decoration: none;
 }
 
-/* line 54, resources/assets/styles/layouts/_page-top.scss */
+/* line 57, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .section-submenu .submenu-navigation ul li .sub-menu {
   display: none;
 }
 
 @media (max-width: 767.98px) {
-  /* line 62, resources/assets/styles/layouts/_page-top.scss */
+  /* line 65, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .section-submenu .submenu-navigation ul {
     text-align: center;
   }
 
-  /* line 64, resources/assets/styles/layouts/_page-top.scss */
+  /* line 67, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .section-submenu .submenu-navigation ul li {
     float: none;
@@ -17326,7 +17338,7 @@ footer.content-info form .search-form .search-submit,
   }
 }
 
-/* line 73, resources/assets/styles/layouts/_page-top.scss */
+/* line 76, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .hero {
   height: 300px;
@@ -17334,7 +17346,7 @@ footer.content-info form .search-form .search-submit,
   background-repeat: no-repeat;
 }
 
-/* line 77, resources/assets/styles/layouts/_page-top.scss */
+/* line 80, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .hero .text {
   font-size: 1.5rem;
@@ -17344,13 +17356,13 @@ footer.content-info form .search-form .search-submit,
   padding: 20px;
 }
 
-/* line 83, resources/assets/styles/layouts/_page-top.scss */
+/* line 86, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .hero .text .quote {
   font-style: italic;
 }
 
-/* line 86, resources/assets/styles/layouts/_page-top.scss */
+/* line 89, resources/assets/styles/layouts/_page-top.scss */
 
 .page-top .hero .text .quote-attribute {
   font-size: 1.25rem;
@@ -17358,19 +17370,19 @@ footer.content-info form .search-form .search-submit,
 }
 
 @media (min-width: 768px) {
-  /* line 73, resources/assets/styles/layouts/_page-top.scss */
+  /* line 76, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .hero {
     height: 500px;
   }
 
-  /* line 92, resources/assets/styles/layouts/_page-top.scss */
+  /* line 95, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .hero .text {
     font-size: 3.375rem;
   }
 
-  /* line 95, resources/assets/styles/layouts/_page-top.scss */
+  /* line 98, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .hero .quote-attribute {
     font-size: 1.75rem;
@@ -17378,39 +17390,39 @@ footer.content-info form .search-form .search-submit,
 }
 
 @media (min-width: 992px) {
-  /* line 73, resources/assets/styles/layouts/_page-top.scss */
+  /* line 76, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .hero {
     height: 800px;
   }
 }
 
-/* line 106, resources/assets/styles/layouts/_page-top.scss */
+/* line 109, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top {
   height: 400px;
   padding: 0;
 }
 
-/* line 109, resources/assets/styles/layouts/_page-top.scss */
+/* line 112, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .section-header {
   display: none;
 }
 
-/* line 112, resources/assets/styles/layouts/_page-top.scss */
+/* line 115, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel {
   margin: 0 auto;
 }
 
-/* line 115, resources/assets/styles/layouts/_page-top.scss */
+/* line 118, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-stage-outer {
   width: 100%;
 }
 
-/* line 120, resources/assets/styles/layouts/_page-top.scss */
+/* line 123, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item img {
   height: 400px;
@@ -17418,7 +17430,7 @@ footer.content-info form .search-form .search-submit,
      object-fit: cover;
 }
 
-/* line 124, resources/assets/styles/layouts/_page-top.scss */
+/* line 127, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content {
   position: absolute;
@@ -17429,7 +17441,7 @@ footer.content-info form .search-form .search-submit,
   padding: 0 calc((100% - 992px) / 2);
 }
 
-/* line 132, resources/assets/styles/layouts/_page-top.scss */
+/* line 135, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content .title {
   font-size: 1.875rem;
@@ -17438,7 +17450,7 @@ footer.content-info form .search-form .search-submit,
   margin-bottom: 10px;
 }
 
-/* line 139, resources/assets/styles/layouts/_page-top.scss */
+/* line 142, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content .subtitle {
   font-size: 1rem;
@@ -17446,7 +17458,7 @@ footer.content-info form .search-form .search-submit,
   font-weight: 300;
 }
 
-/* line 145, resources/assets/styles/layouts/_page-top.scss */
+/* line 148, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content .text {
   font-style: italic;
@@ -17454,7 +17466,7 @@ footer.content-info form .search-form .search-submit,
   font-weight: 300;
 }
 
-/* line 151, resources/assets/styles/layouts/_page-top.scss */
+/* line 154, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content .btn,
 .home .page-top .home-carousel .owl-item .item .hero-content .comment-form input[type="submit"],
@@ -17469,7 +17481,7 @@ footer.content-info form .search-form .search-submit,
   min-width: 300px;
 }
 
-/* line 163, resources/assets/styles/layouts/_page-top.scss */
+/* line 166, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-nav button.owl-prev,
 .home .page-top .home-carousel .owl-nav button.owl-next {
@@ -17480,38 +17492,38 @@ footer.content-info form .search-form .search-submit,
 }
 
 @media (min-width: 992px) {
-  /* line 175, resources/assets/styles/layouts/_page-top.scss */
+  /* line 178, resources/assets/styles/layouts/_page-top.scss */
 
   .home .page-top {
     height: 650px;
   }
 
-  /* line 180, resources/assets/styles/layouts/_page-top.scss */
+  /* line 183, resources/assets/styles/layouts/_page-top.scss */
 
   .home .page-top .home-carousel .owl-item .item img {
     height: 650px;
   }
 
-  /* line 184, resources/assets/styles/layouts/_page-top.scss */
+  /* line 187, resources/assets/styles/layouts/_page-top.scss */
 
   .home .page-top .home-carousel .owl-item .item .hero-content .title {
     font-size: 3rem;
     line-height: 3.5rem;
   }
 
-  /* line 188, resources/assets/styles/layouts/_page-top.scss */
+  /* line 191, resources/assets/styles/layouts/_page-top.scss */
 
   .home .page-top .home-carousel .owl-item .item .hero-content .subtitle {
     font-size: 2rem;
   }
 
-  /* line 191, resources/assets/styles/layouts/_page-top.scss */
+  /* line 194, resources/assets/styles/layouts/_page-top.scss */
 
   .home .page-top .home-carousel .owl-item .item .hero-content .text {
     font-size: 1.25rem;
   }
 
-  /* line 194, resources/assets/styles/layouts/_page-top.scss */
+  /* line 197, resources/assets/styles/layouts/_page-top.scss */
 
   .home .page-top .home-carousel .owl-item .item .hero-content .btn,
   .home .page-top .home-carousel .owl-item .item .hero-content .comment-form input[type="submit"],
@@ -17522,19 +17534,19 @@ footer.content-info form .search-form .search-submit,
     padding: 8px 40px;
   }
 
-  /* line 205, resources/assets/styles/layouts/_page-top.scss */
+  /* line 208, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .banner-image img {
     height: 550px;
   }
 
-  /* line 212, resources/assets/styles/layouts/_page-top.scss */
+  /* line 215, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .section-header.has-image .section-image {
     height: 400px;
   }
 
-  /* line 214, resources/assets/styles/layouts/_page-top.scss */
+  /* line 217, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .section-header.has-image .section-image img {
     height: 400px;

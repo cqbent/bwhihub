@@ -24,6 +24,9 @@
 
   .breadcrumbs {
     font-size: .875rem;
+    a {
+      color: $blue;
+    }
   }
 
   .section-submenu {

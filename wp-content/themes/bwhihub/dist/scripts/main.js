@@ -7298,15 +7298,36 @@ Router.prototype.loadEvents = function loadEvents () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony default export */ __webpack_exports__["a"] = ({
+/* WEBPACK VAR INJECTION */(function($) {/* harmony default export */ __webpack_exports__["a"] = ({
   init: function init() {
     // JavaScript to be fired on all pages
   },
   finalize: function finalize() {
+    var wpos = 0;
     // JavaScript to be fired on all pages, after page specific JS is fired
+    /*
+    window scroll function to control size of header when users scrolls up or down
+     */
+    $(window).scroll(function() {
+      // if > 0 then add 'scroll' to page class; else remove page class
+      wpos = $(window).scrollTop();
+      //console.log(wpos);
+
+      if (wpos > 40) {
+        if (!$('body').hasClass('scroll')) {
+          $('body').addClass('scroll');
+        }
+      }
+      else {
+        if ($('body').hasClass('scroll')) {
+          $('body').removeClass('scroll');
+        }
+      }
+    });
   },
 });
 
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
 /* 10 */

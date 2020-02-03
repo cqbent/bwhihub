@@ -33,11 +33,11 @@ a {
 
 .search-form {
   //margin-right: 10px;
-  padding: 5px;
+  padding: 0;
   position: relative;
 
   .search-toggle {
-    font-size: 1rem;
+    font-size: .875rem;
     display: block;
     padding: 5px;
     color: $white;
@@ -72,7 +72,7 @@ a {
   }
 
   @media (min-width: $screen-md-min) {
-    padding: 5px 10px;
+    //padding: 5px 10px;
   }
 }
 

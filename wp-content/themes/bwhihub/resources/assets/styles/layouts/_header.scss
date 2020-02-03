@@ -1,8 +1,10 @@
 header.banner {
+  position: fixed;
+  top: 0;
   width: 100%;
-  background: rgba($white, 0.9);
+  background: rgba($white, 1);
   z-index: 100;
-  position: relative;
+  height: 120px;
   border-bottom: 1px $gray solid;
 
   .container {
@@ -14,7 +16,6 @@ header.banner {
 
   .brand {
     //margin-left: 20px;
-
     img {
       height: 80px;
       width: auto;
@@ -259,9 +260,10 @@ header.banner {
       font-size: .625rem;
       text-transform: uppercase;
       font-weight: 300;
-      padding: 2px 20px;
+      padding: 3px 20px 2px 20px;
       background-color: $blue;
       border-color: $blue;
+      margin: 0;
     }
   }
 
@@ -276,7 +278,7 @@ header.banner {
     //position: fixed;
     .brand {
       img {
-        height: 70px;
+        height: 60px;
       }
     }
   }
@@ -340,6 +342,18 @@ header.banner {
       max-width: $screen-lg-min;
     }
   }
+
+  body.scroll & {
+    height: 90px;
+    .brand {
+      img {
+        height: 40px;
+      }
+    }
+    .toplinks {
+      display: none;
+    }
+  }
 }
 
 .banner .nav li {
@@ -348,4 +362,12 @@ header.banner {
 
 .banner .nav a {
   @extend .nav-link;
+}
+
+// margin-top for wrap div to clear fixed header
+.wrap {
+  margin-top: 100px;
+  @include media-breakpoint-up(md) {
+    margin-top: 120px;
+  }
 }

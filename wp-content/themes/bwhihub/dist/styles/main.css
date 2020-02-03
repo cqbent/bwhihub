@@ -18341,6 +18341,7 @@ Landing page content styling
 .content .portfolio-grid img {
   max-height: 160px;
   max-width: 320px;
+  width: auto;
 }
 
 /* line 16, resources/assets/styles/layouts/_portfolio.scss */

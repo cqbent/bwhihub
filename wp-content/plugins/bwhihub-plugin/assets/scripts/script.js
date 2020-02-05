@@ -17,4 +17,15 @@ jQuery(window).load(function() {
     });
   }
 
+  /*
+  Timeline
+   */
+  if (jQuery('.timeline').length) {
+	  jQuery('.timeline').timeline({
+		  mode: 'horizontal',
+		  visibleItems: 4,
+		  forceVerticalMode: 600
+	  });
+  }
+
 });

@@ -18,10 +18,6 @@
               <strong>General Inquiries</strong><br />
               <a href="mailto:ihub@partners.org">ihub@partners.org</a>
             </p>
-            <p>
-              <strong>Collaboration Requests</strong><br />
-              <a href="mailto:ihub@partners.org">Get in touch with us</a>
-            </p>
           </div>
         </div>
         <div class="column col-md-4">

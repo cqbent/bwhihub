@@ -115,6 +115,24 @@
       min-width: 300px;
     }
 
+    // image grid styling
+    .image-grid {
+      > p, > div {
+        &[class*="col"] {
+          margin-bottom: 30px;
+        }
+      }
+      img {
+        //display: block;
+        padding-bottom: 10px;
+        &.logo {
+          height: 60px;
+          width: auto;
+          margin: 0 auto;
+        }
+      }
+    }
+
 
 
 

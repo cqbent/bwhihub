@@ -38,6 +38,12 @@
     "classes": "img-thumbnail"
   },
   {
+    "title": "Logo",
+    "type": "item",
+    "selector": "img",
+    "classes": "logo"
+  },
+  {
     "title": "Quote Formatting",
     "type": "group"
   },
@@ -65,6 +71,13 @@
     "wrapper": 1
   },
   {
+    "title": "Image Grid",
+    "type": "wrapper",
+    "block": "div",
+    "classes": "row image-grid",
+    "wrapper": 1
+  },
+  {
     "title": "Column (even)",
     "type": "item",
     "selector": "p,div",
@@ -75,6 +88,12 @@
     "type": "item",
     "selector": "p,div",
     "classes": "col-sm-8"
+  },
+  {
+    "title": "Column 1\/2",
+    "type": "item",
+    "selector": "p,div",
+    "classes": "col-sm-6"
   },
   {
     "title": "Column 1\/3",

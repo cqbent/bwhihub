@@ -5,7 +5,7 @@
     </a>
     <div class="toplinks">
       <div class="contact">
-        <a class="btn btn-primary" href="/who-we-are/contact-us">Contact Us</a>
+        <a class="btn btn-primary" href="/contact-us">Contact Us</a>
       </div>
       <?php print get_search_form(); ?>
     </div>

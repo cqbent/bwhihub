@@ -12,6 +12,9 @@
       max-height: 160px;
       max-width: 320px;
       width: auto;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
     }
     .teaser {
       cursor: pointer;
@@ -23,6 +26,15 @@
         color: $blue;
         font-weight: 400;
         font-size: 1.5rem;
+      }
+      &:hover {
+        .title {
+          color: $dark-blue;
+        }
+        .image img {
+          opacity: .5;
+          //background: $black;
+        }
       }
     }
     .portfolio-detail {

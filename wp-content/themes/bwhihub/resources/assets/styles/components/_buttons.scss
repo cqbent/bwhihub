@@ -5,9 +5,9 @@
   margin: 10px auto;
   font-size: 1rem;
   font-weight: 300;
-  padding: .25rem 30px;
+  padding: .25rem 20px;
   border-radius: 35px;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   text-transform: uppercase;
   &.green {
     background-color: $green;
@@ -16,12 +16,12 @@
   &.more {
     background-color: $green;
     border-color: $green;
-    font-weight: 400;
+    //font-weight: 400;
     text-transform: uppercase;
     padding-left: 30px;
   }
 
   @include media-breakpoint-up(sm) {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 }

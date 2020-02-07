@@ -16536,9 +16536,9 @@ a.more::after {
   margin: 10px auto;
   font-size: 1rem;
   font-weight: 300;
-  padding: .25rem 30px;
+  padding: .25rem 20px;
   border-radius: 35px;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   text-transform: uppercase;
 }
 
@@ -16554,7 +16554,6 @@ a.more::after {
 .btn-primary.more {
   background-color: #89AD5D;
   border-color: #89AD5D;
-  font-weight: 400;
   text-transform: uppercase;
   padding-left: 30px;
 }
@@ -16563,7 +16562,7 @@ a.more::after {
   /* line 1, resources/assets/styles/components/_buttons.scss */
 
   .btn-primary {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 }
 
@@ -17556,12 +17555,6 @@ footer.content-info form .search-form .search-submit,
   }
 }
 
-/* line 4, resources/assets/styles/layouts/_pages.scss */
-
-.page .content .page-header h1 {
-  text-transform: uppercase;
-}
-
 /* line 11, resources/assets/styles/layouts/_pages.scss */
 
 .page.template-sub .left-sidebar-content .quote,
@@ -17851,7 +17844,7 @@ footer.content-info form .search-form .search-submit,
 /* line 114, resources/assets/styles/layouts/_content.scss */
 
 .content main .btn-primary {
-  min-width: 200px;
+  min-width: 300px;
 }
 
 /* line 123, resources/assets/styles/layouts/_content.scss */
@@ -18011,75 +18004,51 @@ footer.content-info form .search-form .search-submit,
   /* line 232, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header {
-    height: 300px;
+    height: 320px;
   }
 
   /* line 234, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .page-image {
     position: absolute;
-    height: 300px;
+    height: 320px;
   }
 
   /* line 238, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header h1 {
     position: relative;
-    font-size: 2.6rem;
+    font-size: 3rem;
     padding-top: .5em;
   }
 
   /* line 243, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .intro {
-    font-size: 1.125rem;
+    font-size: 1.75rem;
+  }
+
+  /* line 245, resources/assets/styles/layouts/_content.scss */
+
+  .content main .page-header .intro .quote-attribute {
+    font-size: 1.25rem;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 256, resources/assets/styles/layouts/_content.scss */
-
-  .content main .page-header {
-    height: 520px;
-  }
-
-  /* line 258, resources/assets/styles/layouts/_content.scss */
-
-  .content main .page-header .page-image {
-    height: 520px;
-  }
-
-  /* line 261, resources/assets/styles/layouts/_content.scss */
-
-  .content main .page-header h1 {
-    font-size: 3.75rem;
-  }
-
-  /* line 264, resources/assets/styles/layouts/_content.scss */
-
-  .content main .page-header .intro {
-    font-size: 2.6rem;
-  }
-
-  /* line 266, resources/assets/styles/layouts/_content.scss */
-
-  .content main .page-header .intro .quote-attribute {
-    font-size: 1.75rem;
-  }
-
-  /* line 272, resources/assets/styles/layouts/_content.scss */
+  /* line 275, resources/assets/styles/layouts/_content.scss */
 
   .content main h2 {
     font-size: 2.2rem;
   }
 
-  /* line 276, resources/assets/styles/layouts/_content.scss */
+  /* line 279, resources/assets/styles/layouts/_content.scss */
 
   .content main h3 {
     font-size: 2rem;
   }
 
-  /* line 280, resources/assets/styles/layouts/_content.scss */
+  /* line 283, resources/assets/styles/layouts/_content.scss */
 
   .content main .callout {
     font-size: 3rem;
@@ -18399,22 +18368,27 @@ Landing page content styling
   max-height: 160px;
   max-width: 320px;
   width: auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
-/* line 16, resources/assets/styles/layouts/_portfolio.scss */
+/* line 19, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .teaser {
   cursor: pointer;
   text-align: center;
 }
 
-/* line 19, resources/assets/styles/layouts/_portfolio.scss */
+/* line 22, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .teaser .image {
   margin-bottom: 10px;
 }
 
-/* line 22, resources/assets/styles/layouts/_portfolio.scss */
+/* line 25, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .teaser .title {
   color: #058CE8;
@@ -18422,14 +18396,26 @@ Landing page content styling
   font-size: 1.5rem;
 }
 
-/* line 29, resources/assets/styles/layouts/_portfolio.scss */
+/* line 31, resources/assets/styles/layouts/_portfolio.scss */
+
+.content .portfolio-grid .teaser:hover .title {
+  color: #002867;
+}
+
+/* line 34, resources/assets/styles/layouts/_portfolio.scss */
+
+.content .portfolio-grid .teaser:hover .image img {
+  opacity: .5;
+}
+
+/* line 41, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .portfolio-detail .image {
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* line 33, resources/assets/styles/layouts/_portfolio.scss */
+/* line 45, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .portfolio-detail .row,
 .content .portfolio-grid .portfolio-detail .sidebar-primary .content,
@@ -18437,7 +18423,7 @@ Landing page content styling
   margin-bottom: 20px;
 }
 
-/* line 36, resources/assets/styles/layouts/_portfolio.scss */
+/* line 48, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .portfolio-detail .title {
   font-size: 2rem;
@@ -18445,14 +18431,14 @@ Landing page content styling
   margin-bottom: 20px;
 }
 
-/* line 41, resources/assets/styles/layouts/_portfolio.scss */
+/* line 53, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .portfolio-detail .label {
   font-weight: 700;
 }
 
 @media (min-width: 576px) {
-  /* line 48, resources/assets/styles/layouts/_portfolio.scss */
+  /* line 60, resources/assets/styles/layouts/_portfolio.scss */
 
   .content .portfolio-grid .item {
     margin: 0 10px 40px 10px;
@@ -18461,7 +18447,7 @@ Landing page content styling
 }
 
 @media (min-width: 768px) {
-  /* line 56, resources/assets/styles/layouts/_portfolio.scss */
+  /* line 68, resources/assets/styles/layouts/_portfolio.scss */
 
   .content .portfolio-grid .item {
     max-width: calc(33.33333% - 20px);

@@ -112,7 +112,7 @@
     }
 
     .btn-primary {
-      min-width: 200px;
+      min-width: 300px;
     }
 
 
@@ -230,18 +230,21 @@
     main {
       font-size: 1.25rem;
       .page-header {
-        height: 300px;
+        height: 320px;
         .page-image {
           position: absolute;
-          height: 300px;
+          height: 320px;
         }
         h1 {
           position: relative;
-          font-size: 2.6rem;
+          font-size: 3rem;
           padding-top: .5em;
         }
         .intro {
-          font-size: 1.125rem;
+          font-size: 1.75rem;
+          .quote-attribute {
+            font-size: 1.25rem;
+          }
         }
       }
 
@@ -254,17 +257,17 @@
   @include media-breakpoint-up(lg) {
     main {
       .page-header {
-        height: 520px;
+        //height: 520px;
         .page-image {
-          height: 520px;
+          //height: 520px;
         }
         h1 {
-          font-size: 3.75rem;
+          //font-size: 3.75rem;
         }
         .intro {
-          font-size: 2.6rem;
+          //font-size: 2.6rem;
           .quote-attribute {
-            font-size: 1.75rem;
+            //font-size: 1.75rem;
           }
         }
       }

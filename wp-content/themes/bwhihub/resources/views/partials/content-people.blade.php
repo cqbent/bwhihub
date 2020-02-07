@@ -1,7 +1,14 @@
 <div class="col-sm-6 col-md-4 item" data-toggle="modal" data-target="#people_{{ the_ID() }}">
-  <div class="image">
-    {{ the_post_thumbnail() }}
-  </div>
+  @if ($candid_image = get_field('candid_photo'))
+    <div class="image has-candid">
+      {{ the_post_thumbnail() }}
+      <img class="candid" src="{{ $candid_image['url'] }}" alt="{{ $candid_image['alt'] }}" />
+    </div>
+  @else
+    <div class="image">
+      {{ the_post_thumbnail() }}
+    </div>
+  @endif
   <div class="info">
     <div class="name">
       {{ the_title() }}

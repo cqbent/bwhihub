@@ -16,6 +16,21 @@
           text-decoration: none;
         }
       }
+      .image {
+        .candid {
+          display: none;
+        }
+        &.has-candid {
+          &:hover {
+            img {
+              display: none;
+            }
+            img.candid {
+              display: block;
+            }
+          }
+        }
+      }
       .info {
         padding: 10px 20px;
         color: $white;

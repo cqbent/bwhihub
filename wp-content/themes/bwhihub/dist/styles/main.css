@@ -17868,13 +17868,25 @@ footer.content-info form .search-form .search-submit,
   margin: 0 auto;
 }
 
-/* line 141, resources/assets/styles/layouts/_content.scss */
+/* line 134, resources/assets/styles/layouts/_content.scss */
+
+.content main .image-grid a {
+  color: #002867;
+}
+
+/* line 136, resources/assets/styles/layouts/_content.scss */
+
+.content main .image-grid a img {
+  opacity: .5;
+}
+
+/* line 147, resources/assets/styles/layouts/_content.scss */
 
 .content main .news-list article {
   margin-bottom: 20px;
 }
 
-/* line 148, resources/assets/styles/layouts/_content.scss */
+/* line 154, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .row,
 .content main .people .sidebar-primary .content,
@@ -17885,34 +17897,34 @@ footer.content-info form .search-form .search-submit,
   margin-bottom: 30px;
 }
 
-/* line 151, resources/assets/styles/layouts/_content.scss */
+/* line 157, resources/assets/styles/layouts/_content.scss */
 
 .content main .people img,
 .content main .people-list img {
   width: 100%;
 }
 
-/* line 154, resources/assets/styles/layouts/_content.scss */
+/* line 160, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .position,
 .content main .people-list .position {
   font-weight: 700;
 }
 
-/* line 157, resources/assets/styles/layouts/_content.scss */
+/* line 163, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .bio,
 .content main .people-list .bio {
   margin-top: 20px;
 }
 
-/* line 164, resources/assets/styles/layouts/_content.scss */
+/* line 170, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation {
   margin-bottom: 40px;
 }
 
-/* line 166, resources/assets/styles/layouts/_content.scss */
+/* line 172, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation .menu-submenu > li > a {
   color: #707070;
@@ -17920,21 +17932,21 @@ footer.content-info form .search-form .search-submit,
   padding-left: 20px;
 }
 
-/* line 171, resources/assets/styles/layouts/_content.scss */
+/* line 177, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul {
   padding: 0;
   margin: 0;
 }
 
-/* line 174, resources/assets/styles/layouts/_content.scss */
+/* line 180, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul li {
   list-style: none;
   font-size: 1.25rem;
 }
 
-/* line 179, resources/assets/styles/layouts/_content.scss */
+/* line 185, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul.menu-submenu > li > .sub-menu {
   background-color: #058CE8;
@@ -17942,7 +17954,7 @@ footer.content-info form .search-form .search-submit,
   padding: 20px 0;
 }
 
-/* line 185, resources/assets/styles/layouts/_content.scss */
+/* line 191, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul.menu-submenu > li > .sub-menu li a {
   color: #fff;
@@ -17951,46 +17963,46 @@ footer.content-info form .search-form .search-submit,
   display: block;
 }
 
-/* line 191, resources/assets/styles/layouts/_content.scss */
+/* line 197, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul.menu-submenu > li > .sub-menu li.current-menu-item > a {
   background-color: #002867;
 }
 
-/* line 193, resources/assets/styles/layouts/_content.scss */
+/* line 199, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul.menu-submenu > li > .sub-menu li.current-menu-item > a:hover {
   text-decoration: none;
 }
 
-/* line 198, resources/assets/styles/layouts/_content.scss */
+/* line 204, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul.menu-submenu > li > .sub-menu li li a {
   font-weight: 400;
   padding-left: 35px;
 }
 
-/* line 203, resources/assets/styles/layouts/_content.scss */
+/* line 209, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul.menu-submenu > li > .sub-menu li li li a {
   font-weight: 300;
   padding-left: 50px;
 }
 
-/* line 216, resources/assets/styles/layouts/_content.scss */
+/* line 222, resources/assets/styles/layouts/_content.scss */
 
 .home .content main .page-header {
   display: none;
 }
 
-/* line 219, resources/assets/styles/layouts/_content.scss */
+/* line 225, resources/assets/styles/layouts/_content.scss */
 
 .home .content main .content-container {
   margin: 0;
 }
 
 @media (max-width: 767.98px) {
-  /* line 228, resources/assets/styles/layouts/_content.scss */
+  /* line 234, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header h1 {
     position: absolute;
@@ -17998,7 +18010,7 @@ footer.content-info form .search-form .search-submit,
     margin-top: 0;
   }
 
-  /* line 233, resources/assets/styles/layouts/_content.scss */
+  /* line 239, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .intro {
     color: #3D3D3D;
@@ -18010,32 +18022,32 @@ footer.content-info form .search-form .search-submit,
 }
 
 @media (min-width: 768px) {
-  /* line 245, resources/assets/styles/layouts/_content.scss */
+  /* line 251, resources/assets/styles/layouts/_content.scss */
 
   .content .large-text {
     font-size: 1.5rem;
   }
 
-  /* line 248, resources/assets/styles/layouts/_content.scss */
+  /* line 254, resources/assets/styles/layouts/_content.scss */
 
   .content main {
     font-size: 1.25rem;
   }
 
-  /* line 250, resources/assets/styles/layouts/_content.scss */
+  /* line 256, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header {
     height: 320px;
   }
 
-  /* line 252, resources/assets/styles/layouts/_content.scss */
+  /* line 258, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .page-image {
     position: absolute;
     height: 320px;
   }
 
-  /* line 256, resources/assets/styles/layouts/_content.scss */
+  /* line 262, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header h1 {
     position: relative;
@@ -18043,13 +18055,13 @@ footer.content-info form .search-form .search-submit,
     padding-top: .5em;
   }
 
-  /* line 261, resources/assets/styles/layouts/_content.scss */
+  /* line 267, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .intro {
     font-size: 1.75rem;
   }
 
-  /* line 263, resources/assets/styles/layouts/_content.scss */
+  /* line 269, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .intro .quote-attribute {
     font-size: 1.25rem;
@@ -18057,19 +18069,19 @@ footer.content-info form .search-form .search-submit,
 }
 
 @media (min-width: 992px) {
-  /* line 293, resources/assets/styles/layouts/_content.scss */
+  /* line 299, resources/assets/styles/layouts/_content.scss */
 
   .content main h2 {
     font-size: 2.2rem;
   }
 
-  /* line 297, resources/assets/styles/layouts/_content.scss */
+  /* line 303, resources/assets/styles/layouts/_content.scss */
 
   .content main h3 {
     font-size: 2rem;
   }
 
-  /* line 301, resources/assets/styles/layouts/_content.scss */
+  /* line 307, resources/assets/styles/layouts/_content.scss */
 
   .content main .callout {
     font-size: 3rem;
@@ -18380,13 +18392,13 @@ Landing page content styling
 /* line 8, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .image {
-  height: 160px;
+  height: 130px;
 }
 
 /* line 11, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid img {
-  max-height: 160px;
+  max-height: 130px;
   max-width: 320px;
   width: auto;
   position: relative;

@@ -131,6 +131,12 @@
           margin: 0 auto;
         }
       }
+      a {
+        color: $dark-blue;
+        img {
+          opacity: .5;
+        }
+      }
     }
 
 

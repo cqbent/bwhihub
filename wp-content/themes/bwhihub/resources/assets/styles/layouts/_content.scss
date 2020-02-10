@@ -132,9 +132,11 @@
         }
       }
       a {
-        color: $dark-blue;
-        img {
-          opacity: .5;
+        &:hover {
+          color: $dark-blue;
+          img {
+            opacity: .5;
+          }
         }
       }
     }

@@ -24,10 +24,10 @@ function bwhihub_enqueue_scripts()
 		wp_enqueue_style('owl-carousel-css', plugin_dir_url(__FILE__) . '/assets/owl.carousel/assets/owl.carousel.css', array(), FALSE);
 		wp_enqueue_style('owl-theme-css', plugin_dir_url(__FILE__) . '/assets/owl.carousel/assets/owl.theme.default.css', array(), FALSE);
 	}
-	elseif (is_page('who-we-are')) {
-		wp_enqueue_script('timeline-js', plugin_dir_url(__FILE__) . '/assets/timeline/js/timeline.min.js', array('jquery'), FALSE, TRUE);
+	elseif (is_page('overview')) {
+		wp_enqueue_script('timeline-js', plugin_dir_url(__FILE__) . '/assets/horizontal_timeline/horizontal_timeline.2.0.js', array('jquery'), FALSE, TRUE);
 		wp_enqueue_script('bwhihub-js', plugin_dir_url(__FILE__) . '/assets/scripts/script.js', array('jquery'), FALSE, TRUE);
-		wp_enqueue_style('timeline-css', plugin_dir_url(__FILE__) . '/assets/timeline/css/timeline.min.css', array(), FALSE);
+		wp_enqueue_style('timeline-css', plugin_dir_url(__FILE__) . '/assets/horizontal_timeline/horizontal_timeline.2.0.css', array(), FALSE);
 	}
 }
 
@@ -380,4 +380,8 @@ function bwhihub_custom_posts_filter( $query ){
 
 function bwhihub_timeline() {
 
+	$content = file_get_contents('data/timeline.html', true);
+	print $content;
 }
+add_shortcode('bwhihub_timeline', 'bwhihub_timeline');
+

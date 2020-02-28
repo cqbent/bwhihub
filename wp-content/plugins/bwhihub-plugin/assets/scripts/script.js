@@ -33,7 +33,6 @@ jQuery(window).load(function ($) {
 
 	jQuery('#bwihub_timeline').horizontalTimeline({
 		dateDisplay: "monthYear",
-		dateOrder: "reverse",
 		useNavBtns: true,
 		useScrollBtns: false,
 		iconBaseClass: "fas fa-2x"

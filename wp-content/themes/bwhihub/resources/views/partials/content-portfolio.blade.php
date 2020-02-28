@@ -1,6 +1,6 @@
 <div class="col-sm-6 col-md-4 item">
   <div class="teaser" data-toggle="modal" data-target="#portfolio_{{ the_ID() }}">
-    <div class="image d-flex align-items-center justify-content-center">
+    <div class="image d-flex align-items-center justify-content-left">
       {{ the_post_thumbnail() }}
     </div>
     <div class="title">{{ the_title() }}</div>

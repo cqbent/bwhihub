@@ -8,7 +8,7 @@
           </a>
           <div class="contact-info">
             <p>Hale Building for Transformative Medicine (BTM), 60 Fenwood Rd, 3rd Floor, Boston, MA 02115</p>
-            <p>Navigation: <a href="https://maps.brighamandwomens.org/#home?to=inv_hub">https://maps.brighamandwomens.org/#home?to=inv_hub</a></p>
+            <p>Navigation: <a href="https://maps.brighamandwomens.org/#home?to=inv_hub">Directions to Brigham Digital Innovation Hub</a></p>
             <p>Don’t have the App yet? Find BWH Maps in the <a href="#"><strong>Apple App Store</strong></a> or <a href="#"><strong>Google Play Store</strong></a>. </p>
           </div>
         </div>

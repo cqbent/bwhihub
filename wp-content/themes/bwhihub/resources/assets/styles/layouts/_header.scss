@@ -4,20 +4,26 @@ header.banner {
   width: 100%;
   background: rgba($white, 1);
   z-index: 100;
-  height: 120px;
+  height: 100px;
   border-bottom: 1px $gray solid;
+
+  .admin-bar & {
+    top: 32px;
+  }
 
   .container {
     padding-top: 20px;
     padding-bottom: 20px;
     position: relative;
     margin: 0 auto;
+    @include clearfix;
   }
 
   .brand {
     //margin-left: 20px;
+    float: left;
     img {
-      height: 80px;
+      height: 60px;
       width: auto;
       transition: all 0.3s ease;
     }
@@ -32,7 +38,7 @@ header.banner {
     ul.nav {
       .menu-item {
         width: 100%;
-        font-size: 1.125rem;
+        font-size: 1rem;
         text-transform: uppercase;
         a {
           color: $dark-gray;
@@ -74,10 +80,10 @@ header.banner {
       margin: 0;
       cursor: pointer;
       position: absolute;
-      bottom: 10px;
       right: 40px;
       font-size: 2.5rem;
       color: $blue;
+      margin-top: 10px;
 
       .icon-bar {
         width: 40px;
@@ -103,15 +109,17 @@ header.banner {
 
     @media (max-width: $screen-md-min) {
       #navbar {
-        position: absolute;
+        position: fixed;
         width: calc(100% - 80px);
-        top: 100%;
+        top: 100px;
         background: $blue;
         border-radius: 10px;
+        height: calc(100% - 100px);
         //max-width: $screen-xs-min;
         left: 0;
         padding: 20px 40px;
         margin: 0 40px;
+        overflow-y: scroll;
         ul.nav {
           .menu-item {
             text-transform: none;
@@ -143,10 +151,11 @@ header.banner {
 
     @media (min-width: $screen-md-min) {
       height: 42px;
-      margin-top: 20px;
-      position: absolute;
-      bottom: 5px;
-      right: 80px;
+      float: right;
+      //margin-top: 20px;
+      //position: absolute;
+      //bottom: 5px;
+      //right: 150px;
 
       .navbar-toggler {
         display: none;
@@ -186,7 +195,7 @@ header.banner {
               > a {
                 color: $yellow;
                 background-color: $blue;
-                border-radius: 10px 10px 0 0;
+                //border-radius: 10px 10px 0 0;
               }
               > .sub-menu {
                 display: block;
@@ -203,7 +212,7 @@ header.banner {
               //background: rgba($background-darkblue, .8);
               background: $blue;
               border: 1px $white solid;
-              border-radius: 0 10px 10px 10px;
+              //border-radius: 0 10px 10px 10px;
               margin-top: -1px;
 
               .menu-item {
@@ -249,7 +258,7 @@ header.banner {
   }
 
   .toplinks {
-    margin-top: 0;
+    margin-top: 10px;
     margin-right: 200px;
     float: right;
     line-height: 1;
@@ -258,7 +267,7 @@ header.banner {
     .social,
     .contact {
       vertical-align: middle;
-      margin-right: 50px;
+      margin-right: 35px;
       //display: inline-block;
     }
 
@@ -266,7 +275,7 @@ header.banner {
       font-size: .625rem;
       text-transform: uppercase;
       font-weight: 300;
-      padding: 3px 20px 2px 20px;
+      padding: 3px 10px;
       background-color: $blue;
       border-color: $blue;
       margin: 0;
@@ -284,7 +293,7 @@ header.banner {
     //position: fixed;
     .brand {
       img {
-        height: 60px;
+        //height: 60px;
       }
     }
   }
@@ -338,7 +347,7 @@ header.banner {
 
     .brand {
       img {
-        height: 80px;
+        //height: 80px;
       }
     }
   }
@@ -350,14 +359,14 @@ header.banner {
   }
 
   body.scroll & {
-    height: 90px;
+    //height: 90px;
     .brand {
       img {
-        height: 40px;
+        //height: 50px;
       }
     }
     .toplinks {
-      display: none;
+      //display: none;
     }
   }
 }
@@ -374,6 +383,6 @@ header.banner {
 .wrap {
   margin-top: 100px;
   @include media-breakpoint-up(md) {
-    margin-top: 120px;
+    //margin-top: 120px;
   }
 }

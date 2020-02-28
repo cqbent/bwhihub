@@ -1,16 +1,16 @@
-/* -------------------------------- 
- 
+/* --------------------------------
+
 Horizontal Timeline 2.0
     by Studocwho @ yCodeTech
-	
+
 Original Horizontal Timeline by CodyHouse
 
-Licensed under the MIT license	
-	
+Licensed under the MIT license
+
 Docs at http://horizontal-timeline.ycodetech.co.uk
 
 -------------------------------- */
-html, 
+html,
 body {
 	/* Stop horizontal scrollbar from appearing/disappearing when the content slides across and changes.*/
 	overflow-x: hidden;
@@ -51,7 +51,7 @@ body {
 }
 .horizontal-timeline .events-wrapper {
 	position: relative;
-	/* Fixed up a bug where if the date display was split into two lines 
+	/* Fixed up a bug where if the date display was split into two lines
 	half of the top was cut off (Changed the height to accommodate) */
 	height: 80px;
 	overflow: hidden;
@@ -128,7 +128,7 @@ body {
 .horizontal-timeline .events a.selected {
 	pointer-events: none;
 }
-.horizontal-timeline .events a.selected::after, 
+.horizontal-timeline .events a.selected::after,
 .horizontal-timeline .events a.older-event::after {
 	background-color: #002bff;
 }
@@ -208,17 +208,17 @@ body {
 	background: #ccc;
 	border-radius: 20px;
 	opacity: 0;
-	
+
 	font-size: 16pt;
 	text-align: center;
-	
+
 	-webkit-touch-callout: none; /* iOS Safari */
 	-webkit-user-select: none; /* Safari */
 	-khtml-user-select: none; /* Konqueror HTML */
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* Internet Explorer/Edge */
 	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
-	
+
 	-webkit-transition: opacity 1s;
 	-moz-transition: opacity 1s;
 	transition: opacity 1s;
@@ -230,19 +230,19 @@ body {
 	opacity: 1;
 }
 /* Event content animations */
-.horizontal-timeline .events-content li.enter-right, 
+.horizontal-timeline .events-content li.enter-right,
 .horizontal-timeline .events-content li.exit-right {
 	-webkit-animation-name: timeline-enter-right;
 	-moz-animation-name: timeline-enter-right;
 	animation-name: timeline-enter-right;
 }
-.horizontal-timeline .events-content li.enter-left, 
+.horizontal-timeline .events-content li.enter-left,
 .horizontal-timeline .events-content li.exit-left {
 	-webkit-animation-name: timeline-enter-left;
 	-moz-animation-name: timeline-enter-left;
 	animation-name: timeline-enter-left;
 }
-.horizontal-timeline .events-content li.exit-right, 
+.horizontal-timeline .events-content li.exit-right,
 .horizontal-timeline .events-content li.exit-left {
 	-webkit-animation-direction: reverse;
 	-moz-animation-direction: reverse;
@@ -363,6 +363,8 @@ body {
 	.horizontal-timeline .timeline {
 		padding-bottom: 40px !important;
 	}
+	/*
+	* commented out because screws up button positions
 	.timeline-navigation#leftNav {
 		-ms-flex-direction: column-reverse !important;
 		flex-direction: column-reverse !important;
@@ -371,11 +373,12 @@ body {
 		-ms-flex-direction: column !important;
     	flex-direction: column !important;
 	}
+	 */
 	.timeline-navigation#leftNav,
 	.timeline-navigation#rightNav {
 		display: -ms-flexbox !important;
 		display: flex !important;
-		top: -5px !important;
+		/* top: -5px !important; */
 	}
 	.timeline-navigation#pausePlay {
 		top: 20px !important;

@@ -17632,7 +17632,7 @@ footer.content-info form .search-form .search-submit,
 /* line 1, resources/assets/styles/layouts/_content.scss */
 
 .content {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.5;
 }
 
@@ -18097,7 +18097,7 @@ footer.content-info form .search-form .search-submit,
   /* line 328, resources/assets/styles/layouts/_content.scss */
 
   .content main {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 
   /* line 330, resources/assets/styles/layouts/_content.scss */
@@ -18203,7 +18203,7 @@ Landing page content styling
 
 .template-landing .content .content-block .title {
   font-weight: 700;
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 
 /* line 32, resources/assets/styles/layouts/_landing.scss */
@@ -18392,7 +18392,7 @@ Landing page content styling
 .template-landing.home .content .content-block.home-intro .btn-primary {
   background-color: #89AD5D;
   border-color: #89AD5D;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   text-transform: uppercase;
 }
 
@@ -18457,7 +18457,7 @@ Landing page content styling
   border-color: #89AD5D;
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   padding-left: 30px;
 }
 

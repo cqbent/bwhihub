@@ -57,6 +57,7 @@
                             "choices": {
                                 "background-blue": "Blue background",
                                 "background-orange": "Orange background",
+                                "background-green": "Green background",
                                 "background-gray": "Gray background",
                                 "background-lightblue": "Light blue background",
                                 "background-image": "Image as background",
@@ -174,5 +175,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1580501753
+    "modified": 1583160420
 }

@@ -66,13 +66,19 @@ Landing page content styling
           color: $white;
         }
       }
+      &.background-green {
+        background-color: $green;
+        color: $white;
+        a {
+          color: $white;
+        }
+      }
       &.background-lightblue {
         background-color: $light-blue;
       }
       &.background-gray {
         background-color: $light-gray;
       }
-
       &.background-image {
         background-size: cover;
         background-repeat: no-repeat;

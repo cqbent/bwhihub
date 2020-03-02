@@ -18267,17 +18267,30 @@ Landing page content styling
 
 /* line 69, resources/assets/styles/layouts/_landing.scss */
 
+.template-landing .content .content-block.background-green {
+  background-color: #89AD5D;
+  color: #fff;
+}
+
+/* line 72, resources/assets/styles/layouts/_landing.scss */
+
+.template-landing .content .content-block.background-green a {
+  color: #fff;
+}
+
+/* line 76, resources/assets/styles/layouts/_landing.scss */
+
 .template-landing .content .content-block.background-lightblue {
   background-color: #F2F7FA;
 }
 
-/* line 72, resources/assets/styles/layouts/_landing.scss */
+/* line 79, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-gray {
   background-color: #F2F2F2;
 }
 
-/* line 76, resources/assets/styles/layouts/_landing.scss */
+/* line 82, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-image {
   background-size: cover;
@@ -18286,32 +18299,32 @@ Landing page content styling
   padding: 30px 0;
 }
 
-/* line 81, resources/assets/styles/layouts/_landing.scss */
+/* line 87, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-image a {
   color: #fff;
 }
 
-/* line 89, resources/assets/styles/layouts/_landing.scss */
+/* line 95, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-image.dark-text {
   color: #3D3D3D;
 }
 
-/* line 91, resources/assets/styles/layouts/_landing.scss */
+/* line 97, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.background-image.dark-text a {
   color: #058CE8;
 }
 
-/* line 97, resources/assets/styles/layouts/_landing.scss */
+/* line 103, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.image-column {
   font-size: 1.5rem;
   padding: 0;
 }
 
-/* line 105, resources/assets/styles/layouts/_landing.scss */
+/* line 111, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.image-column .container,
 .template-landing .content .content-block.image-column .page-top .section-submenu .submenu-navigation,
@@ -18320,7 +18333,7 @@ Landing page content styling
 }
 
 @media (max-width: 767.98px) {
-  /* line 109, resources/assets/styles/layouts/_landing.scss */
+  /* line 115, resources/assets/styles/layouts/_landing.scss */
 
   .template-landing .content .content-block.image-column .image {
     display: none;
@@ -18328,7 +18341,7 @@ Landing page content styling
 }
 
 @media (min-width: 1140px) {
-  /* line 114, resources/assets/styles/layouts/_landing.scss */
+  /* line 120, resources/assets/styles/layouts/_landing.scss */
 
   .template-landing .content .content-block.image-column .container,
   .template-landing .content .content-block.image-column .page-top .section-submenu .submenu-navigation,
@@ -18337,14 +18350,14 @@ Landing page content styling
   }
 }
 
-/* line 121, resources/assets/styles/layouts/_landing.scss */
+/* line 127, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing .content .content-block.wide-text .text {
   max-width: 1140px;
 }
 
 @media (max-width: 767.98px) {
-  /* line 128, resources/assets/styles/layouts/_landing.scss */
+  /* line 134, resources/assets/styles/layouts/_landing.scss */
 
   .template-landing .content .content-block .row .col,
   .template-landing .content .content-block .sidebar-primary .content .col,
@@ -18355,19 +18368,19 @@ Landing page content styling
   }
 }
 
-/* line 140, resources/assets/styles/layouts/_landing.scss */
+/* line 146, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro {
   padding: 40px 0;
 }
 
-/* line 142, resources/assets/styles/layouts/_landing.scss */
+/* line 148, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro img {
   margin-bottom: 10px;
 }
 
-/* line 145, resources/assets/styles/layouts/_landing.scss */
+/* line 151, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro .btn-primary {
   background-color: #89AD5D;
@@ -18376,56 +18389,56 @@ Landing page content styling
   text-transform: uppercase;
 }
 
-/* line 153, resources/assets/styles/layouts/_landing.scss */
+/* line 159, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-stories .content-item {
   margin-bottom: 30px;
 }
 
-/* line 156, resources/assets/styles/layouts/_landing.scss */
+/* line 162, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-stories .title {
   margin-bottom: 0;
   margin-top: 10px;
 }
 
-/* line 159, resources/assets/styles/layouts/_landing.scss */
+/* line 165, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-stories .title a {
   color: #3D3D3D;
 }
 
-/* line 163, resources/assets/styles/layouts/_landing.scss */
+/* line 169, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-stories .excerpt {
   margin-top: 20px;
 }
 
-/* line 168, resources/assets/styles/layouts/_landing.scss */
+/* line 174, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-events .title {
   margin-bottom: 0;
 }
 
-/* line 172, resources/assets/styles/layouts/_landing.scss */
+/* line 178, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-events .featured-events .content-item {
   margin-bottom: 30px;
 }
 
-/* line 175, resources/assets/styles/layouts/_landing.scss */
+/* line 181, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-events .featured-events .excerpt {
   margin-top: 10px;
 }
 
-/* line 177, resources/assets/styles/layouts/_landing.scss */
+/* line 183, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-events .featured-events .excerpt .excerpt-more {
   display: none;
 }
 
-/* line 181, resources/assets/styles/layouts/_landing.scss */
+/* line 187, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-events .featured-events .btn.more,
 .template-landing.home .content .content-block.home-events .featured-events .comment-form input.more[type="submit"],

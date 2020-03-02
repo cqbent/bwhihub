@@ -83,7 +83,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -9595,7 +9595,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9754,7 +9754,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -17434,12 +17434,11 @@ footer.content-info form .search-form .search-submit,
 /* line 142, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content .subtitle {
+  font-family: "Damion";
   font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: 300;
 }
 
-/* line 148, resources/assets/styles/layouts/_page-top.scss */
+/* line 149, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content .text {
   font-style: italic;
@@ -17447,7 +17446,7 @@ footer.content-info form .search-form .search-submit,
   font-weight: 300;
 }
 
-/* line 154, resources/assets/styles/layouts/_page-top.scss */
+/* line 155, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-item .item .hero-content .btn,
 .home .page-top .home-carousel .owl-item .item .hero-content .comment-form input[type="submit"],
@@ -17462,7 +17461,7 @@ footer.content-info form .search-form .search-submit,
   min-width: 300px;
 }
 
-/* line 166, resources/assets/styles/layouts/_page-top.scss */
+/* line 167, resources/assets/styles/layouts/_page-top.scss */
 
 .home .page-top .home-carousel .owl-nav button.owl-prev,
 .home .page-top .home-carousel .owl-nav button.owl-next {
@@ -17473,38 +17472,38 @@ footer.content-info form .search-form .search-submit,
 }
 
 @media (min-width: 992px) {
-  /* line 178, resources/assets/styles/layouts/_page-top.scss */
+  /* line 179, resources/assets/styles/layouts/_page-top.scss */
 
   .home .page-top {
     height: 650px;
   }
 
-  /* line 183, resources/assets/styles/layouts/_page-top.scss */
+  /* line 184, resources/assets/styles/layouts/_page-top.scss */
 
   .home .page-top .home-carousel .owl-item .item img {
     height: 650px;
   }
 
-  /* line 187, resources/assets/styles/layouts/_page-top.scss */
+  /* line 188, resources/assets/styles/layouts/_page-top.scss */
 
   .home .page-top .home-carousel .owl-item .item .hero-content .title {
     font-size: 3rem;
     line-height: 3.5rem;
   }
 
-  /* line 191, resources/assets/styles/layouts/_page-top.scss */
+  /* line 192, resources/assets/styles/layouts/_page-top.scss */
 
   .home .page-top .home-carousel .owl-item .item .hero-content .subtitle {
     font-size: 2rem;
   }
 
-  /* line 194, resources/assets/styles/layouts/_page-top.scss */
+  /* line 195, resources/assets/styles/layouts/_page-top.scss */
 
   .home .page-top .home-carousel .owl-item .item .hero-content .text {
     font-size: 1.25rem;
   }
 
-  /* line 197, resources/assets/styles/layouts/_page-top.scss */
+  /* line 198, resources/assets/styles/layouts/_page-top.scss */
 
   .home .page-top .home-carousel .owl-item .item .hero-content .btn,
   .home .page-top .home-carousel .owl-item .item .hero-content .comment-form input[type="submit"],
@@ -17515,19 +17514,19 @@ footer.content-info form .search-form .search-submit,
     padding: 8px 40px;
   }
 
-  /* line 208, resources/assets/styles/layouts/_page-top.scss */
+  /* line 209, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .banner-image img {
     height: 550px;
   }
 
-  /* line 215, resources/assets/styles/layouts/_page-top.scss */
+  /* line 216, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .section-header.has-image .section-image {
     height: 400px;
   }
 
-  /* line 217, resources/assets/styles/layouts/_page-top.scss */
+  /* line 218, resources/assets/styles/layouts/_page-top.scss */
 
   .page-top .section-header.has-image .section-image img {
     height: 400px;

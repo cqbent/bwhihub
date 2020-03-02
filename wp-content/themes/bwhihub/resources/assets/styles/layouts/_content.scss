@@ -131,7 +131,8 @@
         //display: block;
         padding-bottom: 10px;
         &.logo {
-          height: 60px;
+          max-height: 75px;
+          max-width: 250px;
           width: auto;
           margin: 0 auto;
         }

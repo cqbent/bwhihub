@@ -58,7 +58,7 @@ header.banner {
             letter-spacing: normal;
             text-transform: none;
             a {
-              font-weight: 400;
+              font-weight: 500;
             }
             &.hover {
               .sub-menu {
@@ -113,7 +113,7 @@ header.banner {
         width: calc(100% - 80px);
         top: 100px;
         background: $blue;
-        border-radius: 10px;
+        //border-radius: 10px;
         height: calc(100% - 100px);
         //max-width: $screen-xs-min;
         left: 0;
@@ -184,7 +184,7 @@ header.banner {
               position: relative;
               z-index: 1;
               padding: 9px 10px;
-              margin-left: 1px;
+              //margin-left: 1px;
             }
 
             &.alignright {
@@ -194,7 +194,7 @@ header.banner {
             &:hover {
               > a {
                 color: $yellow;
-                background-color: $blue;
+                background: rgba($blue, .9);
                 //border-radius: 10px 10px 0 0;
               }
               > .sub-menu {
@@ -210,10 +210,10 @@ header.banner {
               margin: 0;
               padding: 10px 0;
               //background: rgba($background-darkblue, .8);
-              background: $blue;
-              border: 1px $white solid;
+              background: rgba($blue, .9);
+              //border: 1px $white solid;
               //border-radius: 0 10px 10px 10px;
-              margin-top: -1px;
+              //margin-top: -1px;
 
               .menu-item {
                 font-size: 1.125rem;

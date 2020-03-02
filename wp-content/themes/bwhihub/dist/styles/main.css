@@ -16730,7 +16730,7 @@ header.banner nav.nav-primary ul.nav .menu-item .sub-menu .menu-item {
 /* line 60, resources/assets/styles/layouts/_header.scss */
 
 header.banner nav.nav-primary ul.nav .menu-item .sub-menu .menu-item a {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 /* line 64, resources/assets/styles/layouts/_header.scss */
@@ -16788,7 +16788,6 @@ header.banner nav.nav-primary .navbar-toggler[aria-expanded=true]::after {
     width: calc(100% - 80px);
     top: 100px;
     background: #058CE8;
-    border-radius: 10px;
     height: calc(100% - 100px);
     left: 0;
     padding: 20px 40px;
@@ -16878,7 +16877,6 @@ header.banner nav.nav-primary .navbar-toggler[aria-expanded=true]::after {
     position: relative;
     z-index: 1;
     padding: 9px 10px;
-    margin-left: 1px;
   }
 
   /* line 190, resources/assets/styles/layouts/_header.scss */
@@ -16891,7 +16889,7 @@ header.banner nav.nav-primary .navbar-toggler[aria-expanded=true]::after {
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item:hover > a {
     color: #ffc107;
-    background-color: #058CE8;
+    background: rgba(5, 140, 232, 0.9);
   }
 
   /* line 200, resources/assets/styles/layouts/_header.scss */
@@ -16909,9 +16907,7 @@ header.banner nav.nav-primary .navbar-toggler[aria-expanded=true]::after {
     width: auto;
     margin: 0;
     padding: 10px 0;
-    background: #058CE8;
-    border: 1px #fff solid;
-    margin-top: -1px;
+    background: rgba(5, 140, 232, 0.9);
   }
 
   /* line 218, resources/assets/styles/layouts/_header.scss */

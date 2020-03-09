@@ -53,6 +53,10 @@
       max-width: $screen-lg-min !important;
     }
     */
+    h1 {
+      font-weight: 300;
+      margin-bottom: .5em;
+    }
     .page-header {
       position: relative;
       color: $white;

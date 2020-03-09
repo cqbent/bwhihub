@@ -17631,12 +17631,15 @@ footer.content-info form .search-form .search-submit,
 .blog main .post,
 .blog main .people,
 .blog main .page,
+.blog main .portfolio,
 .archive main .post,
 .archive main .people,
 .archive main .page,
+.archive main .portfolio,
 .search-results main .post,
 .search-results main .people,
-.search-results main .page {
+.search-results main .page,
+.search-results main .portfolio {
   font-size: 1.125rem;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -17647,12 +17650,15 @@ footer.content-info form .search-form .search-submit,
 .blog main .post .entry-title,
 .blog main .people .entry-title,
 .blog main .page .entry-title,
+.blog main .portfolio .entry-title,
 .archive main .post .entry-title,
 .archive main .people .entry-title,
 .archive main .page .entry-title,
+.archive main .portfolio .entry-title,
 .search-results main .post .entry-title,
 .search-results main .people .entry-title,
-.search-results main .page .entry-title {
+.search-results main .page .entry-title,
+.search-results main .portfolio .entry-title {
   font-size: 1.25rem;
   margin: 0;
 }
@@ -17662,12 +17668,15 @@ footer.content-info form .search-form .search-submit,
 .blog main .post p,
 .blog main .people p,
 .blog main .page p,
+.blog main .portfolio p,
 .archive main .post p,
 .archive main .people p,
 .archive main .page p,
+.archive main .portfolio p,
 .search-results main .post p,
 .search-results main .people p,
-.search-results main .page p {
+.search-results main .page p,
+.search-results main .portfolio p {
   margin: 0;
 }
 
@@ -17676,12 +17685,15 @@ footer.content-info form .search-form .search-submit,
 .blog main .post .thumb,
 .blog main .people .thumb,
 .blog main .page .thumb,
+.blog main .portfolio .thumb,
 .archive main .post .thumb,
 .archive main .people .thumb,
 .archive main .page .thumb,
+.archive main .portfolio .thumb,
 .search-results main .post .thumb,
 .search-results main .people .thumb,
-.search-results main .page .thumb {
+.search-results main .page .thumb,
+.search-results main .portfolio .thumb {
   display: none;
 }
 
@@ -17876,12 +17888,19 @@ footer.content-info form .search-form .search-submit,
 
 /* line 56, resources/assets/styles/layouts/_content.scss */
 
+.content main h1 {
+  font-weight: 300;
+  margin-bottom: .5em;
+}
+
+/* line 60, resources/assets/styles/layouts/_content.scss */
+
 .content main .page-header {
   position: relative;
   color: #fff;
 }
 
-/* line 59, resources/assets/styles/layouts/_content.scss */
+/* line 63, resources/assets/styles/layouts/_content.scss */
 
 .content main .page-header .page-image {
   height: 145px;
@@ -17890,7 +17909,7 @@ footer.content-info form .search-form .search-submit,
   position: relative;
 }
 
-/* line 64, resources/assets/styles/layouts/_content.scss */
+/* line 68, resources/assets/styles/layouts/_content.scss */
 
 .content main .page-header .page-image img {
   -o-object-fit: cover;
@@ -17899,14 +17918,14 @@ footer.content-info form .search-form .search-submit,
   width: 100%;
 }
 
-/* line 70, resources/assets/styles/layouts/_content.scss */
+/* line 74, resources/assets/styles/layouts/_content.scss */
 
 .content main .page-header .intro {
   position: relative;
   font-size: 1.3rem;
 }
 
-/* line 74, resources/assets/styles/layouts/_content.scss */
+/* line 78, resources/assets/styles/layouts/_content.scss */
 
 .content main .page-header h1 {
   font-size: 1.5rem;
@@ -17915,46 +17934,46 @@ footer.content-info form .search-form .search-submit,
   margin-bottom: .5em;
 }
 
-/* line 82, resources/assets/styles/layouts/_content.scss */
+/* line 86, resources/assets/styles/layouts/_content.scss */
 
 .content main .content-container {
   max-width: 992px;
   margin: 40px auto;
 }
 
-/* line 87, resources/assets/styles/layouts/_content.scss */
+/* line 91, resources/assets/styles/layouts/_content.scss */
 
 .content main a.excerpt-more {
   display: block;
   font-weight: 600;
 }
 
-/* line 90, resources/assets/styles/layouts/_content.scss */
+/* line 94, resources/assets/styles/layouts/_content.scss */
 
 .content main a.excerpt-more::after {
   content: "\BB";
   padding-left: 5px;
 }
 
-/* line 96, resources/assets/styles/layouts/_content.scss */
+/* line 100, resources/assets/styles/layouts/_content.scss */
 
 .content main .align-right {
   margin-left: 20px;
 }
 
-/* line 99, resources/assets/styles/layouts/_content.scss */
+/* line 103, resources/assets/styles/layouts/_content.scss */
 
 .content main figure {
   max-width: 100%;
 }
 
-/* line 102, resources/assets/styles/layouts/_content.scss */
+/* line 106, resources/assets/styles/layouts/_content.scss */
 
 .content main figcaption {
   line-height: normal;
 }
 
-/* line 105, resources/assets/styles/layouts/_content.scss */
+/* line 109, resources/assets/styles/layouts/_content.scss */
 
 .content main .quote {
   font-style: italic;
@@ -17962,13 +17981,13 @@ footer.content-info form .search-form .search-submit,
   line-height: 1.25;
 }
 
-/* line 110, resources/assets/styles/layouts/_content.scss */
+/* line 114, resources/assets/styles/layouts/_content.scss */
 
 .content main .quote-attribute {
   margin-top: 10px;
 }
 
-/* line 114, resources/assets/styles/layouts/_content.scss */
+/* line 118, resources/assets/styles/layouts/_content.scss */
 
 .content main .btn-primary,
 .content main .blog .posts-navigation .nav-links a,
@@ -17980,13 +17999,13 @@ footer.content-info form .search-form .search-submit,
   min-width: 300px;
 }
 
-/* line 119, resources/assets/styles/layouts/_content.scss */
+/* line 123, resources/assets/styles/layouts/_content.scss */
 
 .content main .image-grid {
   margin-top: 20px;
 }
 
-/* line 122, resources/assets/styles/layouts/_content.scss */
+/* line 126, resources/assets/styles/layouts/_content.scss */
 
 .content main .image-grid > p[class*="col"],
 .content main .image-grid > div[class*="col"] {
@@ -17995,13 +18014,13 @@ footer.content-info form .search-form .search-submit,
   margin: 0 15px;
 }
 
-/* line 130, resources/assets/styles/layouts/_content.scss */
+/* line 134, resources/assets/styles/layouts/_content.scss */
 
 .content main .image-grid img {
   padding-bottom: 10px;
 }
 
-/* line 133, resources/assets/styles/layouts/_content.scss */
+/* line 137, resources/assets/styles/layouts/_content.scss */
 
 .content main .image-grid img.logo {
   height: 75px;
@@ -18009,25 +18028,25 @@ footer.content-info form .search-form .search-submit,
   margin: 0 auto;
 }
 
-/* line 141, resources/assets/styles/layouts/_content.scss */
+/* line 145, resources/assets/styles/layouts/_content.scss */
 
 .content main .image-grid a:hover {
   color: #002867;
 }
 
-/* line 143, resources/assets/styles/layouts/_content.scss */
+/* line 147, resources/assets/styles/layouts/_content.scss */
 
 .content main .image-grid a:hover img {
   opacity: .5;
 }
 
-/* line 153, resources/assets/styles/layouts/_content.scss */
+/* line 157, resources/assets/styles/layouts/_content.scss */
 
 .content main .news-list article {
   margin-bottom: 20px;
 }
 
-/* line 160, resources/assets/styles/layouts/_content.scss */
+/* line 164, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .row,
 .content main .people .sidebar-primary .content,
@@ -18038,52 +18057,52 @@ footer.content-info form .search-form .search-submit,
   margin-bottom: 30px;
 }
 
-/* line 163, resources/assets/styles/layouts/_content.scss */
+/* line 167, resources/assets/styles/layouts/_content.scss */
 
 .content main .people img,
 .content main .people-list img {
   width: 100%;
 }
 
-/* line 166, resources/assets/styles/layouts/_content.scss */
+/* line 170, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .position,
 .content main .people-list .position {
   font-weight: 700;
 }
 
-/* line 169, resources/assets/styles/layouts/_content.scss */
+/* line 173, resources/assets/styles/layouts/_content.scss */
 
 .content main .people .bio,
 .content main .people-list .bio {
   margin-top: 20px;
 }
 
-/* line 179, resources/assets/styles/layouts/_content.scss */
+/* line 183, resources/assets/styles/layouts/_content.scss */
 
 .content .horizontal-timeline .events a.selected::after {
   background-color: #058CE8;
 }
 
-/* line 184, resources/assets/styles/layouts/_content.scss */
+/* line 188, resources/assets/styles/layouts/_content.scss */
 
 .content .horizontal-timeline .filling-line {
   background-color: #058CE8;
 }
 
-/* line 187, resources/assets/styles/layouts/_content.scss */
+/* line 191, resources/assets/styles/layouts/_content.scss */
 
 .content .horizontal-timeline .timeline-navigation {
   top: 8px;
 }
 
-/* line 190, resources/assets/styles/layouts/_content.scss */
+/* line 194, resources/assets/styles/layouts/_content.scss */
 
 .content .horizontal-timeline .timeline-navigation a:hover {
   text-decoration: none;
 }
 
-/* line 196, resources/assets/styles/layouts/_content.scss */
+/* line 200, resources/assets/styles/layouts/_content.scss */
 
 .content .horizontal-timeline .events-content li {
   list-style: none;
@@ -18097,7 +18116,7 @@ footer.content-info form .search-form .search-submit,
   max-width: 768px;
 }
 
-/* line 206, resources/assets/styles/layouts/_content.scss */
+/* line 210, resources/assets/styles/layouts/_content.scss */
 
 .content .horizontal-timeline .events-content li h4 {
   font-size: 1.5rem;
@@ -18105,25 +18124,25 @@ footer.content-info form .search-form .search-submit,
   text-align: center;
 }
 
-/* line 216, resources/assets/styles/layouts/_content.scss */
+/* line 220, resources/assets/styles/layouts/_content.scss */
 
 .content .background-blue .horizontal-timeline .events {
   background: #F2F2F2;
 }
 
-/* line 219, resources/assets/styles/layouts/_content.scss */
+/* line 223, resources/assets/styles/layouts/_content.scss */
 
 .content .background-blue .horizontal-timeline .events a::after {
   background-color: #F2F2F2;
 }
 
-/* line 228, resources/assets/styles/layouts/_content.scss */
+/* line 232, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation {
   margin-bottom: 40px;
 }
 
-/* line 230, resources/assets/styles/layouts/_content.scss */
+/* line 234, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation .menu-submenu > li > a {
   color: #707070;
@@ -18131,21 +18150,21 @@ footer.content-info form .search-form .search-submit,
   padding-left: 20px;
 }
 
-/* line 235, resources/assets/styles/layouts/_content.scss */
+/* line 239, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul {
   padding: 0;
   margin: 0;
 }
 
-/* line 238, resources/assets/styles/layouts/_content.scss */
+/* line 242, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul li {
   list-style: none;
   font-size: 1.25rem;
 }
 
-/* line 243, resources/assets/styles/layouts/_content.scss */
+/* line 247, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul.menu-submenu > li > .sub-menu {
   background-color: #058CE8;
@@ -18153,7 +18172,7 @@ footer.content-info form .search-form .search-submit,
   padding: 20px 0;
 }
 
-/* line 249, resources/assets/styles/layouts/_content.scss */
+/* line 253, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul.menu-submenu > li > .sub-menu li a {
   color: #fff;
@@ -18162,46 +18181,46 @@ footer.content-info form .search-form .search-submit,
   display: block;
 }
 
-/* line 255, resources/assets/styles/layouts/_content.scss */
+/* line 259, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul.menu-submenu > li > .sub-menu li.current-menu-item > a {
   background-color: #002867;
 }
 
-/* line 257, resources/assets/styles/layouts/_content.scss */
+/* line 261, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul.menu-submenu > li > .sub-menu li.current-menu-item > a:hover {
   text-decoration: none;
 }
 
-/* line 262, resources/assets/styles/layouts/_content.scss */
+/* line 266, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul.menu-submenu > li > .sub-menu li li a {
   font-weight: 400;
   padding-left: 35px;
 }
 
-/* line 267, resources/assets/styles/layouts/_content.scss */
+/* line 271, resources/assets/styles/layouts/_content.scss */
 
 .content .submenu-navigation ul.menu-submenu > li > .sub-menu li li li a {
   font-weight: 300;
   padding-left: 50px;
 }
 
-/* line 280, resources/assets/styles/layouts/_content.scss */
+/* line 284, resources/assets/styles/layouts/_content.scss */
 
 .home .content main .page-header {
   display: none;
 }
 
-/* line 283, resources/assets/styles/layouts/_content.scss */
+/* line 287, resources/assets/styles/layouts/_content.scss */
 
 .home .content main .content-container {
   margin: 0;
 }
 
 @media (max-width: 767.98px) {
-  /* line 292, resources/assets/styles/layouts/_content.scss */
+  /* line 296, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header h1 {
     position: absolute;
@@ -18209,7 +18228,7 @@ footer.content-info form .search-form .search-submit,
     margin-top: 0;
   }
 
-  /* line 297, resources/assets/styles/layouts/_content.scss */
+  /* line 301, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .intro {
     color: #3D3D3D;
@@ -18221,14 +18240,14 @@ footer.content-info form .search-form .search-submit,
 }
 
 @media (min-width: 576px) {
-  /* line 311, resources/assets/styles/layouts/_content.scss */
+  /* line 315, resources/assets/styles/layouts/_content.scss */
 
   .content .image-grid > p[class*="col"],
   .content .image-grid > div[class*="col"] {
     max-width: calc(50% - 30px);
   }
 
-  /* line 314, resources/assets/styles/layouts/_content.scss */
+  /* line 318, resources/assets/styles/layouts/_content.scss */
 
   .content .image-grid > p.col-sm-4,
   .sidebar-primary .content .image-grid > p.sidebar,
@@ -18237,7 +18256,7 @@ footer.content-info form .search-form .search-submit,
     max-width: calc(33.3333% - 30px);
   }
 
-  /* line 317, resources/assets/styles/layouts/_content.scss */
+  /* line 321, resources/assets/styles/layouts/_content.scss */
 
   .content .image-grid > p.col-sm-3,
   .content .image-grid > div.col-sm-3 {
@@ -18246,32 +18265,32 @@ footer.content-info form .search-form .search-submit,
 }
 
 @media (min-width: 768px) {
-  /* line 325, resources/assets/styles/layouts/_content.scss */
+  /* line 329, resources/assets/styles/layouts/_content.scss */
 
   .content .large-text {
     font-size: 1.5rem;
   }
 
-  /* line 328, resources/assets/styles/layouts/_content.scss */
+  /* line 332, resources/assets/styles/layouts/_content.scss */
 
   .content main {
     font-size: 1.125rem;
   }
 
-  /* line 330, resources/assets/styles/layouts/_content.scss */
+  /* line 334, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header {
     height: 320px;
   }
 
-  /* line 332, resources/assets/styles/layouts/_content.scss */
+  /* line 336, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .page-image {
     position: absolute;
     height: 320px;
   }
 
-  /* line 336, resources/assets/styles/layouts/_content.scss */
+  /* line 340, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header h1 {
     position: relative;
@@ -18279,13 +18298,13 @@ footer.content-info form .search-form .search-submit,
     padding-top: .5em;
   }
 
-  /* line 341, resources/assets/styles/layouts/_content.scss */
+  /* line 345, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .intro {
     font-size: 1.75rem;
   }
 
-  /* line 343, resources/assets/styles/layouts/_content.scss */
+  /* line 347, resources/assets/styles/layouts/_content.scss */
 
   .content main .page-header .intro .quote-attribute {
     font-size: 1.25rem;
@@ -18293,19 +18312,19 @@ footer.content-info form .search-form .search-submit,
 }
 
 @media (min-width: 992px) {
-  /* line 373, resources/assets/styles/layouts/_content.scss */
+  /* line 377, resources/assets/styles/layouts/_content.scss */
 
   .content main h2 {
     font-size: 2.2rem;
   }
 
-  /* line 377, resources/assets/styles/layouts/_content.scss */
+  /* line 381, resources/assets/styles/layouts/_content.scss */
 
   .content main h3 {
     font-size: 2rem;
   }
 
-  /* line 381, resources/assets/styles/layouts/_content.scss */
+  /* line 385, resources/assets/styles/layouts/_content.scss */
 
   .content main .callout {
     font-size: 3rem;

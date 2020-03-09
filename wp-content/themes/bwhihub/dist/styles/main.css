@@ -17887,8 +17887,7 @@ footer.content-info form .search-form .search-submit,
 /* line 133, resources/assets/styles/layouts/_content.scss */
 
 .content main .image-grid img.logo {
-  max-height: 75px;
-  max-width: 250px;
+  height: 75px;
   width: auto;
   margin: 0 auto;
 }

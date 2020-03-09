@@ -1,20 +1,22 @@
-.blog, .archive {
-  main .post {
-    font-size: 1.125rem;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    .entry-title {
-      font-size: 1.25rem;
-      margin: 0;
-    }
-    .entry-summary {
-      //margin-top: 10px;
-    }
-    p {
-      margin: 0;
-    }
-    .thumb {
-      display: none;
+.blog, .archive, .search-results {
+  main {
+    .post, .people, .page {
+      font-size: 1.125rem;
+      line-height: 1.5;
+      margin-bottom: 20px;
+      .entry-title {
+        font-size: 1.25rem;
+        margin: 0;
+      }
+      .entry-summary {
+        //margin-top: 10px;
+      }
+      p {
+        margin: 0;
+      }
+      .thumb {
+        display: none;
+      }
     }
   }
 

@@ -7305,6 +7305,14 @@ Router.prototype.loadEvents = function loadEvents () {
   finalize: function finalize() {
     var wpos = 0;
     // JavaScript to be fired on all pages, after page specific JS is fired
+    $('#navbar ul.nav > .menu-item').click(function () {
+      if ($(this).hasClass('active')) {
+        $(this).removeClass('active');
+      }
+      else {
+        $(this).addClass('active');
+      }
+    });
     /*
     window scroll function to control size of header when users scrolls up or down
      */

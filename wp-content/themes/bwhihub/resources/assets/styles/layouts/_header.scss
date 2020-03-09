@@ -4,7 +4,7 @@ header.banner {
   width: 100%;
   background: rgba($white, 1);
   z-index: 100;
-  height: 100px;
+  height: 75px;
   border-bottom: 1px $gray solid;
 
   .admin-bar & {
@@ -12,8 +12,8 @@ header.banner {
   }
 
   .container {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     position: relative;
     margin: 0 auto;
     @include clearfix;
@@ -23,7 +23,7 @@ header.banner {
     //margin-left: 20px;
     float: left;
     img {
-      height: 60px;
+      height: 50px;
       width: auto;
       transition: all 0.3s ease;
     }
@@ -110,32 +110,56 @@ header.banner {
     @media (max-width: $screen-md-min) {
       #navbar {
         position: fixed;
-        width: calc(100% - 80px);
-        top: 100px;
+        width: 100%;
+        top: 75px;
         background: $blue;
         //border-radius: 10px;
-        height: calc(100% - 100px);
+        height: calc(100% - 75px);
         //max-width: $screen-xs-min;
         left: 0;
         padding: 20px 40px;
-        margin: 0 40px;
+        margin: 0;
         overflow-y: scroll;
         ul.nav {
           .menu-item {
-            text-transform: none;
+            color: $white;
             a {
-              color: $white;
+              color: white;
             }
           }
           > .menu-item {
-            margin-top: 10px;
-            > a {
-              font-size: 1.5rem;
-              font-weight: 300;
+            border-bottom: 1px $white solid;
+            padding: 5px 0;
+            position: relative;
+            a {
+              padding: 5px 0;
             }
-            .sub-menu {
+            &::after {
+              content: "+";
+              display: block;
+              position: absolute;
+              right: 5px;
+              top: 10px;
+              cursor: pointer;
+            }
+            > .sub-menu {
+              display: none;
               .menu-item {
-                margin-left: 15px;
+                text-transform: none;
+                a {
+                  padding: 2px 0;
+                }
+                .sub-menu {
+                  margin-left: 15px;
+                }
+              }
+            }
+            &.active {
+              &::after {
+                content: "-";
+              }
+              .sub-menu {
+                display: block;
               }
             }
           }
@@ -193,7 +217,7 @@ header.banner {
 
             &:hover {
               > a {
-                color: $yellow;
+                color: $white;
                 background: rgba($blue, .9);
                 //border-radius: 10px 10px 0 0;
               }
@@ -381,7 +405,7 @@ header.banner {
 
 // margin-top for wrap div to clear fixed header
 .wrap {
-  margin-top: 100px;
+  margin-top: 75px;
   @include media-breakpoint-up(md) {
     //margin-top: 120px;
   }

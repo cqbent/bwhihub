@@ -7,7 +7,7 @@
   .people-grid {
     .item {
       cursor: pointer;
-      font-size: 1.25rem;
+      //font-size: 1.25rem;
       background-color: $dark-gray;
       padding: 0;
       margin: 0 10px 30px 10px;
@@ -48,9 +48,16 @@
         max-width: calc(50% - 20px);
       }
     }
+
     @include media-breakpoint-up(md) {
       .item {
         max-width: calc(33.3333% - 20px);
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      .item {
+        max-width: calc(25% - 20px);
       }
     }
   }

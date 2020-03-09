@@ -1,4 +1,4 @@
-<div class="col-sm-6 col-md-4 item" data-toggle="modal" data-target="#people_{{ the_ID() }}">
+<div class="col-sm-6 col-md-4 col-lg-3 item" data-toggle="modal" data-target="#people_{{ the_ID() }}">
   @if ($candid_image = get_field('candid_photo'))
     <div class="image has-candid">
       {{ the_post_thumbnail() }}

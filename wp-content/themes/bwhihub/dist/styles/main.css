@@ -16640,7 +16640,7 @@ header.banner {
   width: 100%;
   background: white;
   z-index: 100;
-  height: 100px;
+  height: 75px;
   border-bottom: 1px #707070 solid;
 }
 
@@ -16655,8 +16655,8 @@ header.banner {
 header.banner .container,
 header.banner .page-top .section-submenu .submenu-navigation,
 .page-top .section-submenu header.banner .submenu-navigation {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   position: relative;
   margin: 0 auto;
 }
@@ -16680,7 +16680,7 @@ header.banner .brand {
 /* line 25, resources/assets/styles/layouts/_header.scss */
 
 header.banner .brand img {
-  height: 60px;
+  height: 50px;
   width: auto;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -16785,45 +16785,87 @@ header.banner nav.nav-primary .navbar-toggler[aria-expanded=true]::after {
 
   header.banner nav.nav-primary #navbar {
     position: fixed;
-    width: calc(100% - 80px);
-    top: 100px;
+    width: 100%;
+    top: 75px;
     background: #058CE8;
-    height: calc(100% - 100px);
+    height: calc(100% - 75px);
     left: 0;
     padding: 20px 40px;
-    margin: 0 40px;
+    margin: 0;
     overflow-y: scroll;
   }
 
   /* line 124, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav .menu-item {
-    text-transform: none;
+    color: #fff;
   }
 
   /* line 126, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav .menu-item a {
-    color: #fff;
+    color: white;
   }
 
   /* line 130, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item {
-    margin-top: 10px;
+    border-bottom: 1px #fff solid;
+    padding: 5px 0;
+    position: relative;
   }
 
-  /* line 132, resources/assets/styles/layouts/_header.scss */
+  /* line 134, resources/assets/styles/layouts/_header.scss */
 
-  header.banner nav.nav-primary #navbar ul.nav > .menu-item > a {
-    font-size: 1.5rem;
-    font-weight: 300;
+  header.banner nav.nav-primary #navbar ul.nav > .menu-item a {
+    padding: 5px 0;
   }
 
   /* line 137, resources/assets/styles/layouts/_header.scss */
 
-  header.banner nav.nav-primary #navbar ul.nav > .menu-item .sub-menu .menu-item {
+  header.banner nav.nav-primary #navbar ul.nav > .menu-item::after {
+    content: "+";
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    cursor: pointer;
+  }
+
+  /* line 145, resources/assets/styles/layouts/_header.scss */
+
+  header.banner nav.nav-primary #navbar ul.nav > .menu-item > .sub-menu {
+    display: none;
+  }
+
+  /* line 147, resources/assets/styles/layouts/_header.scss */
+
+  header.banner nav.nav-primary #navbar ul.nav > .menu-item > .sub-menu .menu-item {
+    text-transform: none;
+  }
+
+  /* line 149, resources/assets/styles/layouts/_header.scss */
+
+  header.banner nav.nav-primary #navbar ul.nav > .menu-item > .sub-menu .menu-item a {
+    padding: 2px 0;
+  }
+
+  /* line 152, resources/assets/styles/layouts/_header.scss */
+
+  header.banner nav.nav-primary #navbar ul.nav > .menu-item > .sub-menu .menu-item .sub-menu {
     margin-left: 15px;
+  }
+
+  /* line 158, resources/assets/styles/layouts/_header.scss */
+
+  header.banner nav.nav-primary #navbar ul.nav > .menu-item.active::after {
+    content: "-";
+  }
+
+  /* line 161, resources/assets/styles/layouts/_header.scss */
+
+  header.banner nav.nav-primary #navbar ul.nav > .menu-item.active .sub-menu {
+    display: block;
   }
 }
 
@@ -16835,19 +16877,19 @@ header.banner nav.nav-primary .navbar-toggler[aria-expanded=true]::after {
     float: right;
   }
 
-  /* line 160, resources/assets/styles/layouts/_header.scss */
+  /* line 184, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary .navbar-toggler {
     display: none;
   }
 
-  /* line 164, resources/assets/styles/layouts/_header.scss */
+  /* line 188, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar {
     padding: 0 15px;
   }
 
-  /* line 167, resources/assets/styles/layouts/_header.scss */
+  /* line 191, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar.collapse,
   header.banner nav.nav-primary #navbar.fade {
@@ -16855,14 +16897,14 @@ header.banner nav.nav-primary .navbar-toggler[aria-expanded=true]::after {
     opacity: 1;
   }
 
-  /* line 173, resources/assets/styles/layouts/_header.scss */
+  /* line 197, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav {
     margin: 0;
     float: right;
   }
 
-  /* line 177, resources/assets/styles/layouts/_header.scss */
+  /* line 201, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item {
     width: auto;
@@ -16871,7 +16913,7 @@ header.banner nav.nav-primary .navbar-toggler[aria-expanded=true]::after {
     font-weight: 600;
   }
 
-  /* line 183, resources/assets/styles/layouts/_header.scss */
+  /* line 207, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item > a {
     position: relative;
@@ -16879,26 +16921,26 @@ header.banner nav.nav-primary .navbar-toggler[aria-expanded=true]::after {
     padding: 9px 10px;
   }
 
-  /* line 190, resources/assets/styles/layouts/_header.scss */
+  /* line 214, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item.alignright {
     margin-left: auto;
   }
 
-  /* line 195, resources/assets/styles/layouts/_header.scss */
+  /* line 219, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item:hover > a {
-    color: #ffc107;
+    color: #fff;
     background: rgba(5, 140, 232, 0.9);
   }
 
-  /* line 200, resources/assets/styles/layouts/_header.scss */
+  /* line 224, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item:hover > .sub-menu {
     display: block;
   }
 
-  /* line 205, resources/assets/styles/layouts/_header.scss */
+  /* line 229, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item > .sub-menu {
     display: none;
@@ -16910,7 +16952,7 @@ header.banner nav.nav-primary .navbar-toggler[aria-expanded=true]::after {
     background: rgba(5, 140, 232, 0.9);
   }
 
-  /* line 218, resources/assets/styles/layouts/_header.scss */
+  /* line 242, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item > .sub-menu .menu-item {
     font-size: 1.125rem;
@@ -16918,7 +16960,7 @@ header.banner nav.nav-primary .navbar-toggler[aria-expanded=true]::after {
     padding: 0 0 5px 0;
   }
 
-  /* line 222, resources/assets/styles/layouts/_header.scss */
+  /* line 246, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item > .sub-menu .menu-item a {
     padding: 5px 15px;
@@ -16926,19 +16968,19 @@ header.banner nav.nav-primary .navbar-toggler[aria-expanded=true]::after {
     font-weight: 600;
   }
 
-  /* line 226, resources/assets/styles/layouts/_header.scss */
+  /* line 250, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item > .sub-menu .menu-item a::after {
     display: none;
   }
 
-  /* line 229, resources/assets/styles/layouts/_header.scss */
+  /* line 253, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item > .sub-menu .menu-item a:hover {
     background-color: #002867;
   }
 
-  /* line 234, resources/assets/styles/layouts/_header.scss */
+  /* line 258, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item > .sub-menu .menu-item .sub-menu {
     display: block;
@@ -16946,27 +16988,27 @@ header.banner nav.nav-primary .navbar-toggler[aria-expanded=true]::after {
     background: none;
   }
 
-  /* line 239, resources/assets/styles/layouts/_header.scss */
+  /* line 263, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item > .sub-menu .menu-item .sub-menu .menu-item {
     text-transform: none;
   }
 
-  /* line 241, resources/assets/styles/layouts/_header.scss */
+  /* line 265, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item > .sub-menu .menu-item .sub-menu .menu-item a {
     font-weight: 400;
     padding-left: 30px;
   }
 
-  /* line 246, resources/assets/styles/layouts/_header.scss */
+  /* line 270, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary #navbar ul.nav > .menu-item > .sub-menu .menu-item .sub-menu .menu-item .menu-item a {
     padding-left: 45px;
   }
 }
 
-/* line 260, resources/assets/styles/layouts/_header.scss */
+/* line 284, resources/assets/styles/layouts/_header.scss */
 
 header.banner .toplinks {
   margin-top: 10px;
@@ -16977,7 +17019,7 @@ header.banner .toplinks {
   position: relative;
 }
 
-/* line 267, resources/assets/styles/layouts/_header.scss */
+/* line 291, resources/assets/styles/layouts/_header.scss */
 
 header.banner .toplinks .social,
 header.banner .toplinks .contact {
@@ -16985,7 +17027,7 @@ header.banner .toplinks .contact {
   margin-right: 35px;
 }
 
-/* line 274, resources/assets/styles/layouts/_header.scss */
+/* line 298, resources/assets/styles/layouts/_header.scss */
 
 header.banner .toplinks .contact .btn,
 header.banner .toplinks .contact .comment-form input[type="submit"],
@@ -17001,7 +17043,7 @@ header.banner .toplinks .contact .search-form .search-submit,
   margin: 0;
 }
 
-/* line 285, resources/assets/styles/layouts/_header.scss */
+/* line 309, resources/assets/styles/layouts/_header.scss */
 
 header.banner .search-form {
   display: none;
@@ -17011,7 +17053,7 @@ header.banner .search-form {
 }
 
 @media (min-width: 576px) {
-  /* line 304, resources/assets/styles/layouts/_header.scss */
+  /* line 328, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary .navbar-toggler .icon-bar {
     width: 50px;
@@ -17019,20 +17061,20 @@ header.banner .search-form {
 }
 
 @media (min-width: 768px) {
-  /* line 313, resources/assets/styles/layouts/_header.scss */
+  /* line 337, resources/assets/styles/layouts/_header.scss */
 
   header.banner .toplinks,
   header.banner .search-form {
     display: block;
   }
 
-  /* line 318, resources/assets/styles/layouts/_header.scss */
+  /* line 342, resources/assets/styles/layouts/_header.scss */
 
   header.banner .search-form #search-fields {
     top: 30px;
   }
 
-  /* line 324, resources/assets/styles/layouts/_header.scss */
+  /* line 348, resources/assets/styles/layouts/_header.scss */
 
   header.banner nav.nav-primary .navbar-toggler {
     right: 60px;
@@ -17040,19 +17082,19 @@ header.banner .search-form {
 }
 
 @media (min-width: 992px) {
-  /* line 331, resources/assets/styles/layouts/_header.scss */
+  /* line 355, resources/assets/styles/layouts/_header.scss */
 
   header.banner .toplinks {
     margin-right: 20px;
   }
 
-  /* line 334, resources/assets/styles/layouts/_header.scss */
+  /* line 358, resources/assets/styles/layouts/_header.scss */
 
   header.banner .toplinks .links {
     display: inline-block;
   }
 
-  /* line 338, resources/assets/styles/layouts/_header.scss */
+  /* line 362, resources/assets/styles/layouts/_header.scss */
 
   header.banner .toplinks .donate,
   header.banner .toplinks .j1 {
@@ -17060,7 +17102,7 @@ header.banner .search-form {
     font-size: .875rem;
   }
 
-  /* line 343, resources/assets/styles/layouts/_header.scss */
+  /* line 367, resources/assets/styles/layouts/_header.scss */
 
   header.banner .toplinks .row-2 {
     margin-top: 0;
@@ -17068,17 +17110,17 @@ header.banner .search-form {
 }
 
 @media (min-width: 1140px) {
-  /* line 356, resources/assets/styles/layouts/_header.scss */
+  /* line 380, resources/assets/styles/layouts/_header.scss */
 
   header.banner .header-container {
     max-width: 1140px;
   }
 }
 
-/* line 383, resources/assets/styles/layouts/_header.scss */
+/* line 407, resources/assets/styles/layouts/_header.scss */
 
 .wrap {
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 /* line 2, resources/assets/styles/layouts/_sidebar.scss */
@@ -18570,7 +18612,6 @@ Landing page content styling
 
 .content .people-grid .item {
   cursor: pointer;
-  font-size: 1.25rem;
   background-color: #3D3D3D;
   padding: 0;
   margin: 0 10px 30px 10px;
@@ -18628,27 +18669,35 @@ Landing page content styling
 }
 
 @media (min-width: 768px) {
-  /* line 52, resources/assets/styles/layouts/_people.scss */
+  /* line 53, resources/assets/styles/layouts/_people.scss */
 
   .content .people-grid .item {
     max-width: calc(33.3333% - 20px);
   }
 }
 
-/* line 58, resources/assets/styles/layouts/_people.scss */
+@media (min-width: 992px) {
+  /* line 59, resources/assets/styles/layouts/_people.scss */
+
+  .content .people-grid .item {
+    max-width: calc(25% - 20px);
+  }
+}
+
+/* line 65, resources/assets/styles/layouts/_people.scss */
 
 .content .people-detail .page-title {
   font-size: 2rem;
   font-weight: 700;
 }
 
-/* line 62, resources/assets/styles/layouts/_people.scss */
+/* line 69, resources/assets/styles/layouts/_people.scss */
 
 .content .people-detail .position {
   font-weight: 600;
 }
 
-/* line 65, resources/assets/styles/layouts/_people.scss */
+/* line 72, resources/assets/styles/layouts/_people.scss */
 
 .content .people-detail .bio {
   margin-top: 20px;

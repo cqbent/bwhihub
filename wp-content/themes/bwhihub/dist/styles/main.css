@@ -4096,7 +4096,9 @@ fieldset:disabled .search-form a.search-submit,
 
 /* line 60, node_modules/bootstrap/scss/_buttons.scss */
 
-.btn-primary {
+.btn-primary,
+.blog .posts-navigation .nav-links a,
+.archive .posts-navigation .nav-links a {
   color: #fff;
   background-color: #058CE8;
   border-color: #058CE8;
@@ -4104,7 +4106,9 @@ fieldset:disabled .search-form a.search-submit,
 
 /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
 
-.btn-primary:hover {
+.btn-primary:hover,
+.blog .posts-navigation .nav-links a:hover,
+.archive .posts-navigation .nav-links a:hover {
   color: #fff;
   background-color: #0475c3;
   border-color: #046eb6;
@@ -4113,7 +4117,11 @@ fieldset:disabled .search-form a.search-submit,
 /* line 18, node_modules/bootstrap/scss/mixins/_buttons.scss */
 
 .btn-primary:focus,
-.btn-primary.focus {
+.blog .posts-navigation .nav-links a:focus,
+.archive .posts-navigation .nav-links a:focus,
+.btn-primary.focus,
+.blog .posts-navigation .nav-links a.focus,
+.archive .posts-navigation .nav-links a.focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(43, 157, 235, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(43, 157, 235, 0.5);
 }
@@ -4121,7 +4129,11 @@ fieldset:disabled .search-form a.search-submit,
 /* line 29, node_modules/bootstrap/scss/mixins/_buttons.scss */
 
 .btn-primary.disabled,
-.btn-primary:disabled {
+.blog .posts-navigation .nav-links a.disabled,
+.archive .posts-navigation .nav-links a.disabled,
+.btn-primary:disabled,
+.blog .posts-navigation .nav-links a:disabled,
+.archive .posts-navigation .nav-links a:disabled {
   color: #fff;
   background-color: #058CE8;
   border-color: #058CE8;
@@ -4130,8 +4142,14 @@ fieldset:disabled .search-form a.search-submit,
 /* line 40, node_modules/bootstrap/scss/mixins/_buttons.scss */
 
 .btn-primary:not(:disabled):not(.disabled):active,
+.blog .posts-navigation .nav-links a:not(:disabled):not(.disabled):active,
+.archive .posts-navigation .nav-links a:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
-.show > .btn-primary.dropdown-toggle {
+.blog .posts-navigation .nav-links a:not(:disabled):not(.disabled).active,
+.archive .posts-navigation .nav-links a:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle,
+.blog .posts-navigation .nav-links .show > a.dropdown-toggle,
+.archive .posts-navigation .nav-links .show > a.dropdown-toggle {
   color: #fff;
   background-color: #046eb6;
   border-color: #0466aa;
@@ -4140,8 +4158,14 @@ fieldset:disabled .search-form a.search-submit,
 /* line 50, node_modules/bootstrap/scss/mixins/_buttons.scss */
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
+.blog .posts-navigation .nav-links a:not(:disabled):not(.disabled):active:focus,
+.archive .posts-navigation .nav-links a:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
+.blog .posts-navigation .nav-links a:not(:disabled):not(.disabled).active:focus,
+.archive .posts-navigation .nav-links a:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus,
+.blog .posts-navigation .nav-links .show > a.dropdown-toggle:focus,
+.archive .posts-navigation .nav-links .show > a.dropdown-toggle:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(43, 157, 235, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(43, 157, 235, 0.5);
 }
@@ -16531,7 +16555,9 @@ a.more::after {
 
 /* line 1, resources/assets/styles/components/_buttons.scss */
 
-.btn-primary {
+.btn-primary,
+.blog .posts-navigation .nav-links a,
+.archive .posts-navigation .nav-links a {
   text-align: center;
   margin: 10px auto;
   font-size: 1rem;
@@ -16544,14 +16570,18 @@ a.more::after {
 
 /* line 12, resources/assets/styles/components/_buttons.scss */
 
-.btn-primary.green {
+.btn-primary.green,
+.blog .posts-navigation .nav-links a.green,
+.archive .posts-navigation .nav-links a.green {
   background-color: #89AD5D;
   border-color: #89AD5D;
 }
 
 /* line 16, resources/assets/styles/components/_buttons.scss */
 
-.btn-primary.more {
+.btn-primary.more,
+.blog .posts-navigation .nav-links a.more,
+.archive .posts-navigation .nav-links a.more {
   background-color: #89AD5D;
   border-color: #89AD5D;
   text-transform: uppercase;
@@ -16561,7 +16591,9 @@ a.more::after {
 @media (min-width: 576px) {
   /* line 1, resources/assets/styles/components/_buttons.scss */
 
-  .btn-primary {
+  .btn-primary,
+  .blog .posts-navigation .nav-links a,
+  .archive .posts-navigation .nav-links a {
     font-size: 1.125rem;
   }
 }
@@ -17618,13 +17650,43 @@ footer.content-info form .search-form .search-submit,
   }
 }
 
-/* line 32, resources/assets/styles/layouts/_posts.scss */
+/* line 28, resources/assets/styles/layouts/_posts.scss */
+
+.blog .posts-navigation,
+.archive .posts-navigation {
+  margin-bottom: 40px;
+}
+
+/* line 2, node_modules/bootstrap/scss/mixins/_clearfix.scss */
+
+.blog .posts-navigation::after,
+.archive .posts-navigation::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+/* line 35, resources/assets/styles/layouts/_posts.scss */
+
+.blog .posts-navigation .nav-links .nav-previous,
+.archive .posts-navigation .nav-links .nav-previous {
+  float: left;
+}
+
+/* line 38, resources/assets/styles/layouts/_posts.scss */
+
+.blog .posts-navigation .nav-links .nav-next,
+.archive .posts-navigation .nav-links .nav-next {
+  float: right;
+}
+
+/* line 47, resources/assets/styles/layouts/_posts.scss */
 
 .single-post .content .post-link {
   text-align: center;
 }
 
-/* line 36, resources/assets/styles/layouts/_posts.scss */
+/* line 51, resources/assets/styles/layouts/_posts.scss */
 
 .single-post .entry-title {
   font-weight: 600;
@@ -17632,20 +17694,20 @@ footer.content-info form .search-form .search-submit,
   font-size: 2rem;
 }
 
-/* line 42, resources/assets/styles/layouts/_posts.scss */
+/* line 57, resources/assets/styles/layouts/_posts.scss */
 
 .single-post .entry-content {
   margin-top: 20px;
 }
 
-/* line 46, resources/assets/styles/layouts/_posts.scss */
+/* line 61, resources/assets/styles/layouts/_posts.scss */
 
 .single-post time {
   font-style: italic;
   margin-bottom: 20px;
 }
 
-/* line 50, resources/assets/styles/layouts/_posts.scss */
+/* line 65, resources/assets/styles/layouts/_posts.scss */
 
 .single-post .related-issues,
 .single-post .related-news {
@@ -17653,19 +17715,19 @@ footer.content-info form .search-form .search-submit,
   line-height: normal;
 }
 
-/* line 55, resources/assets/styles/layouts/_posts.scss */
+/* line 70, resources/assets/styles/layouts/_posts.scss */
 
 .single-post .related-news .news-item {
   margin-bottom: 20px;
 }
 
-/* line 58, resources/assets/styles/layouts/_posts.scss */
+/* line 73, resources/assets/styles/layouts/_posts.scss */
 
 .single-post .related-news h4 {
   margin: 0;
 }
 
-/* line 62, resources/assets/styles/layouts/_posts.scss */
+/* line 77, resources/assets/styles/layouts/_posts.scss */
 
 .single-post .related-news .date {
   font-style: italic;
@@ -17859,7 +17921,11 @@ footer.content-info form .search-form .search-submit,
 
 /* line 114, resources/assets/styles/layouts/_content.scss */
 
-.content main .btn-primary {
+.content main .btn-primary,
+.content main .blog .posts-navigation .nav-links a,
+.blog .posts-navigation .nav-links .content main a,
+.content main .archive .posts-navigation .nav-links a,
+.archive .posts-navigation .nav-links .content main a {
   min-width: 300px;
 }
 
@@ -18430,7 +18496,11 @@ Landing page content styling
 
 /* line 151, resources/assets/styles/layouts/_landing.scss */
 
-.template-landing.home .content .content-block.home-intro .btn-primary {
+.template-landing.home .content .content-block.home-intro .btn-primary,
+.template-landing.home .content .content-block.home-intro .blog .posts-navigation .nav-links a,
+.blog .posts-navigation .nav-links .template-landing.home .content .content-block.home-intro a,
+.template-landing.home .content .content-block.home-intro .archive .posts-navigation .nav-links a,
+.archive .posts-navigation .nav-links .template-landing.home .content .content-block.home-intro a {
   background-color: #89AD5D;
   border-color: #89AD5D;
   font-size: 1.125rem;

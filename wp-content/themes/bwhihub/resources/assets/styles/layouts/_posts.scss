@@ -25,6 +25,21 @@
       }
     }
   }
+  .posts-navigation {
+    margin-bottom: 40px;
+    @include clearfix;
+    .nav-links {
+      a {
+        @extend .btn-primary;
+      }
+      .nav-previous {
+        float: left;
+      }
+      .nav-next {
+        float: right;
+      }
+    }
+  }
 }
 
 .single-post {

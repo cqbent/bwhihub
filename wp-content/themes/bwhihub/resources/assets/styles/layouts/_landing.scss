@@ -195,6 +195,14 @@ Landing page content styling
             }
           }
         }
+        .featured-news {
+          .content-item {
+            img {
+              height: 200px;
+              object-fit: cover;
+            }
+          }
+        }
       }
     }
   }

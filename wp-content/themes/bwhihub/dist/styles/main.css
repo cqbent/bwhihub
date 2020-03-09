@@ -18572,6 +18572,14 @@ Landing page content styling
   padding-left: 30px;
 }
 
+/* line 200, resources/assets/styles/layouts/_landing.scss */
+
+.template-landing.home .content .content-block .featured-news .content-item img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 /* line 3, resources/assets/styles/layouts/_portfolio.scss */
 
 .content .portfolio-grid .item {

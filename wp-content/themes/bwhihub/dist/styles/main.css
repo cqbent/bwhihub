@@ -18684,6 +18684,7 @@ Landing page content styling
 
 .content .portfolio-grid .teaser {
   cursor: pointer;
+  text-align: center;
 }
 
 /* line 23, resources/assets/styles/layouts/_portfolio.scss */

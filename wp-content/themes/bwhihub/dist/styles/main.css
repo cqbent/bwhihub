@@ -17730,7 +17730,7 @@ footer.content-info form .search-form .search-submit,
 .blog .posts-navigation .nav-links .nav-previous,
 .archive .posts-navigation .nav-links .nav-previous,
 .search-results .posts-navigation .nav-links .nav-previous {
-  float: left;
+  float: right;
 }
 
 /* line 40, resources/assets/styles/layouts/_posts.scss */
@@ -17738,7 +17738,7 @@ footer.content-info form .search-form .search-submit,
 .blog .posts-navigation .nav-links .nav-next,
 .archive .posts-navigation .nav-links .nav-next,
 .search-results .posts-navigation .nav-links .nav-next {
-  float: right;
+  float: left;
 }
 
 /* line 49, resources/assets/styles/layouts/_posts.scss */

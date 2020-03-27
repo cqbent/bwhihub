@@ -4097,6 +4097,7 @@ fieldset:disabled .search-form a.search-submit,
 /* line 60, node_modules/bootstrap/scss/_buttons.scss */
 
 .btn-primary,
+footer.content-info .cc-form .ctct-form-defaults .ctct-form-button,
 .blog .posts-navigation .nav-links a,
 .archive .posts-navigation .nav-links a,
 .search-results .posts-navigation .nav-links a {
@@ -4108,6 +4109,7 @@ fieldset:disabled .search-form a.search-submit,
 /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
 
 .btn-primary:hover,
+footer.content-info .cc-form .ctct-form-defaults .ctct-form-button:hover,
 .blog .posts-navigation .nav-links a:hover,
 .archive .posts-navigation .nav-links a:hover,
 .search-results .posts-navigation .nav-links a:hover {
@@ -4119,10 +4121,12 @@ fieldset:disabled .search-form a.search-submit,
 /* line 18, node_modules/bootstrap/scss/mixins/_buttons.scss */
 
 .btn-primary:focus,
+footer.content-info .cc-form .ctct-form-defaults .ctct-form-button:focus,
 .blog .posts-navigation .nav-links a:focus,
 .archive .posts-navigation .nav-links a:focus,
 .search-results .posts-navigation .nav-links a:focus,
 .btn-primary.focus,
+footer.content-info .cc-form .ctct-form-defaults .focus.ctct-form-button,
 .blog .posts-navigation .nav-links a.focus,
 .archive .posts-navigation .nav-links a.focus,
 .search-results .posts-navigation .nav-links a.focus {
@@ -4133,10 +4137,12 @@ fieldset:disabled .search-form a.search-submit,
 /* line 29, node_modules/bootstrap/scss/mixins/_buttons.scss */
 
 .btn-primary.disabled,
+footer.content-info .cc-form .ctct-form-defaults .disabled.ctct-form-button,
 .blog .posts-navigation .nav-links a.disabled,
 .archive .posts-navigation .nav-links a.disabled,
 .search-results .posts-navigation .nav-links a.disabled,
 .btn-primary:disabled,
+footer.content-info .cc-form .ctct-form-defaults .ctct-form-button:disabled,
 .blog .posts-navigation .nav-links a:disabled,
 .archive .posts-navigation .nav-links a:disabled,
 .search-results .posts-navigation .nav-links a:disabled {
@@ -4148,14 +4154,17 @@ fieldset:disabled .search-form a.search-submit,
 /* line 40, node_modules/bootstrap/scss/mixins/_buttons.scss */
 
 .btn-primary:not(:disabled):not(.disabled):active,
+footer.content-info .cc-form .ctct-form-defaults .ctct-form-button:not(:disabled):not(.disabled):active,
 .blog .posts-navigation .nav-links a:not(:disabled):not(.disabled):active,
 .archive .posts-navigation .nav-links a:not(:disabled):not(.disabled):active,
 .search-results .posts-navigation .nav-links a:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
+footer.content-info .cc-form .ctct-form-defaults .ctct-form-button:not(:disabled):not(.disabled).active,
 .blog .posts-navigation .nav-links a:not(:disabled):not(.disabled).active,
 .archive .posts-navigation .nav-links a:not(:disabled):not(.disabled).active,
 .search-results .posts-navigation .nav-links a:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle,
+footer.content-info .cc-form .ctct-form-defaults .show > .dropdown-toggle.ctct-form-button,
 .blog .posts-navigation .nav-links .show > a.dropdown-toggle,
 .archive .posts-navigation .nav-links .show > a.dropdown-toggle,
 .search-results .posts-navigation .nav-links .show > a.dropdown-toggle {
@@ -4167,14 +4176,17 @@ fieldset:disabled .search-form a.search-submit,
 /* line 50, node_modules/bootstrap/scss/mixins/_buttons.scss */
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
+footer.content-info .cc-form .ctct-form-defaults .ctct-form-button:not(:disabled):not(.disabled):active:focus,
 .blog .posts-navigation .nav-links a:not(:disabled):not(.disabled):active:focus,
 .archive .posts-navigation .nav-links a:not(:disabled):not(.disabled):active:focus,
 .search-results .posts-navigation .nav-links a:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
+footer.content-info .cc-form .ctct-form-defaults .ctct-form-button:not(:disabled):not(.disabled).active:focus,
 .blog .posts-navigation .nav-links a:not(:disabled):not(.disabled).active:focus,
 .archive .posts-navigation .nav-links a:not(:disabled):not(.disabled).active:focus,
 .search-results .posts-navigation .nav-links a:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus,
+footer.content-info .cc-form .ctct-form-defaults .show > .dropdown-toggle.ctct-form-button:focus,
 .blog .posts-navigation .nav-links .show > a.dropdown-toggle:focus,
 .archive .posts-navigation .nav-links .show > a.dropdown-toggle:focus,
 .search-results .posts-navigation .nav-links .show > a.dropdown-toggle:focus {
@@ -16568,6 +16580,7 @@ a.more::after {
 /* line 1, resources/assets/styles/components/_buttons.scss */
 
 .btn-primary,
+footer.content-info .cc-form .ctct-form-defaults .ctct-form-button,
 .blog .posts-navigation .nav-links a,
 .archive .posts-navigation .nav-links a,
 .search-results .posts-navigation .nav-links a {
@@ -16584,6 +16597,7 @@ a.more::after {
 /* line 12, resources/assets/styles/components/_buttons.scss */
 
 .btn-primary.green,
+footer.content-info .cc-form .ctct-form-defaults .ctct-form-button,
 .blog .posts-navigation .nav-links a.green,
 .archive .posts-navigation .nav-links a.green,
 .search-results .posts-navigation .nav-links a.green {
@@ -16594,6 +16608,7 @@ a.more::after {
 /* line 16, resources/assets/styles/components/_buttons.scss */
 
 .btn-primary.more,
+footer.content-info .cc-form .ctct-form-defaults .more.ctct-form-button,
 .blog .posts-navigation .nav-links a.more,
 .archive .posts-navigation .nav-links a.more,
 .search-results .posts-navigation .nav-links a.more {
@@ -16607,6 +16622,7 @@ a.more::after {
   /* line 1, resources/assets/styles/components/_buttons.scss */
 
   .btn-primary,
+  footer.content-info .cc-form .ctct-form-defaults .ctct-form-button,
   .blog .posts-navigation .nav-links a,
   .archive .posts-navigation .nav-links a,
   .search-results .posts-navigation .nav-links a {
@@ -17264,23 +17280,57 @@ footer.content-info .logo img {
 
 /* line 27, resources/assets/styles/layouts/_footer.scss */
 
-footer.content-info form input[type=text] {
+footer.content-info .cc-form .ctct-form-defaults {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  font-size: .875rem;
+}
+
+/* line 32, resources/assets/styles/layouts/_footer.scss */
+
+footer.content-info .cc-form .ctct-form-defaults .ctct-form-header {
+  font-size: .875rem;
+}
+
+/* line 35, resources/assets/styles/layouts/_footer.scss */
+
+footer.content-info .cc-form .ctct-form-defaults .ctct-form-field {
+  margin-bottom: 5px;
+}
+
+/* line 37, resources/assets/styles/layouts/_footer.scss */
+
+footer.content-info .cc-form .ctct-form-defaults .ctct-form-field label {
+  margin-bottom: 0;
+}
+
+/* line 41, resources/assets/styles/layouts/_footer.scss */
+
+footer.content-info .cc-form .ctct-form-defaults input[type=email] {
   border-radius: 20px;
   border: 0;
   margin: 10px 0;
   width: 80%;
   padding: 5px 20px;
+  height: auto;
 }
 
-/* line 34, resources/assets/styles/layouts/_footer.scss */
+/* line 49, resources/assets/styles/layouts/_footer.scss */
 
-footer.content-info form .btn,
-footer.content-info form .comment-form input[type="submit"],
-.comment-form footer.content-info form input[type="submit"],
-footer.content-info form .search-form .search-submit,
-.search-form footer.content-info form .search-submit {
+footer.content-info .cc-form .ctct-form-defaults .ctct-form-button {
   font-size: .875rem;
   font-weight: 600;
+  width: auto;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+/* line 58, resources/assets/styles/layouts/_footer.scss */
+
+footer.content-info .cc-form .ctct-form-defaults .ctct-form-button:hover {
+  text-transform: uppercase;
 }
 
 /* line 1, resources/assets/styles/layouts/_page-top.scss */
@@ -17990,6 +18040,8 @@ footer.content-info form .search-form .search-submit,
 /* line 118, resources/assets/styles/layouts/_content.scss */
 
 .content main .btn-primary,
+.content main footer.content-info .cc-form .ctct-form-defaults .ctct-form-button,
+footer.content-info .cc-form .ctct-form-defaults .content main .ctct-form-button,
 .content main .blog .posts-navigation .nav-links a,
 .blog .posts-navigation .nav-links .content main a,
 .content main .archive .posts-navigation .nav-links a,
@@ -18567,6 +18619,8 @@ Landing page content styling
 /* line 151, resources/assets/styles/layouts/_landing.scss */
 
 .template-landing.home .content .content-block.home-intro .btn-primary,
+.template-landing.home .content .content-block.home-intro footer.content-info .cc-form .ctct-form-defaults .ctct-form-button,
+footer.content-info .cc-form .ctct-form-defaults .template-landing.home .content .content-block.home-intro .ctct-form-button,
 .template-landing.home .content .content-block.home-intro .blog .posts-navigation .nav-links a,
 .blog .posts-navigation .nav-links .template-landing.home .content .content-block.home-intro a,
 .template-landing.home .content .content-block.home-intro .archive .posts-navigation .nav-links a,

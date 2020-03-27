@@ -22,14 +22,9 @@
         </div>
         <div class="column col-md-4">
           <div class="cc-form">
-            <form>
-              <div><strong>Stay in touch with the Innovation Hub</strong></div>
-              <input type="text" placeholder="Email address" name="cc-input" />
-              <div>By submitting this form, you are consenting to receive null from: Brigham and Women’s Hospital,
-                75 Francis Street, Boston, MA, 02115, US, http://bwhresearch.org. You can revoke your consent to receive emails at any time by
-                using the SafeUnsubscribe® link, found at the bottom of every email. Emails are serviced by Constant Contact.</div>
-              <input type="button" class="btn btn-primary green" value="Sign up">
-            </form>
+              <!-- Begin Constant Contact Inline Form Code -->
+              <div class="ctct-inline-form" data-form-id="5dc59bd1-b034-4542-9413-14fa1beb6990"></div>
+              <!-- End Constant Contact Inline Form Code -->
           </div>
         </div>
       </div>
@@ -39,4 +34,8 @@
     </div>
   </div>
 </footer>
+<!-- Begin Constant Contact Active Forms -->
+<script> var _ctct_m = "45d79e1ad6a42eb64532930214869949"; </script>
+<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+<!-- End Constant Contact Active Forms -->
 
